@@ -298,11 +298,12 @@ _OaksLabRivalAmIGreatOrWhatText::
 _OaksLabRivalSmellYouLaterText::
 	text "<RIVAL>: Okay!"
 	line "I'll make my"
-	cont "proxy fight to"
-	cont "toughen it up!"
+	cont "proxy fight"
+	cont "earn headlines!"
 
-	para "<PLAYER>! Gramps!"
-	line "Smell you later!"
+	para "<PLAYER>!"
+	line "Try not to trend"
+	cont "for losing."
 	done
 
 _OaksLabRivalGrampsText::
