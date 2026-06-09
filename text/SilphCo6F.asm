@@ -1,5 +1,5 @@
 _SilphCo6FSilphWorkerM1TookOverTheBuildingText::
-	text "The ROCKETs came"
+	text "The AeroPACs came"
 	line "and took over the"
 	cont "building!"
 	done
@@ -31,21 +31,21 @@ _SilphCo6FSilphWorkerF1HaveToMarryHimText::
 	done
 
 _SilphCo6FSilphWorkerF2TeamRocketConquerWorldText::
-	text "TEAM ROCKET is"
+	text "AeroPAC is"
 	line "trying to conquer"
 	cont "the world with"
-	cont "#MON!"
+	cont "pocket pols!"
 	done
 
 _SilphCo6FSilphWorkerF2TeamRocketRanText::
-	text "TEAM ROCKET ran"
+	text "AeroPAC ran"
 	line "because of you!"
 	done
 
 _SilphCo6FSilphWorkerM3TargetedSilphText::
 	text "They must have"
 	line "targeted SILPH"
-	cont "for our #MON"
+	cont "for our pocket pols"
 	cont "products."
 	done
 
@@ -57,20 +57,19 @@ _SilphCo6FSilphWorkerM3WorkForSilphText::
 
 _SilphCo6FRocket1BattleText::
 	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	line "AeroPAC CREW!"
 	done
 
 _SilphCo6FRocket1EndBattleText::
-	text "Flame"
-	line "out!"
+	text "That was not in"
+	line "the risk memo."
 	prompt
-
 _SilphCo6FRocket1AfterBattleText::
-	text "No matter!"
-	line "My brothers will"
-	cont "avenge me!"
+	text "By lunch this"
+	line "becomes a"
+	cont "procurement"
+	cont "lesson."
 	done
-
 _SilphCo6FScientistBattleText::
 	text "That rotten"
 	line "PRESIDENT!"
@@ -81,27 +80,26 @@ _SilphCo6FScientistBattleText::
 	done
 
 _SilphCo6FScientistEndBattleText::
-	text "Shoot!"
+	text "Shot my own"
+	line "forecast."
 	prompt
-
 _SilphCo6FScientistAfterBattleText::
-	text "TIKSI BRANCH?"
-	line "It's in Russian"
-	cont "no man's land!"
+	text "The incident"
+	line "report will hate"
+	cont "your tone."
 	done
-
 _SilphCo6FRocket2BattleText::
 	text "You dare betray"
-	line "TEAM ROCKET?"
+	line "AeroPAC?"
 	done
 
 _SilphCo6FRocket2EndBattleText::
-	text "You"
-	line "traitor!"
+	text "No comment without"
+	line "counsel."
 	prompt
-
 _SilphCo6FRocket2AfterBattleText::
-	text "If you stand for"
-	line "justice, you"
-	cont "betray evil!"
+	text "I am calling this"
+	line "an unscheduled"
+	cont "readiness"
+	cont "exercise."
 	done

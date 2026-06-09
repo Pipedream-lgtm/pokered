@@ -1,7 +1,7 @@
 _VictoryRoad2FMoltresBattleText::
-	text "Gyaoo!@"
+	text "A redacted fire"
+	line "screams."
 	text_end
-
 _VictoryRoad2FHikerBattleText::
 	text "VICTORY ROAD is"
 	line "the final test"
@@ -9,78 +9,76 @@ _VictoryRoad2FHikerBattleText::
 	done
 
 _VictoryRoad2FHikerEndBattleText::
-	text "Aiyah!"
+	text "Procedure shoved"
+	line "back."
 	prompt
-
 _VictoryRoad2FHikerAfterBattleText::
-	text "If you get stuck,"
-	line "try moving some"
-	cont "boulders around!"
+	text "Get stuck? Move"
+	line "the boulders."
+	cont "That's the whole"
+	cont "state in"
+	cont "miniature."
 	done
-
 _VictoryRoad2FSuperNerd1BattleText::
 	text "Ah, so you wish"
 	line "to challenge the"
-	cont "ELITE FOUR?"
+	cont "Institutional Four?"
 	done
 
 _VictoryRoad2FSuperNerd1EndBattleText::
-	text "You"
-	line "got me!"
+	text "You found the"
+	line "exception clause."
 	prompt
-
 _VictoryRoad2FSuperNerd1AfterBattleText::
-	text "<RIVAL> also came"
-	line "through here!"
+	text "OP came through"
+	line "already. Treated"
+	cont "the place like a"
+	cont "camera test."
 	done
-
 _VictoryRoad2FCooltrainerMBattleText::
 	text "Come on!"
 	line "I'll whip you!"
 	done
 
 _VictoryRoad2FCooltrainerMEndBattleText::
-	text "I got"
-	line "whipped!"
+	text "Neutrality did not"
+	line "protect me."
 	prompt
-
 _VictoryRoad2FCooltrainerMAfterBattleText::
-	text "You earned the"
-	line "right to be on"
-	cont "VICTORY ROAD!"
+	text "Compliance is a"
+	line "hallway, not a"
+	cont "destination."
 	done
-
 _VictoryRoad2FSuperNerd2BattleText::
 	text "If you can get"
 	line "through here, you"
 	cont "can go meet the"
-	cont "ELITE FOUR!"
+	cont "Institutional Four!"
 	done
 
 _VictoryRoad2FSuperNerd2EndBattleText::
-	text "No!"
-	line "Unbelievable!"
+	text "Neutrality did not"
+	line "protect me."
 	prompt
-
 _VictoryRoad2FSuperNerd2AfterBattleText::
-	text "I can beat you"
-	line "when it comes to"
-	cont "knowledge about"
-	cont "#MON!"
+	text "I can outtalk you"
+	line "on pocket pol"
+	cont "trivia."
+	cont "Unfortunately the"
+	cont "mountain doesn't"
+	cont "award points for"
+	cont "that."
 	done
-
 _VictoryRoad2FSuperNerd3BattleText::
 	text "Is VICTORY ROAD"
 	line "too tough?"
 	done
 
 _VictoryRoad2FSuperNerd3EndBattleText::
-	text "Well"
-	line "done!"
+	text "Procedure failed"
+	line "upward."
 	prompt
-
 _VictoryRoad2FSuperNerd3AfterBattleText::
-	text "Many trainers give"
-	line "up the challenge"
-	cont "here."
+	text "A lot of aspirants"
+	line "wash out here."
 	done

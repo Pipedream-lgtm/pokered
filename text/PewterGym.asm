@@ -1,18 +1,14 @@
 _PewterGymBrockPreBattleText::
-	text "I'm BROCK!"
-	line "I'm PEWTER's GYM"
-	cont "LEADER!"
-
-	para "I believe in rock"
-	line "hard defense and"
-	cont "determination!"
-
-	para "That's why my"
-	line "#MON are all"
-	cont "the rock-type!"
-
-	para "Do you still want"
-	line "to challenge me?"
-	cont "Fine then! Show"
-	cont "me your best!"
+	text "I'm Charles Koch,"
+	line "chair of Pewter's"
+	cont "hall."
+	para "I believe in"
+	line "stonewalling,"
+	cont "pressure, and slow"
+	cont "suffocation."
+	para "My pocket pols are"
+	line "all rock-type."
+	para "If you still want"
+	line "the hearing, show"
+	cont "me your best."
 	done

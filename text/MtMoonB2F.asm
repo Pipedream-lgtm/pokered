@@ -42,7 +42,7 @@ _MtMoonB2fSuperNerdEachTakeOneText::
 _MtMoonB2FSuperNerdTheresAPokemonLabText::
 	text "Far away, on"
 	line "CINNABAR ISLAND,"
-	cont "there's a #MON"
+	cont "there's a pocket pol"
 	cont "LAB."
 
 	para "They do research"
@@ -56,40 +56,35 @@ _MtMoonB2FSuperNerdThenThisIsMineText::
 	text_end
 
 _MtMoonB2FRocket1BattleText::
-	text "TEAM ROCKET will"
+	text "AeroPAC will"
 	line "find the fossils,"
 	cont "revive and sell"
 	cont "them for cash!"
 	done
 
 _MtMoonB2FRocket1EndBattleText::
-	text "Urgh!"
-	line "Now I'm mad!"
+	text "That was not in"
+	line "the risk memo."
 	prompt
-
 _MtMoonB2FRocket1AfterBattleText::
-	text "You made me mad!"
-	line "TEAM ROCKET will"
-	cont "blacklist you!"
+	text "You just made the"
+	line "blacklist, kid."
 	done
-
 _MtMoonB2FRocket2BattleText::
-	text "We, TEAM ROCKET,"
-	line "are #MON"
+	text "We, AeroPAC,"
+	line "are pocket pols"
 	cont "gangsters!"
 	done
 
 _MtMoonB2FRocket2EndBattleText::
-	text "I blew"
-	line "it!"
+	text "Procurement hates"
+	line "surprises."
 	prompt
-
 _MtMoonB2FRocket2AfterBattleText::
-	text "Darn it all! My"
-	line "associates won't"
-	cont "stand for this!"
+	text "My associates are"
+	line "not going to like"
+	cont "this."
 	done
-
 _MtMoonB2FRocket3BattleText::
 	text "We're pulling a"
 	line "big job here!"
@@ -97,16 +92,15 @@ _MtMoonB2FRocket3BattleText::
 	done
 
 _MtMoonB2FRocket3EndBattleText::
-	text "So, you"
-	line "are good."
+	text "Procurement hates"
+	line "surprises."
 	prompt
-
 _MtMoonB2FRocket3AfterBattleText::
 	text "If you find a"
-	line "fossil, give it"
-	cont "to me and scram!"
+	line "relic, hand it"
+	cont "over and keep"
+	cont "walking."
 	done
-
 _MtMoonB2FRocket4BattleText::
 	text "Little kids"
 	line "should leave"
@@ -114,12 +108,14 @@ _MtMoonB2FRocket4BattleText::
 	done
 
 _MtMoonB2FRocket4EndBattleText::
-	text "I'm"
-	line "steamed!"
+	text "I just became a"
+	line "classified"
+	cont "expense."
 	prompt
-
 _MtMoonB2FRocket4AfterBattleText::
-	text "#MON lived"
-	line "here long before"
-	cont "people came."
+	text "Pocket pols lived"
+	line "here before any of"
+	cont "us showed up with"
+	cont "our claims and"
+	cont "flashlights."
 	done

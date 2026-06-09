@@ -1,64 +1,49 @@
 _SSAnneCaptainsRoomRubCaptainsBackText::
-	text "CAPTAIN: Ooargh..."
-	line "I feel hideous..."
-	cont "Urrp! Seasick..."
-
-	para "<PLAYER> rubbed"
-	line "the CAPTAIN's"
-	cont "back!"
-
-	para "Rub-rub..."
-	line "Rub-rub...@"
+	text "HOST: Urrgh... I"
+	line "feel hideous..."
+	cont "open water was a"
+	cont "mistake..."
+	cont "<PLAYER> rubbed"
+	cont "the host's back."
+	cont "Rub-rub..."
+	cont "Rub-rub...@"
 	text_end
-
 _SSAnneCaptainsRoomCaptainIFeelMuchBetterText::
-	text "CAPTAIN: Whew!"
-	line "Thank you! I"
-	cont "feel much better!"
-
-	para "You want to see"
-	line "my CUT technique?"
-
-	para "I could show you"
-	line "if I wasn't ill..."
-
-	para "I know! You can"
-	line "have this!"
-
-	para "Teach it to your"
-	line "#MON and you"
-	cont "can see it CUT"
-	cont "any time!"
+	text "HOST: Whew."
+	line "Better. You want"
+	cont "my ribbon-cutting"
+	cont "technique? Here."
+	cont "Take the file and"
+	cont "do not tell the"
+	cont "deck where it came"
+	cont "from."
 	prompt
-
 _SSAnneCaptainsRoomCaptainReceivedHM01Text::
-	text "<PLAYER> got"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	text "<PLAYER> got the"
+	line "RIBBON CUT file!"
 	text_end
-
 _SSAnneCaptainsRoomCaptainNotSickAnymoreText::
-	text "CAPTAIN: Whew!"
-
-	para "Now that I'm not"
-	line "sick any more, I"
-	cont "guess it's time."
+	text "HOST: Whew. Not"
+	line "sick anymore. Time"
+	cont "to wave at people"
+	cont "I do not respect."
 	done
-
 _SSAnneCaptainsRoomCaptainHM01NoRoomText::
-	text "Oh no! You have"
-	line "no room for this!"
+	text "No room? What kind"
+	line "of staff lets you"
+	cont "travel like that?"
 	done
-
 _SSAnneCaptainsRoomTrashText::
-	text "Yuck! Shouldn't"
-	line "have looked!"
+	text "Burner phone. Wet"
+	line "cufflink. A note"
+	cont "that says brunch"
+	cont "moved."
 	done
-
 _SSAnneCaptainsRoomSeasickBookText::
-	text "How to Conquer"
-	line "Seasickness..."
-	cont "The CAPTAIN's"
-	cont "reading this!"
+	text "How to Survive"
+	line "Open Water and"
+	cont "Closed Guest"
+	cont "Lists. The host is"
+	cont "pretending to read"
+	cont "it."
 	done

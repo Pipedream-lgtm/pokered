@@ -1,21 +1,20 @@
 _RocketHideoutB3FRocket1BattleText::
 	text "Stop meddling in"
-	line "TEAM ROCKET's"
+	line "AeroPAC's"
 	cont "affairs!"
 	done
 
 _RocketHideoutB3FRocket1EndBattleText::
-	text "Oof!"
-	line "Taken down!"
+	text "I just became a"
+	line "classified"
+	cont "expense."
 	prompt
-
 _RocketHideoutB3FRocket1AfterBattleText::
-	text "SILPH SCOPE?"
-	line "The machine the"
-	cont "BOSS stole. It's"
-	cont "here somewhere."
+	text "The Scope's here."
+	line "Stolen tech always"
+	cont "looks better under"
+	cont "fluorescent light."
 	done
-
 _RocketHideout3BattleText::
 	text "We got word from"
 	line "upstairs that you"
@@ -23,10 +22,12 @@ _RocketHideout3BattleText::
 	done
 
 _RocketHideout3EndBattleText3::
-	text "What?"
-	line "I lost? No!"
+	text "The risk memo"
+	line "found me. The"
+	cont "basement was"
+	cont "supposed to absorb"
+	cont "you."
 	prompt
-
 _RocketHide3AfterBattleText3::
 	text "Go ahead and go!"
 	line "But, you need the"

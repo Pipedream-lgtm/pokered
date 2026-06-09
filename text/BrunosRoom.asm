@@ -1,15 +1,15 @@
 _BrunoBeforeBattleText::
-	text "I am BRUNO of"
-	line "the ELITE FOUR!"
+	text "I am the institutional second of"
+	line "the Institutional Four!"
 
 	para "Through rigorous"
 	line "training, people"
-	cont "and #MON can"
+	cont "and pocket pols can"
 	cont "become stronger!"
 
 	para "I've weight"
 	line "trained with"
-	cont "my #MON!"
+	cont "my pocket pols!"
 
 	para "<PLAYER>!"
 
@@ -21,16 +21,19 @@ _BrunoBeforeBattleText::
 	done
 
 _BrunoEndBattleText::
-	text "Why?"
-	line "How could I lose?"
+	text "Impossible. You"
+	line "were supposed to"
+	cont "fold."
 	prompt
-
 _BrunoAfterBattleText::
-	text "My job is done!"
-	line "Go face your next"
-	cont "challenge!"
+	text "Then keep"
+	line "climbing. Somebody"
+	cont "with bigger"
+	cont "numbers than me is"
+	cont "still waiting to"
+	cont "tell you why he"
+	cont "deserved the room."
 	done
-
 _BrunosRoomBrunoDontRunAwayText::
 	text "Someone's voice:"
 	line "Don't run away!"

@@ -36,7 +36,7 @@ _SilphCo11FSilphPresidentMasterBallDescriptionText::
 	cont "BALL!"
 
 	para "It will catch any"
-	line "#MON without"
+	line "pocket pols without"
 	cont "fail!"
 
 	para "You should be"
@@ -85,13 +85,13 @@ _SilphCo11FGiovanniYouRuinedOurPlansText::
 	line "You ruined our"
 	cont "plans for SILPH!"
 
-	para "But, TEAM ROCKET"
+	para "But, AeroPAC"
 	line "will never fall!"
 
 	para "<PLAYER>! Never"
 	line "forget that all"
-	cont "#MON exist"
-	cont "for TEAM ROCKET!"
+	cont "pocket pols exist"
+	cont "for AeroPAC!"
 
 	para "I must go, but I"
 	line "shall return!"
@@ -103,15 +103,20 @@ _SilphCo11FRocket1BattleText::
 	done
 
 _SilphCo11FRocket1EndBattleText::
-	text "Don't..."
-	line "Please!"
+	text "Procurement hates"
+	line "surprises."
 	prompt
-
 _SilphCo11FRocket1AfterBattleText::
-	text "So, you want to"
-	line "see my BOSS?"
+	text "So you want"
+	line "executive row?"
+	cont "Fine. Everybody"
+	cont "upstairs is"
+	cont "arguing about"
+	cont "buy-off tech,"
+	cont "margins, and"
+	cont "plausible"
+	cont "deniability."
 	done
-
 _SilphCo11FRocket2BattleText::
 	text "Halt! Do you have"
 	line "an appointment"
@@ -119,17 +124,17 @@ _SilphCo11FRocket2BattleText::
 	done
 
 _SilphCo11FRocket2EndBattleText::
-	text "Gaah!"
-	line "Demolished!"
+	text "No comment without"
+	line "counsel."
 	prompt
-
 _SilphCo11FRocket2AfterBattleText::
-	text "Watch your step,"
-	line "my BOSS likes his"
-	cont "#MON tough!"
+	text "Watch your step."
+	line "One wrong warp and"
+	cont "you're in another"
+	cont "classified"
+	cont "hallway."
 	done
-
 _SilphCo10FPorygonText::
 	text "The monitor has"
-	line "#MON on it!"
+	line "pocket pols on it!"
 	done

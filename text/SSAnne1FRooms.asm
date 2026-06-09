@@ -1,5 +1,5 @@
 _SSAnne1FRoomsWigglytuffText::
-	text "WIGGLYTUFF: Puup"
+	text "Governor Sarah: Puup"
 	line "pupuu!@"
 	text_end
 
@@ -7,99 +7,103 @@ _SSAnne1FRoomsGentleman1BattleText::
 	text "I travel alone"
 	line "on my journeys!"
 
-	para "My #MON are my"
+	para "My pocket pols are my"
 	line "only friends!"
 	done
 
 _SSAnne1FRoomsGentleman1EndBattleText::
-	text "My, my"
-	line "friends..."
+	text "My discretion"
+	line "package leaked."
 	prompt
-
 _SSAnne1FRoomsGentleman1AfterBattleText::
 	text "You should be"
-	line "nice to friends!"
+	line "nicer to your"
+	cont "friends. On a boat"
+	cont "like this, tone"
+	cont "turns into"
+	cont "leverage very"
+	cont "quickly."
 	done
-
 _SSAnne1FRoomsGentleman2BattleText::
 	text "You pup! How dare"
 	line "you barge in!"
 	done
 
 _SSAnne1FRoomsGentleman2EndBattleText::
-	text "Humph!"
-	line "You rude child!"
+	text "I paid for better"
+	line "inevitability."
 	prompt
-
 _SSAnne1FRoomsGentleman2AfterBattleText::
 	text "I wish to be left"
-	line "alone! Get out!"
+	line "alone. Go bother a"
+	cont "poorer cabin."
 	done
-
 _SSAnne1FRoomsYoungsterBattleText::
-	text "I love #MON!"
+	text "I love pocket pols!"
 	line "Do you?"
 	done
 
 _SSAnne1FRoomsYoungsterEndBattleText::
-	text "Wow! "
-	line "You're great!"
+	text "The room got less"
+	line "private."
 	prompt
-
 _SSAnne1FRoomsYoungsterAfterBattleText::
-	text "Let me be your"
-	line "friend, OK?"
-
-	para "Then we can trade"
-	line "#MON!"
+	text "Be my friend,"
+	line "okay? Then we can"
+	cont "trade and my dad"
+	cont "won't have to talk"
+	cont "to yours."
 	done
-
 _SSAnne1FRoomsCooltrainerFBattleText::
 	text "I collected these"
-	line "#MON from all"
+	line "pocket pols from all"
 	cont "around the world!"
 	done
 
 _SSAnne1FRoomsCooltrainerFEndBattleText::
-	text "Oh no!"
-	line "I went around the"
-	cont "world for these!"
+	text "My discretion"
+	line "package leaked."
 	prompt
-
 _SSAnne1FRoomsCooltrainerFAfterBattleText::
-	text "You hurt my poor"
-	line "worldly #MON!"
-
-	para "I demand that you"
-	line "heal them at a"
-	cont "#MON CENTER!"
+	text "You bruised my"
+	line "poor little world"
+	cont "travelers. Have"
+	cont "them properly"
+	cont "treated."
 	done
-
 _SSAnne1FRoomsGirl1Text::
-	text "Waiter, I would"
-	line "like a cherry pie"
-	cont "please!"
+	text "Waiter, I want"
+	line "cherry pie. Not"
+	cont "the compromise"
+	cont "pie."
 	done
-
 _SSAnne1FRoomsMiddleAgedManText::
-	text "A cruise is so"
-	line "elegant yet cozy!"
+	text "A yacht is elegant"
+	line "and cozy. You can"
+	cont "compromise half a"
+	cont "donor class"
+	cont "without touching"
+	cont "land."
 	done
-
 _SSAnne1FRoomsLittleGirlText::
-	text "I always travel"
-	line "with WIGGLYTUFF!"
+	text "The adults got"
+	line "loud after"
+	cont "dessert, so"
+	cont "Governor Sarah and I"
+	cont "are staying here."
 	done
-
 _SSAnne1FRoomsGirl2Text::
-	text "We are cruising"
-	line "around the world."
+	text "We sail around the"
+	line "world. Same"
+	cont "people, new"
+	cont "harbor, cleaner"
+	cont "guest list."
 	done
-
 _SSAnne1FRoomsGentleman3Text::
-	text "Ssh! I'm a GLOBAL"
-	line "POLICE agent!"
-
-	para "I'm on the trail"
-	line "of TEAM ROCKET!"
+	text "Ssh. Federal"
+	line "cleanup. I am"
+	cont "following AeroPAC"
+	cont "money through the"
+	cont "guest list. Smile"
+	cont "and keep walking."
 	done

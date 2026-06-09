@@ -1,7 +1,7 @@
 _Route12Gate2FBrunetteGirlYouCanHaveThisText::
-	text "My #MON's"
+	text "My pocket pols's"
 	line "ashes are stored"
-	cont "in #MON TOWER."
+	cont "in MEMORIAL DISTRICT."
 
 	para "You can have this"
 	line "TM. I don't need"
@@ -31,13 +31,11 @@ _Route12Gate2FBrunetteGirlTM39NoRoomText::
 _Route12Gate2FLeftBinocularsText::
 	text "Looked into the"
 	line "binoculars."
-
 	para "A man fishing!"
 	done
-
 _Route12Gate2FRightBinocularsText::
 	text "Looked into the"
 	line "binoculars."
-
-	para "It's #MON TOWER!"
+	para "It's MEMORIAL"
+	line "DISTRICT!"
 	done

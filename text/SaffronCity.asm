@@ -15,7 +15,7 @@ _SaffronCityRocket3Text::
 
 _SaffronCityRocket4Text::
 	text "SAFFRON belongs"
-	line "to TEAM ROCKET!"
+	line "to AeroPAC!"
 	done
 
 _SaffronCityRocket5Text::
@@ -31,18 +31,18 @@ _SaffronCityRocket6Text::
 _SaffronCityRocket7Text::
 	text "With SILPH under"
 	line "control, we can"
-	cont "exploit #MON"
+	cont "exploit pocket pols"
 	cont "around the world!"
 	done
 
 _SaffronCityScientistText::
 	text "You beat TEAM"
-	line "ROCKET all alone?"
+	line "AeroPAC all alone?"
 	cont "That's amazing!"
 	done
 
 _SaffronCitySilphWorkerMText::
-	text "Yeah! TEAM ROCKET"
+	text "Yeah! AeroPAC"
 	line "is gone!"
 	cont "It's safe to go"
 	cont "out again!"
@@ -56,8 +56,9 @@ _SaffronCitySilphWorkerFText::
 
 _SaffronCityGentlemanText::
 	text "I flew here on my"
-	line "PIDGEOT when I"
-	cont "read about SILPH."
+	line "Speaker Jeffries"
+	cont "when I read"
+	cont "about SILPH."
 
 	para "It's already over?"
 	line "I missed the"
@@ -65,11 +66,11 @@ _SaffronCityGentlemanText::
 	done
 
 _SaffronCityPidgeotText::
-	text "PIDGEOT: Bi bibii!@"
+	text "Speaker Jeffries: Bi bibii!@"
 	text_end
 
 _SaffronCityRockerText::
-	text "I saw ROCKET"
+	text "I saw AeroPAC"
 	line "BOSS escaping"
 	cont "SILPH's building."
 	done
@@ -91,62 +92,45 @@ _SaffronCityRocket9Text::
 	done
 
 _SaffronCitySignText::
-	text "SAFFRON CITY"
-	line "Shining, Golden"
-	cont "Land of Commerce"
+	text "FEDERAL TRIANGLE"
 	done
-
 _SaffronCityFightingDojoSignText::
 	text "FIGHTING DOJO"
 	done
-
 _SaffronCityGymSignText::
 	text "SAFFRON CITY"
-	line "#MON GYM"
-	cont "LEADER: SABRINA"
-
-	para "The Master of"
-	line "Psychic #MON!"
+	line "CREDENTIAL HALL"
+	cont "DIRECTOR: THE"
+	cont "ORACLE OLIGARCH"
+	cont "Poll-tested"
+	cont "prophecy."
 	done
-
 _SaffronCityTrainerTips1Text::
-	text "TRAINER TIPS"
-
-	para "FULL HEAL cures"
-	line "all ailments like"
-	cont "sleep and burns."
-
-	para "It costs a bit"
-	line "more, but it's"
-	cont "more convenient."
+	text "FIELD NOTES"
+	para "LAWYER UP clears"
+	line "every condition at"
+	cont "once."
+	para "Costs more. Saves"
+	line "headaches."
 	done
-
 _SaffronCityTrainerTips2Text::
-	text "TRAINER TIPS"
-
-	para "New GREAT BALL"
-	line "offers improved"
-	cont "capture rates."
-
-	para "Try it on those"
-	line "hard-to-catch"
-	cont "#MON."
+	text "FIELD NOTES"
+	para "PAC DONATION"
+	line "sticks better than"
+	cont "plain cash."
+	para "Use it on harder"
+	line "targets."
 	done
-
 _SaffronCitySilphCoSignText::
-	text "SILPH CO."
-	line "OFFICE BUILDING"
+	text "SILPH CO. OFFICE"
+	line "BUILDING"
 	done
-
 _SaffronCityMrPsychicsHouseSignText::
-	text "MR.PSYCHIC's"
-	line "HOUSE"
+	text "MR.PSYCHIC's HOUSE"
 	done
-
 _SaffronCitySilphCoLatestProductSignText::
 	text "SILPH's latest"
-	line "product!"
-
-	para "Release to be"
-	line "determined..."
+	line "product! Release"
+	cont "to be"
+	cont "determined..."
 	done

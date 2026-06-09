@@ -2,11 +2,11 @@ _DaycareGentlemanIntroText::
 	text "I run a DAYCARE."
 	line "Would you like me"
 	cont "to raise one of"
-	cont "your #MON?"
+	cont "your pocket pols?"
 	done
 
 _DaycareGentlemanWhichMonText::
-	text "Which #MON"
+	text "Which pocket pol"
 	line "should I raise?"
 	prompt
 
@@ -38,11 +38,11 @@ _DaycareGentlemanMonHasGrownText::
 	prompt
 
 _DaycareGentlemanOweMoneyText::
-	text "You owe me ¥@"
+	text "Invoice: $@"
 	text_bcd wDayCareTotalCost, 2 | LEADING_ZEROES | LEFT_ALIGN
 	text_start
-	line "for the return"
-	cont "of this #MON."
+	line "to retrieve"
+	cont "this pocket pol."
 	done
 
 _DaycareGentlemanGotMonBackText::

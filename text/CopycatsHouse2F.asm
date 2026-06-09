@@ -1,6 +1,6 @@
 _CopycatsHouse2FCopycatDoYouLikePokemonText::
 	text "<PLAYER>: Hi! Do"
-	line "you like #MON?"
+	line "you like pocket pols?"
 
 	para "<PLAYER>: Uh no, I"
 	line "just asked you."
@@ -40,7 +40,7 @@ _CopycatsHouse2FCopycatTM31Explanation1Text::
 	line "favorite, MIMIC!"
 
 	para "Use it on a good"
-	line "#MON!@"
+	line "pocket pols!@"
 	text_end
 
 _CopycatsHouse2FCopycatTM31Explanation2Text::
@@ -63,7 +63,7 @@ _CopycatsHouse2FCopycatTM31NoRoomText::
 	text_end
 
 _CopycatsHouse2FDoduoText::
-	text "DODUO: Giiih!"
+	text "Coal Manchin: Giiih!"
 
 	para "MIRROR MIRROR ON"
 	line "THE WALL, WHO IS"
@@ -73,7 +73,7 @@ _CopycatsHouse2FDoduoText::
 
 _CopycatsHouse2FRareDollText::
 	text "This is a rare"
-	line "#MON! Huh?"
+	line "pocket pols! Huh?"
 	cont "It's only a doll!"
 	done
 
@@ -91,8 +91,8 @@ _CopycatsHouse2FPCMySecretsText::
 	para "Skill: Mimicry!"
 	line "Hobby: Collecting"
 	cont "dolls!"
-	cont "Favorite #MON:"
-	cont "CLEFAIRY!"
+	cont "Favorite pocket pols:"
+	cont "Professor Warren!"
 	done
 
 _CopycatsHouse2FPCCantSeeText::

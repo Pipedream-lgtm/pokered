@@ -1,22 +1,21 @@
 _DexCompletionText::
-	text "#DEX comp-"
+	text "Rolodex comp-"
 	line "letion is:"
 
 	para "@"
 	text_decimal hDexRatingNumMonsSeen, 1, 3
-	text " #MON seen"
+	text " pocket pols seen"
 	line "@"
 	text_decimal hDexRatingNumMonsOwned, 1, 3
-	text " #MON owned"
+	text " pocket pols owned"
 
-	para "PROF.OAK's"
+	para "Roger Rock's"
 	line "Rating:"
 	prompt
-
 _DexRatingText_Own0To9::
 	text "You still have"
 	line "lots to do."
-	cont "Look for #MON"
+	cont "Look for pocket pols"
 	cont "in grassy areas!"
 	done
 
@@ -29,7 +28,7 @@ _DexRatingText_Own10To19::
 
 _DexRatingText_Own20To29::
 	text "You still need"
-	line "more #MON!"
+	line "more pocket pols!"
 	cont "Try to catch"
 	cont "other species!"
 	done
@@ -51,7 +50,7 @@ _DexRatingText_Own50To59::
 	text "You finally got at"
 	line "least 50 species!"
 	cont "Be sure to get"
-	cont "EXP.ALL from my"
+	cont "PARTY WHIP from my"
 	cont "AIDE!"
 	done
 
@@ -63,7 +62,7 @@ _DexRatingText_Own60To69::
 _DexRatingText_Own70To79::
 	text "Very good!"
 	line "Go fish for some"
-	cont "marine #MON!"
+	cont "marine pocket pols!"
 	done
 
 _DexRatingText_Own80To89::
@@ -88,7 +87,7 @@ _DexRatingText_Own100To109::
 _DexRatingText_Own110To119::
 	text "You even have the"
 	line "evolved forms of"
-	cont "#MON! Super!"
+	cont "pocket pols! Super!"
 	done
 
 _DexRatingText_Own120To129::
@@ -111,7 +110,7 @@ _DexRatingText_Own140To149::
 	done
 
 _DexRatingText_Own150To151::
-	text "Your #DEX is"
+	text "Your Rolodex is"
 	line "entirely complete!"
 	cont "Congratulations!"
 	done

@@ -3,7 +3,7 @@ SilphCo2FSilphWorkerFPleaseTakeThisText::
 	line "No! Stop! Help!"
 
 	para "Oh, you're not"
-	line "with TEAM ROCKET."
+	line "with AeroPAC."
 	cont "I thought..."
 	cont "I'm sorry. Here,"
 	cont "please take this!"
@@ -21,7 +21,7 @@ _SilphCo2FSilphWorkerFTM36ExplanationText::
 	line "SELFDESTRUCT!"
 
 	para "It's powerful, but"
-	line "the #MON that"
+	line "the pocket pol that"
 	cont "uses it faints!"
 	cont "Be careful."
 	done
@@ -37,61 +37,70 @@ _SilphCo2FScientist1BattleText::
 	done
 
 _SilphCo2FScientist1EndBattleText::
-	text "How"
-	line "did you know I"
-	cont "was a ROCKET?"
+	text "No comment without"
+	line "counsel."
 	prompt
-
 _SilphCo2FScientist1AfterBattleText::
-	text "I work for both"
-	line "SILPH and TEAM"
-	cont "ROCKET!"
+	text "I write targeting"
+	line "software for"
+	cont "InfluenceCorp and"
+	cont "procurement"
+	cont "language for"
+	cont "AeroPAC. Same"
+	cont "building,"
+	cont "different"
+	cont "credential."
 	done
-
 _SilphCo2FScientist2BattleText::
 	text "It's off limits"
 	line "here! Go home!"
 	done
 
 _SilphCo2FScientist2EndBattleText::
-	text "You're"
-	line "good."
+	text "That was not in"
+	line "the risk memo."
 	prompt
-
 _SilphCo2FScientist2AfterBattleText::
-	text "Can you solve the"
-	line "maze in here?"
+	text "Solve the"
+	line "teleporter grid"
+	cont "and you reach the"
+	cont "black-budget"
+	cont "floors. They built"
+	cont "the maze to feel"
+	cont "like procedure."
 	done
-
 _SilphCo2FRocket1BattleText::
 	text "No kids are"
 	line "allowed in here!"
 	done
 
 _SilphCo2FRocket1EndBattleText::
-	text "Tough!"
+	text "Tough. Procurement"
+	line "hated surprises."
 	prompt
-
 _SilphCo2FRocket1AfterBattleText::
-	text "Diamond shaped"
-	line "tiles are"
-	cont "teleport blocks!"
-
-	para "They're hi-tech"
-	line "transporters!"
+	text "Those diamond"
+	line "panels are"
+	cont "teleport relays."
+	cont "Military money"
+	cont "loves a maze."
 	done
-
 _SilphCo2FRocket2BattleText::
 	text "Hey kid! What are"
 	line "you doing here?"
 	done
 
 _SilphCo2FRocket2EndBattleText::
-	text "I goofed!"
+	text "I just became a"
+	line "classified"
+	cont "expense."
 	prompt
-
 _SilphCo2FRocket2AfterBattleText::
-	text "SILPH CO. will"
-	line "be merged with"
-	cont "TEAM ROCKET!"
+	text "Once AeroPAC"
+	line "finalizes the"
+	cont "merger, every"
+	cont "buy-off platform"
+	cont "in the country"
+	cont "turns"
+	cont "war-adjacent."
 	done

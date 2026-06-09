@@ -1,11 +1,11 @@
-; see also FieldMoveDisplayData
+﻿; see also FieldMoveDisplayData
 FieldMoveNames:
-	db "CUT@"
-	db "FLY@"
+	db "RIBBON CUT@"
+	db "CHARTER HOP@"
 	db "@"
-	db "SURF@"
-	db "STRENGTH@"
-	db "FLASH@"
-	db "DIG@"
-	db "TELEPORT@"
-	db "SOFTBOILED@"
+	db "Access Chnl@"
+	db "OPTICS CREW@"
+	db "Flash Clr@"
+	db "Oppo Resrch@"
+	db "Back Exit@"
+	db "Self-Care@"

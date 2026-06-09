@@ -125,7 +125,6 @@ _CeladonMartRoofCurrentFloorSignText::
 	text "ROOFTOP SQUARE:"
 	line "VENDING MACHINES"
 	done
-
 _VendingMachineText1::
 	text "A vending machine!"
 	line "Here's the menu!"

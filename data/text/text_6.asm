@@ -1,21 +1,19 @@
 _ItemUseBallText00::
 	text "It dodged the"
-	line "thrown BALL!"
+	line "donation!"
 
-	para "This #MON"
-	line "can't be caught!"
+	para "This pocket pol"
+	line "can't be"
+	cont "pocketed!"
 	prompt
-
 _ItemUseBallText01::
 	text "You missed the"
-	line "#MON!"
+	line "pocket pol!"
 	prompt
-
 _ItemUseBallText02::
-	text "Darn! The #MON"
-	line "broke free!"
+	text "Darn! The pocket"
+	line "pol broke free!"
 	prompt
-
 _ItemUseBallText03::
 	text "Aww! It appeared"
 	line "to be caught! "
@@ -37,25 +35,22 @@ _ItemUseBallText05::
 _ItemUseBallText07::
 	text_ram wBoxMonNicks
 	text " was"
-	line "transferred to"
-	cont "BILL's PC!"
+	line "forwarded to"
+	cont "BILL's archive!"
 	prompt
-
 _ItemUseBallText08::
 	text_ram wBoxMonNicks
 	text " was"
-	line "transferred to"
-	cont "someone's PC!"
+	line "forwarded to"
+	cont "the archive!"
 	prompt
-
 _ItemUseBallText06::
-	text "New #DEX data"
-	line "will be added for"
+	text "New Rolodex data"
+	line "will be filed on"
 	cont "@"
 	text_ram wEnemyMonNick
 	text "!@"
 	text_end
-
 _SurfingGotOnText::
 	text "<PLAYER> got on"
 	line "@"
@@ -101,7 +96,7 @@ _PlayedFluteNoEffectText::
 
 _FluteWokeUpText::
 	text "All sleeping"
-	line "#MON woke up."
+	line "pocket pols woke up."
 	prompt
 
 _PlayedFluteHadEffectText::
@@ -117,16 +112,14 @@ _CoinCaseNumCoinsText::
 	prompt
 
 _ItemfinderFoundItemText::
-	text "Yes! ITEMFINDER"
-	line "indicates there's"
-	cont "an item nearby."
+	text "Yes! The scanner"
+	line "says something"
+	cont "hidden is nearby."
 	prompt
-
 _ItemfinderFoundNothingText::
-	text "Nope! ITEMFINDER"
-	line "isn't responding."
+	text "Nope! The scanner"
+	line "is quiet."
 	prompt
-
 _RaisePPWhichTechniqueText::
 	text "Raise PP of which"
 	line "technique?"
@@ -170,9 +163,8 @@ _TeachMachineMoveText::
 	para "Teach @"
 	text_ram wStringBuffer
 	text_start
-	line "to a #MON?"
+	line "to a pocket pol?"
 	done
-
 _MonCannotLearnMachineMoveText::
 	text_ram wNameBuffer
 	text " is not"
@@ -188,11 +180,11 @@ _MonCannotLearnMachineMoveText::
 	prompt
 
 _ItemUseNotTimeText::
-	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that! "
+	text "ROGER ROCK:"
+	line "<PLAYER>! This is"
+	cont "not the time to"
+	cont "use that!"
 	prompt
-
 _ItemUseNotYoursToUseText::
 	text "This isn't yours"
 	line "to use!"
@@ -225,7 +217,7 @@ _NoSurfingHereText::
 	prompt
 
 _BoxFullCannotThrowBallText::
-	text "The #MON BOX"
-	line "is full! Can't"
-	cont "use that item!"
+	text "ARCHIVE BOX is"
+	line "full! Can't use"
+	cont "that item!"
 	prompt

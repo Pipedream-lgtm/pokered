@@ -11,7 +11,7 @@ _PokemonFaintedText::
 
 _PlayerBlackedOutText::
 	text "<PLAYER> is out of"
-	line "useable #MON!"
+	line "useable pocket pols!"
 
 	para "<PLAYER> blacked"
 	line "out!"
@@ -157,75 +157,82 @@ _HMCantDeleteText::
 	prompt
 
 _PokemonCenterWelcomeText::
-	text "Welcome to our"
-	line "#MON CENTER!"
+	text "Welcome to"
+	line "Conway"
+	cont "Communications."
 
-	para "We heal your"
-	line "#MON back to"
-	cont "perfect health!"
+	para "We get your"
+	line "numbers"
+	cont "recovered and"
+	cont "back on"
+	cont "message."
 	prompt
-
 _ShallWeHealYourPokemonText::
-	text "Shall we heal your"
-	line "#MON?"
+	text "Want your"
+	line "slate back on"
+	cont "message?"
 	done
-
 _NeedYourPokemonText::
-	text "OK. We'll need"
-	line "your #MON."
+	text "All right."
+	line "We'll need"
+	cont "the whole"
+	cont "slate."
 	done
-
 _PokemonFightingFitText::
-	text "Thank you!"
-	line "Your #MON are"
-	cont "fighting fit!"
+	text "Thank you."
+	line "Numbers"
+	cont "recovered."
+
+	para "Your pocket"
+	line "pols are"
+	cont "media-ready"
+	cont "and"
+	line "field-tested."
 	prompt
-
 _PokemonCenterFarewellText::
-	text "We hope to see"
-	line "you again!"
+	text "Try to keep"
+	line "the campaign"
+	cont "out of"
+	cont "trouble."
 	done
-
 _CableClubNPCAreaReservedFor2FriendsLinkedByCableText::
-	text "This area is"
-	line "reserved for 2"
-	cont "friends who are"
-	cont "linked by cable."
+	text "This station is"
+	line "reserved for"
+	cont "2 approved"
+	cont "contacts linked"
+	cont "by cable."
 	done
-
 _CableClubNPCWelcomeText::
 	text "Welcome to the"
-	line "Cable Club!"
+	line "Conway Link"
+	cont "Desk."
 	done
-
 _CableClubNPCPleaseApplyHereHaveToSaveText::
-	text "Please apply here."
+	text "Apply here"
+	line "first."
 
-	para "Before opening"
-	line "the link, we have"
-	cont "to save the game."
+	para "We have to file"
+	line "the save before"
+	cont "we open the"
+	cont "line."
 	done
-
 _CableClubNPCPleaseWaitText::
 	text "Please wait.@"
 	text_end
-
 _CableClubNPCLinkClosedBecauseOfInactivityText::
 	vc_patch Change_link_closed_inactivity_message
 IF DEF(_RED_VC) || DEF(_BLUE_VC)
-	text "Please come again!"
+	text "Line closed for"
+	line "inactivity."
 	done
-	text_start
-	db   "osed because of"
-	cont "inactivity."
 ELSE
-	text "The link has been"
-	line "closed because of"
+	text "The line has"
+	line "been closed for"
 	cont "inactivity."
 ENDC
 	vc_patch_end
 
 	para "Please contact"
 	line "your friend and"
-	cont "come again!"
+	cont "try again."
 	done

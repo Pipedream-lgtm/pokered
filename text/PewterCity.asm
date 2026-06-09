@@ -10,16 +10,15 @@ _PewterCityCooltrainerFText::
 
 _PewterCityCooltrainerMText::
 	text "There aren't many"
-	line "serious #MON"
-	cont "trainers here!"
-
-	para "They're all like"
-	line "BUG CATCHERs,"
-	cont "but PEWTER GYM's"
-	cont "BROCK is totally"
-	cont "into it!"
+	line "serious handlers"
+	cont "here."
+	para "Most of them just"
+	line "chase bugs."
+	para "But the Granite"
+	line "Courthouse chair"
+	cont "treats the slate"
+	cont "like gospel."
 	done
-
 _PewterCitySuperNerd1DidYouCheckOutMuseumText::
 	text "Did you check out"
 	line "the MUSEUM?"
@@ -58,60 +57,51 @@ _PewterCitySuperNerd2ThatsRightText::
 
 _PewterCitySuperNerd2ImSprayingRepelText::
 	text "I'm spraying REPEL"
-	line "to keep #MON"
+	line "to keep pocket pols"
 	cont "out of my garden!"
 	done
 
 _PewterCityYoungsterYoureATrainerFollowMeText::
-	text "You're a trainer"
-	line "right? BROCK's"
-	cont "looking for new"
-	cont "challengers!"
-	cont "Follow me!"
+	text "You're on a slate,"
+	line "right?"
+	para "The courthouse"
+	line "chair is taking"
+	cont "challengers."
+	para "Follow me!"
 	done
-
 _PewterCityYoungsterGoTakeOnBrockText::
-	text "If you have the"
-	line "right stuff, go"
-	cont "take on BROCK!"
+	text "If you've got the"
+	line "votes, go test the"
+	cont "chair."
 	done
-
 _PewterCityTrainerTipsText::
-	text "TRAINER TIPS"
-
-	para "Any #MON that"
-	line "takes part in"
-	cont "battle, however"
-	cont "short, earns EXP!"
+	text "FIELD NOTES"
+	para "Any pocket pol"
+	line "that gets even a"
+	cont "little camera time"
+	cont "picks up"
+	cont "followers."
 	done
-
 _PewterCityPoliceNoticeSignText::
-	text "NOTICE!"
-
-	para "Thieves have been"
-	line "stealing #MON"
+	text "NOTICE! Thieves"
+	line "have been stealing"
+	cont "pocket pols"
 	cont "fossils at MT."
 	cont "MOON! Please call"
-	cont "PEWTER POLICE"
-	cont "with any info!"
+	cont "PEWTER POLICE with"
+	cont "any info!"
 	done
-
 _PewterCityMuseumSignText::
-	text "PEWTER MUSEUM"
-	line "OF SCIENCE"
+	text "PEWTER MUSEUM OF"
+	line "SCIENCE"
 	done
-
 _PewterCityGymSignText::
 	text "PEWTER CITY"
-	line "#MON GYM"
-	cont "LEADER: BROCK"
-
-	para "The Rock Solid"
-	line "#MON Trainer!"
+	line "CREDENTIAL HALL"
+	cont "DIRECTOR: CHARLES"
+	cont "KOCH The granite"
+	cont "firewall."
 	done
-
 _PewterCitySignText::
-	text "PEWTER CITY"
-	line "A Stone Gray"
-	cont "City"
+	text "GRANITE COURTHOUSE"
 	done

@@ -1,7 +1,7 @@
 _PokemonTower6FGhostWasCubonesMotherText::
 	text "The GHOST was the"
 	line "restless soul of"
-	cont "CUBONE's mother!"
+	cont "Federalist Barrett's mother!"
 	done
 
 _PokemonTower6FSoulWasCalmedText::
@@ -18,43 +18,42 @@ _PokemonTower6FChanneler1BattleText::
 	done
 
 _PokemonTower6FChanneler1EndBattleText::
-	text "Groan!"
+	text "My legacy needs"
+	line "edits."
 	prompt
-
 _PokemonTower6FChanneler1AfterBattleText::
-	text "I feel anemic and"
-	line "weak..."
+	text "Memory is just"
+	line "opposition"
+	cont "research with"
+	cont "candles."
 	done
-
 _PokemonTower6FChanneler2BattleText::
 	text "Urff... Kwaah!"
 	done
 
 _PokemonTower6FChanneler2EndBattleText::
-	text "Some-"
-	line "thing fell out!"
+	text "Memory did not"
+	line "protect me."
 	prompt
-
 _PokemonTower6FChanneler2AfterBattleText::
-	text "Hair didn't fall"
-	line "out! It was an"
-	cont "evil spirit!"
+	text "Someone will"
+	line "polish the plaque"
+	cont "around the crack."
 	done
-
 _PokemonTower6FChanneler3BattleText::
 	text "Ke..ke...ke..."
 	line "ke..ke...ke!!"
 	done
 
 _PokemonTower6FChanneler3EndBattleText::
-	text "Keee!"
+	text "The old standards"
+	line "blinked."
 	prompt
-
 _PokemonTower6FChanneler3AfterBattleText::
-	text "What's going on"
-	line "here?"
+	text "Tradition survives"
+	line "by editing the"
+	cont "minutes."
 	done
-
 _PokemonTower6FBeGoneText::
 	text "Be gone..."
 	line "Intruders..."

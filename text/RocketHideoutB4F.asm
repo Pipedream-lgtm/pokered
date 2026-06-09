@@ -11,7 +11,7 @@ _RocketHideoutB4FGiovanniWhatCannotBeText::
 
 _RocketHideoutB4FGiovanniHopeWeMeetAgainText::
 	text "I see that you"
-	line "raise #MON"
+	line "raise pocket pols"
 	cont "with utmost care."
 
 	para "A child like you"
@@ -33,16 +33,14 @@ _RocketHideoutB4FRocket1BattleText::
 	done
 
 _RocketHideoutB4FRocket1EndBattleText::
-	text "Burned"
-	line "again!"
+	text "That was not in"
+	line "the risk memo."
 	prompt
-
 _RocketHideoutB4FRocket1AfterBattleText::
-	text "Do you have"
-	line "something against"
-	cont "TEAM ROCKET?"
+	text "You got a personal"
+	line "problem with"
+	cont "aerospace money?"
 	done
-
 _RocketHideoutB4FRocket2BattleText::
 	text "How can you not"
 	line "see the beauty of"
@@ -50,14 +48,14 @@ _RocketHideoutB4FRocket2BattleText::
 	done
 
 _RocketHideoutB4FRocket2EndBattleText::
-	text "Ayaya!"
+	text "I just became a"
+	line "classified"
+	cont "expense."
 	prompt
-
 _RocketHideoutB4FRocket2AfterBattleText::
-	text "BOSS! I'm sorry I"
-	line "failed you!"
+	text "Boss, sorry. Kid's"
+	line "a fanatic."
 	done
-
 _RocketHideoutB4FRocket3BattleText::
 	text "The elevator"
 	line "doesn't work? Who"
@@ -65,10 +63,13 @@ _RocketHideoutB4FRocket3BattleText::
 	done
 
 _RocketHideoutB4FRocket3EndBattleText::
-	text "No!"
+	text "The acquisition"
+	line "team saw that."
 	prompt
-
 _RocketHideoutB4FRocket3AfterBattleText::
-	text "Oh no! I dropped"
-	line "the LIFT KEY!"
+	text "Nobody down here"
+	line "believes in"
+	cont "permanence. That's"
+	cont "why the place"
+	cont "works."
 	done

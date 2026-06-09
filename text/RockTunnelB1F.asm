@@ -4,82 +4,86 @@ _RockTunnelB1FCooltrainerF1BattleText::
 	done
 
 _RockTunnelB1FCooltrainerF1EndBattleText::
-	text "Ohhh!"
-	line "I did my best!"
+	text "The parcel"
+	line "underperformed."
 	prompt
-
 _RockTunnelB1FCooltrainerF1AfterBattleText::
-	text "I want to go "
-	line "home!"
+	text "I want to go home,"
+	line "shower, and never"
+	cont "hear fluorescent"
+	cont "buzzing again."
 	done
-
 _RockTunnelB1FHiker1BattleText::
 	text "Hahaha! Can you"
 	line "beat my power?"
 	done
 
 _RockTunnelB1FHiker1EndBattleText::
-	text "Oops!"
-	line "Out-muscled!"
+	text "The floor plan"
+	line "lied."
 	prompt
-
 _RockTunnelB1FHiker1AfterBattleText::
-	text "I go for power"
-	line "because I hate"
-	cont "thinking!"
+	text "I pick power"
+	line "because thinking"
+	cont "in here turns on"
+	cont "you."
 	done
-
 _RockTunnelB1FSuperNerd1BattleText::
 	text "You have a"
-	line "#DEX?"
+	line "Rolodex?"
 	cont "I want one too!"
 	done
 
 _RockTunnelB1FSuperNerd1EndBattleText::
-	text "Shoot!"
-	line "I'm so jealous!"
+	text "There goes the"
+	line "redevelopment"
+	cont "pitch."
 	prompt
-
 _RockTunnelB1FSuperNerd1AfterBattleText::
 	text "When you finish"
-	line "your #DEX, can"
-	cont "I have it?"
+	line "that rolodex, let"
+	cont "me see it. I want"
+	cont "proof the tunnel"
+	cont "didn't erase the"
+	cont "sequence."
 	done
-
 _RockTunnelB1FSuperNerd2BattleText::
 	text "Do you know about"
 	line "costume players?"
 	done
 
 _RockTunnelB1FSuperNerd2EndBattleText::
-	text "Well,"
-	line "that's that."
+	text "My leverage got"
+	line "rezoned."
 	prompt
-
 _RockTunnelB1FSuperNerd2AfterBattleText::
-	text "Costume players"
-	line "dress up as"
-	cont "#MON for fun."
+	text "They dress like"
+	line "mascots, talk like"
+	cont "brands, and call"
+	cont "it identity. This"
+	cont "country will"
+	cont "merchandize any"
+	cont "humiliation."
 	done
-
 _RockTunnelB1FHiker2BattleText::
-	text "My #MON"
+	text "My pocket pols"
 	line "techniques will"
 	cont "leave you crying!"
 	done
 
 _RockTunnelB1FHiker2EndBattleText::
-	text "I give!"
-	line "You're a better"
-	cont "technician!"
+	text "My leverage got"
+	line "rezoned."
 	prompt
-
 _RockTunnelB1FHiker2AfterBattleText::
-	text "In mountains,"
-	line "you'll often find"
-	cont "rock-type #MON."
+	text "In the mountains"
+	line "you find rock"
+	cont "types. In the"
+	cont "institutions you"
+	cont "find the same"
+	cont "thing with"
+	cont "salaries."
 	done
-
 _RockTunnelB1FCooltrainerF2BattleText::
 	text "I don't often"
 	line "come here, but I"
@@ -87,22 +91,23 @@ _RockTunnelB1FCooltrainerF2BattleText::
 	done
 
 _RockTunnelB1FCooltrainerF2EndBattleText::
-	text "Oh!"
-	line "I lost!"
+	text "My leverage got"
+	line "rezoned."
 	prompt
-
 _RockTunnelB1FCooltrainerF2AfterBattleText::
-	text "I like tiny"
-	line "#MON, big ones"
-	cont "are too scary!"
+	text "I like the tiny"
+	line "ones. Big pocket"
+	cont "pols feel like the"
+	cont "tunnel finally"
+	cont "getting its way."
 	done
-
 _RockTunnelB1FHiker3BattleText::
 	text "Hit me with your"
 	line "best shot!"
 	done
 
 _RockTunnelB1FHiker3EndBattleText::
-	text "Fired"
-	line "away!"
+	text "There goes the"
+	line "redevelopment"
+	cont "pitch."
 	prompt

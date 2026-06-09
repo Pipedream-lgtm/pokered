@@ -6,7 +6,7 @@ _CeladonDinerCookText::
 	done
 
 _CeladonDinerMiddleAgedWomanText::
-	text "My #MON are"
+	text "My pocket pols are"
 	line "weak, so I often"
 	cont "have to go to the"
 	cont "DRUG STORE."
@@ -43,16 +43,14 @@ _CeladonDinerGymGuideImFlatOutBustedText::
 
 _CeladonDinerGymGuideReceivedCoinCaseText::
 	text "<PLAYER> received"
-	line "a @"
-	text_ram wStringBuffer
-	text "!@"
+	line "the COIN CASE."
 	text_end
-
 _CeladonDinerGymGuideCoinCaseNoRoomText::
-	text "Make room for"
-	line "this!"
+	text "Make room first."
+	line "Market addiction"
+	cont "already takes"
+	cont "enough space."
 	done
-
 _CeladonDinerGymGuideWinItBackText::
 	text "I always thought"
 	line "I was going to"

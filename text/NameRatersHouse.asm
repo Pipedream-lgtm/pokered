@@ -5,11 +5,11 @@ _NameRatersHouseNameRaterWantMeToRateText::
 
 	para "Want me to rate"
 	line "the nicknames of"
-	cont "your #MON?"
+	cont "your pocket pols?"
 	done
 
 _NameRatersHouseNameRaterWhichPokemonText::
-	text "Which #MON"
+	text "Which pocket pol"
 	line "should I look at?"
 	prompt
 
@@ -32,7 +32,7 @@ _NameRatersHouseNameRaterWhatShouldWeNameItText::
 	prompt
 
 _NameRatersHouseNameRaterPokemonHasBeenRenamedText::
-	text "OK! This #MON"
+	text "OK! This pocket pol"
 	line "has been renamed"
 	cont "@"
 	text_ram wBuffer

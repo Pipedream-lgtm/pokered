@@ -14,17 +14,18 @@ _Route3Youngster1BattleText::
 	done
 
 _Route3Youngster1EndBattleText::
-	text "You"
-	line "beat me again!"
+	text "My discretion"
+	line "package leaked."
 	prompt
-
 _Route3Youngster1AfterBattleText::
-	text "There are other"
-	line "kinds of #MON"
-	cont "than those found"
-	cont "in the forest!"
+	text "There are pocket"
+	line "pols out here"
+	cont "besides the"
+	cont "paid-volunteer"
+	cont "crowd. The road"
+	cont "gets stranger"
+	cont "fast."
 	done
-
 _Route3Youngster2BattleText::
 	text "Hi! I like shorts!"
 	line "They're comfy and"
@@ -32,51 +33,48 @@ _Route3Youngster2BattleText::
 	done
 
 _Route3Youngster2EndBattleText::
-	text "I don't"
-	line "believe it!"
+	text "The hearing ate me"
+	line "alive."
 	prompt
-
 _Route3Youngster2AfterBattleText::
-	text "Are you storing"
-	line "your #MON on"
-	cont "PC? Each BOX can"
-	cont "hold 20 #MON!"
+	text "You using the PC"
+	line "storage? Each box"
+	cont "holds twenty"
+	cont "politicians before"
+	cont "Conway politely"
+	cont "stops pretending."
 	done
-
 _Route3CooltrainerF1BattleText::
 	text "You looked at me,"
 	line "didn't you?"
 	done
 
 _Route3CooltrainerF1EndBattleText::
-	text "You're"
-	line "mean!"
+	text "That was not in"
+	line "the risk memo."
 	prompt
-
 _Route3CooltrainerF1AfterBattleText::
-	text "Quit staring if"
-	line "you don't want to"
-	cont "fight!"
+	text "Then stop staring"
+	line "unless you're"
+	cont "ready to campaign."
 	done
-
 _Route3Youngster3BattleText::
 	text "Are you a trainer?"
 	line "Let's fight!"
 	done
 
 _Route3Youngster3EndBattleText::
-	text "If I"
-	line "had new #MON I"
-	cont "would've won!"
+	text "Neutrality did not"
+	line "protect me."
 	prompt
-
 _Route3Youngster3AfterBattleText::
-	text "If a #MON BOX"
-	line "on the PC gets"
-	cont "full, just switch"
-	cont "to another BOX!"
+	text "If one storage box"
+	line "fills up, switch"
+	cont "to another."
+	cont "There's always"
+	cont "more room for bad"
+	cont "decisions."
 	done
-
 _Route3CooltrainerF2BattleText::
 	text "That look you"
 	line "gave me, it's so"
@@ -84,62 +82,66 @@ _Route3CooltrainerF2BattleText::
 	done
 
 _Route3CooltrainerF2EndBattleText::
-	text "Be nice!"
+	text "No comment without"
+	line "counsel."
 	prompt
-
 _Route3CooltrainerF2AfterBattleText::
-	text "Avoid fights by"
-	line "not letting"
-	cont "people see you!"
+	text "Best way to avoid"
+	line "fights is simple:"
+	cont "don't let anyone"
+	cont "clock you."
 	done
-
 _Route3Youngster4BattleText::
 	text "Hey! You're not"
 	line "wearing shorts!"
 	done
 
 _Route3Youngster4EndBattleText::
-	text "Lost!"
-	line "Lost! Lost!"
+	text "That was not in"
+	line "the risk memo."
 	prompt
-
 _Route3Youngster4AfterBattleText::
-	text "I always wear"
-	line "shorts, even in"
-	cont "winter!"
+	text "I wear these all"
+	line "year. Commitment"
+	cont "matters."
 	done
-
 _Route3Youngster5BattleText::
 	text "You can fight my"
-	line "new #MON!"
+	line "new pocket pols!"
 	done
 
 _Route3Youngster5EndBattleText::
-	text "Done"
-	line "like dinner!"
+	text "My discretion"
+	line "package leaked."
 	prompt
-
 _Route3Youngster5AfterBattleText::
-	text "Trained #MON"
-	line "are stronger than"
-	cont "the wild ones!"
+	text "A pocket pol with"
+	line "real institutional"
+	cont "backing hits"
+	cont "harder than"
+	cont "anything wild."
+	cont "That's just how"
+	cont "the machine works."
 	done
-
 _Route3CooltrainerF3BattleText::
 	text "Eek! Did you"
 	line "touch me?"
 	done
 
 _Route3CooltrainerF3EndBattleText::
-	text "That's it?"
+	text "That was not"
+	line "guest-list"
+	cont "behavior."
 	prompt
-
 _Route3CooltrainerF3AfterBattleText::
-	text "ROUTE 4 is at the"
-	line "foot of MT.MOON."
+	text "Route 4 sits right"
+	line "at the foot of"
+	cont "Mount Money."
+	cont "Everyone passing"
+	cont "through looks a"
+	cont "little"
+	cont "compromised."
 	done
-
 _Route3SignText::
-	text "ROUTE 3"
-	line "MT.MOON AHEAD"
+	text "MOUNT MONEY"
 	done

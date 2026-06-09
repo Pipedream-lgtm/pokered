@@ -119,7 +119,7 @@ _YeahText::
 	text_end
 
 _DexSeenOwnedText::
-	text "#DEX   Seen:@"
+	text "Rolodex Seen:@"
 	text_decimal wDexRatingNumMonsSeen, 1, 3
 	text_start
 	line "         Owned:@"
@@ -127,46 +127,50 @@ _DexSeenOwnedText::
 	text_end
 
 _DexRatingText::
-	text "#DEX Rating<COLON>"
+	text "Rolodex Rating<COLON>"
 	done
 
 _GymStatueText1::
 	text_ram wGymCityName
 	text_start
-	line "#MON GYM"
-	cont "LEADER: @"
+	line "CREDENTIAL HALL"
+	cont "DIRECTOR: @"
 	text_ram wGymLeaderName
 	text_start
 
-	para "WINNING TRAINERS:"
+	para "WINNING HANDLERS:"
 	line "<RIVAL>"
 	done
 
 _GymStatueText2::
 	text_ram wGymCityName
 	text_start
-	line "#MON GYM"
-	cont "LEADER: @"
+	line "CREDENTIAL HALL"
+	cont "DIRECTOR: @"
 	text_ram wGymLeaderName
 	text_start
 
-	para "WINNING TRAINERS:"
+	para "WINNING HANDLERS:"
 	line "<RIVAL>"
 	cont "<PLAYER>"
 	done
 
 _ViridianCityPokecenterGuyText::
-	text "#MON CENTERs"
-	line "heal your tired,"
-	cont "hurt or fainted"
-	cont "#MON!"
-	done
+	text "Conway"
+	line "Communications"
+	cont "gets tired,"
+	cont "banged-up, or"
+	cont "off-ballot"
 
+	para "pocket pols"
+	line "back on"
+	cont "message."
+	done
 _PewterCityPokecenterGuyText::
 	text "Yawn!"
 
-	para "When JIGGLYPUFF"
-	line "sings, #MON"
+	para "When Press-Room Sarah"
+	line "sings, pocket pols"
 	cont "get drowsy..."
 
 	para "...Me too..."
@@ -175,7 +179,7 @@ _PewterCityPokecenterGuyText::
 
 _CeruleanPokecenterGuyText::
 	text "BILL has lots of"
-	line "#MON!"
+	line "pocket pols!"
 
 	para "He collects rare"
 	line "ones too!"
@@ -191,7 +195,7 @@ _LavenderPokecenterGuyText::
 
 _MtMoonPokecenterBenchGuyText::
 	text "If you have too"
-	line "many #MON, you"
+	line "many pocket pols, you"
 	cont "should store them"
 	cont "via PC!"
 	done
@@ -204,7 +208,7 @@ _RockTunnelPokecenterGuyText::
 
 _UnusedBenchGuyText1::
 	text "I wish I could"
-	line "catch #MON."
+	line "catch pocket pols."
 	done
 
 _UnusedBenchGuyText2::
@@ -221,17 +225,17 @@ _UnusedBenchGuyText3::
 _VermilionPokecenterGuyText::
 	text "It is true that a"
 	line "higher level"
-	cont "#MON will be"
+	cont "pocket pols will be"
 	cont "more powerful..."
 
-	para "But, all #MON"
+	para "But, all pocket pols"
 	line "will have weak"
 	cont "points against"
 	cont "specific types."
 
 	para "So, there is no"
 	line "universally"
-	cont "strong #MON."
+	cont "strong pocket pols."
 	done
 
 _CeladonCityPokecenterGuyText::
@@ -242,33 +246,31 @@ _CeladonCityPokecenterGuyText::
 
 _FuchsiaCityPokecenterGuyText::
 	text "If you're studying "
-	line "#MON, visit"
+	line "pocket pols, visit"
 	cont "the SAFARI ZONE."
 
 	para "It has all sorts"
-	line "of rare #MON."
+	line "of rare pocket pols."
 	done
 
 _CinnabarPokecenterGuyText::
-	text "#MON can still"
-	line "learn techniques"
-	cont "after canceling"
-	cont "evolution."
-
-	para "Evolution can wait"
-	line "until new moves"
-	cont "have been learned."
+	text "You can cancel"
+	line "evolution."
+	cont "Sometimes a pocket"
+	cont "pol learns more"
+	cont "before becoming"
+	cont "what donors paid"
+	cont "for."
 	done
-
 _SaffronCityPokecenterGuyText1::
 	text "It would be great"
-	line "if the ELITE FOUR"
+	line "if the Institutional Four"
 	cont "came and stomped"
-	cont "TEAM ROCKET!"
+	cont "AeroPAC!"
 	done
 
 _SaffronCityPokecenterGuyText2::
-	text "TEAM ROCKET took"
+	text "AeroPAC took"
 	line "off! We can go"
 	cont "out safely again!"
 	cont "That's great!"
@@ -281,9 +283,8 @@ _CeladonCityHotelText::
 
 _BookcaseText::
 	text "Crammed full of"
-	line "#MON books!"
+	line "campaign memoirs!"
 	done
-
 _NewBicycleText::
 	text "A shiny new"
 	line "BICYCLE!"
@@ -301,7 +302,7 @@ _SaveOptionText::
 	done
 
 _StrengthsAndWeaknessesText::
-	text "All #MON types"
+	text "All pocket pols types"
 	line "have strong and"
 	cont "weak points"
 	cont "against others."
@@ -319,49 +320,42 @@ _GameOverText::
 	done
 
 _CinnabarGymQuizIntroText::
-	text "#MON Quiz!"
-
+	text "Credential Quiz!"
 	para "Get it right and"
 	line "the door opens to"
-	cont "the next room!"
-
+	cont "the next room."
 	para "Get it wrong and"
-	line "face a trainer!"
-
+	line "you answer to"
+	cont "another handler."
 	para "If you want to"
-	line "conserve your"
-	cont "#MON for the"
-	cont "GYM LEADER..."
-
-	para "Then get it right!"
-	line "Here we go!"
+	line "save your slate"
+	cont "for the chair,"
+	cont "read carefully."
+	para "Here we go!"
 	prompt
-
 _CinnabarQuizQuestionsText1::
-	text "CATERPIE evolves"
-	line "into BUTTERFREE?"
+	text "Hillbilly Elegist evolves"
+	line "into Sectional Vance?"
 	done
 
 _CinnabarQuizQuestionsText2::
 	text "There are 9"
-	line "certified #MON"
-	cont "LEAGUE BADGEs?"
+	line "certified ROTUNDA"
+	cont "credentials?"
 	done
-
 _CinnabarQuizQuestionsText3::
-	text "POLIWAG evolves 3"
+	text "Adult-in-the-Room Kasich evolves 3"
 	line "times?"
 	done
 
 _CinnabarQuizQuestionsText4::
-	text "Are thunder moves"
-	line "effective against"
-	cont "ground element-"
-	cont "type #MON?"
+	text "Are DISRUPTOR"
+	line "moves effective"
+	cont "against GRIFT"
+	cont "pocket pols?"
 	done
-
 _CinnabarQuizQuestionsText5::
-	text "#MON of the"
+	text "pocket pols of the"
 	line "same kind and"
 	cont "level are not"
 	cont "identical?"
@@ -384,19 +378,17 @@ _CinnabarGymQuizIncorrectText::
 	prompt
 
 _MagazinesText::
-	text "#MON magazines!"
+	text "Polling magazines!"
 
-	para "#MON notebooks!"
+	para "Donor notebooks!"
 
-	para "#MON graphs!"
+	para "Election graphs!"
 	done
-
 _BillsHouseMonitorText::
 	text "TELEPORTER is"
 	line "displayed on the"
 	cont "PC monitor."
 	done
-
 _BillsHouseInitiatedText::
 	text "<PLAYER> initiated"
 	line "TELEPORTER's Cell"
@@ -405,41 +397,34 @@ _BillsHouseInitiatedText::
 
 _BillsHousePokemonListText1::
 	text "BILL's favorite"
-	line "#MON list!"
+	line "pocket pol list!"
 	prompt
 
 _BillsHousePokemonListText2::
-	text "Which #MON do"
+	text "Which pocket pol do"
 	line "you want to see?"
 	done
 
 _OakLabEmailText::
 	text "There's an e-mail"
 	line "message here!"
-
 	para "..."
-
 	para "Calling all"
-	line "#MON trainers!"
-
+	line "handlers!"
 	para "The elite trainers"
-	line "of #MON LEAGUE"
-	cont "are ready to take"
-	cont "on all comers!"
-
+	line "of ROTUNDA are"
+	cont "ready to take on"
+	cont "all comers!"
 	para "Bring your best"
-	line "#MON and see"
-	cont "how you rate as a"
-	cont "trainer!"
-
-	para "#MON LEAGUE HQ"
-	line "INDIGO PLATEAU"
-
-	para "PS: PROF.OAK,"
+	line "pocket pols and"
+	cont "see how you rate"
+	cont "as a trainer!"
+	para "ROTUNDA HQ INDIGO"
+	line "PLATEAU"
+	para "PS: Roger Rock,"
 	line "please visit us!"
-	cont "..."
+	para "..."
 	done
-
 _GameCornerCoinCaseText::
 	text "A COIN CASE is"
 	line "required!"
@@ -470,21 +455,16 @@ _JustAMomentText::
 	done
 
 TMNotebookText::
-	text "It's a pamphlet"
-	line "on TMs."
-
+	text "It's a pamphlet on"
+	line "TMs."
 	para "..."
-
 	para "There are 50 TMs"
 	line "in all."
-
 	para "There are also 5"
 	line "HMs that can be"
 	cont "used repeatedly."
-
 	para "SILPH CO.@"
 	text_end
-
 _TurnPageText::
 	text "Turn the page?"
 	done
@@ -493,68 +473,53 @@ _ViridianSchoolNotebookText5::
 	text "GIRL: Hey! Don't"
 	line "look at my notes!@"
 	text_end
-
 _ViridianSchoolNotebookText1::
 	text "Looked at the"
 	line "notebook!"
-
 	para "First page..."
-
-	para "# BALLs are"
-	line "used to catch"
-	cont "#MON."
-
-	para "Up to 6 #MON"
-	line "can be carried."
-
+	para "Campaign Donations"
+	line "are used to catch"
+	cont "pocket pols."
+	para "Up to 6 pocket"
+	line "pols can be"
+	cont "carried."
 	para "People who raise"
-	line "and make #MON"
+	line "and make proxy"
 	cont "fight are called"
-	cont "#MON trainers."
+	cont "handlers."
 	prompt
-
 _ViridianSchoolNotebookText2::
 	text "Second page..."
-
-	para "A healthy #MON"
-	line "may be hard to"
-	cont "catch, so weaken"
-	cont "it first!"
-
+	para "A healthy pocket"
+	line "pols may be hard"
+	cont "to catch, so"
+	cont "weaken it first!"
 	para "Poison, burns and"
 	line "other damage are"
 	cont "effective!"
 	prompt
-
 _ViridianSchoolNotebookText3::
 	text "Third page..."
-
-	para "#MON trainers"
-	line "seek others to"
-	cont "engage in #MON"
-	cont "fights."
-
+	para "handlers seek"
+	line "others to engage"
+	cont "in proxy fights."
 	para "Battles are"
 	line "constantly fought"
-	cont "at #MON GYMs."
+	cont "at CREDENTIAL"
+	cont "HALLs."
 	prompt
-
 _ViridianSchoolNotebookText4::
 	text "Fourth page..."
-
 	para "The goal for"
-	line "#MON trainers"
-	cont "is to beat the "
-	cont "top 8 #MON"
-	cont "GYM LEADERs."
-
+	line "handlers is to"
+	cont "beat the top 8"
+	cont "CREDENTIAL HALL"
+	cont "LEADERs."
 	para "Do so to earn the"
 	line "right to face..."
-
-	para "The ELITE FOUR of"
-	line "#MON LEAGUE!"
+	para "The Institutional"
+	line "Four of ROTUNDA!"
 	prompt
-
 _EnemiesOnEverySideText::
 	text "Enemies on every"
 	line "side!"
@@ -571,7 +536,7 @@ _FightingDojoText::
 
 _IndigoPlateauHQText::
 	text "INDIGO PLATEAU"
-	line "#MON LEAGUE HQ"
+	line "ROTUNDA HQ"
 	done
 
 _RedBedroomSNESText::
@@ -584,26 +549,24 @@ _RedBedroomSNESText::
 _Route15UpstairsBinocularsText::
 	text "Looked into the"
 	line "binoculars..."
-
 	para "A large, shining"
 	line "bird is flying"
 	cont "toward the sea."
 	done
-
 _AerodactylFossilText::
-	text "AERODACTYL Fossil"
+	text "Camelot RFK Fossil"
 	line "A primitive and"
-	cont "rare #MON."
+	cont "rare pocket pols."
 	done
 
 _KabutopsFossilText::
-	text "KABUTOPS Fossil"
+	text "Flagpole Alito Fossil"
 	line "A primitive and"
-	cont "rare #MON."
+	cont "rare pocket pols."
 	done
 
 _LinkCableHelpText1::
-	text "TRAINER TIPS"
+	text "FIELD NOTES"
 
 	para "Using a Game Link"
 	line "Cable"
@@ -621,7 +584,7 @@ _LinkCableInfoText1::
 	cont "GAME BOY, talk to"
 	cont "the attendant on"
 	cont "the right in any"
-	cont "#MON CENTER."
+	cont "CONWAY COMMUNICATIONS."
 	prompt
 
 _LinkCableInfoText2::
@@ -633,84 +596,70 @@ _LinkCableInfoText2::
 _LinkCableInfoText3::
 	text "TRADE CENTER is"
 	line "used for trading"
-	cont "#MON."
+	cont "pocket pols."
 	prompt
 
 _ViridianSchoolBlackboardText1::
 	text "The blackboard"
-	line "describes #MON"
-	cont "STATUS changes"
-	cont "during battles."
+	line "describes pocket"
+	cont "pols STATUS"
+	cont "changes during"
+	cont "battles."
 	prompt
-
 _ViridianSchoolBlackboardText2::
 	text "Which heading do"
 	line "you want to read?"
 	done
-
 _ViridianBlackboardSleepText::
-	text "A #MON can't"
+	text "A pocket pol can't"
 	line "attack if it's"
 	cont "asleep!"
-
-	para "#MON will stay"
-	line "asleep even after"
-	cont "battles."
-
+	para "pocket pols will"
+	line "stay asleep even"
+	cont "after battles."
 	para "Use AWAKENING to"
 	line "wake them up!"
 	prompt
-
 _ViridianBlackboardPoisonText::
 	text "When poisoned, a"
-	line "#MON's health"
-	cont "steadily drops."
-
+	line "pocket pol's"
+	cont "health steadily"
+	cont "drops."
 	para "Poison lingers"
 	line "after battles."
-
-	para "Use an ANTIDOTE"
-	line "to cure poison!"
+	para "Use an ANTIDOTE to"
+	line "cure poison!"
 	prompt
-
 _ViridianBlackboardPrlzText::
 	text "Paralysis could"
-	line "make #MON"
+	line "make pocket pols"
 	cont "moves misfire!"
-
 	para "Paralysis remains"
 	line "after battles."
-
 	para "Use PARLYZ HEAL"
 	line "for treatment!"
 	prompt
-
 _ViridianBlackboardBurnText::
 	text "A burn reduces"
 	line "power and speed."
 	cont "It also causes"
 	cont "ongoing damage."
-
-	para "Burns remain"
-	line "after battles."
-
+	para "Burns remain after"
+	line "battles."
 	para "Use BURN HEAL to"
 	line "cure a burn!"
 	prompt
-
 _ViridianBlackboardFrozenText::
 	text "If frozen, a"
-	line "#MON becomes"
+	line "pocket pol becomes"
 	cont "totally immobile!"
-
 	para "It stays frozen"
 	line "even after the"
 	cont "battle ends."
-
 	para "Use ICE HEAL to"
-	line "thaw out #MON!"
+	line "thaw out pocket"
+	cont "pols!"
 	prompt
-
 _VermilionGymTrashText::
 	text "Nope, there's"
 	line "only trash here."
@@ -756,11 +705,10 @@ _FoundHiddenItemText::
 	text_end
 
 _HiddenItemBagFullText::
-	text "But, <PLAYER> has"
-	line "no more room for"
-	cont "other items!"
+	text "No room for that"
+	line "tucked-away item"
+	cont "either."
 	done
-
 _FoundHiddenCoinsText::
 	text "<PLAYER> found"
 	line "@"
@@ -784,43 +732,37 @@ _DroppedHiddenCoinsText::
 _IndigoPlateauStatuesText1::
 	text "INDIGO PLATEAU"
 	prompt
-
 _IndigoPlateauStatuesText2::
 	text "The ultimate goal"
-	line "of trainers!"
-	cont "#MON LEAGUE HQ"
+	line "of handlers!"
+	cont "ROTUNDA HQ"
 	done
-
 _IndigoPlateauStatuesText3::
 	text "The highest"
-	line "#MON authority"
-	cont "#MON LEAGUE HQ"
+	line "campaign court"
+	cont "ROTUNDA HQ"
 	done
-
 _PokemonBooksText::
 	text "Crammed full of"
-	line "#MON books!"
+	line "campaign memoirs!"
 	done
-
 _DiglettSculptureText::
 	text "It's a sculpture"
-	line "of DIGLETT."
+	line "of Little Richard"
+	cont "Nixon."
 	done
-
 _ElevatorText::
 	text "This is an"
 	line "elevator."
 	done
 
 _TownMapText::
-	text "A TOWN MAP.@"
+	text "A DISTRICT MAP.@"
 	text_end
-
 _PokemonStuffText::
 	text "Wow! Tons of"
-	line "#MON stuff!"
+	line "campaign junk!"
 	done
-
 _OutOfSafariBallsText::
 	text "PA: Ding-dong!"
 
@@ -885,7 +827,7 @@ _PlayerMonFaintedText::
 	prompt
 
 _UseNextMonText::
-	text "Use next #MON?"
+	text "Use next pocket pols?"
 	done
 
 _Rival1WinText::
@@ -895,7 +837,7 @@ _Rival1WinText::
 
 _PlayerBlackedOutText2::
 	text "<PLAYER> is out of"
-	line "useable #MON!"
+	line "useable pocket pols!"
 
 	para "<PLAYER> blacked"
 	line "out!"
@@ -917,7 +859,7 @@ _TrainerAboutToUseText::
 	text "!"
 
 	para "Will <PLAYER>"
-	line "change #MON?"
+	line "change pocket pols?"
 	done
 
 _TrainerSentOutText::
@@ -929,10 +871,9 @@ _TrainerSentOutText::
 	done
 
 _NoWillText::
-	text "There's no will"
-	line "to fight!"
+	text "Campaign in"
+	line "trouble!"
 	prompt
-
 _CantEscapeText::
 	text "Can't escape!"
 	prompt
@@ -1211,10 +1152,9 @@ _GainedText::
 	text_end
 
 _WithExpAllText::
-	text "with EXP.ALL,"
+	text "with PARTY WHIP,"
 	cont "@"
 	text_end
-
 _BoostedText::
 	text "a boosted"
 	cont "@"
@@ -1222,9 +1162,8 @@ _BoostedText::
 
 _ExpPointsText::
 	text_decimal wExpAmountGained, 2, 4
-	text " EXP. Points!"
+	text " followers!"
 	prompt
-
 _GrewLevelText::
 	text_ram wNameBuffer
 	text " grew"
@@ -1358,26 +1297,26 @@ _WhichFloorText::
 	done
 
 _PartyMenuNormalText::
-	text "Choose a #MON."
+	text "Choose a pocket pol."
 	done
 
 _PartyMenuItemUseText::
 	text "Use item on which"
-	line "#MON?"
+	line "pocket pols?"
 	done
 
 _PartyMenuBattleText::
 	text "Bring out which"
-	line "#MON?"
+	line "pocket pols?"
 	done
 
 _PartyMenuUseTMText::
 	text "Use TM on which"
-	line "#MON?"
+	line "pocket pols?"
 	done
 
 _PartyMenuSwapMonText::
-	text "Move #MON"
+	text "Move pocket pols"
 	line "where?"
 	done
 
@@ -1448,18 +1387,16 @@ _AccessedBillsPCText::
 	text "Accessed BILL's"
 	line "PC."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Accessed pocket"
+	line "pol archive."
 	prompt
-
 _AccessedSomeonesPCText::
-	text "Accessed someone's"
+	text "Accessed archive"
 	line "PC."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Accessed pocket"
+	line "pol archive."
 	prompt
-
 _AccessedMyPCText::
 	text "Accessed my PC."
 
@@ -1538,13 +1475,12 @@ _TossHowManyText::
 	done
 
 _AccessedHoFPCText::
-	text "Accessed #MON"
-	line "LEAGUE's site."
+	text "Accessed"
+	line "ROTUNDA site."
 
-	para "Accessed the HALL"
-	line "OF FAME List."
+	para "Accessed the"
+	line "Hall of Fame."
 	prompt
-
 _SwitchOnText::
 	text "Switch on!"
 	prompt
@@ -1554,10 +1490,9 @@ _WhatText::
 	done
 
 _DepositWhichMonText::
-	text "Deposit which"
-	line "#MON?"
+	text "Archive which"
+	line "pocket pol?"
 	done
-
 _MonWasStoredText::
 	text_ram wStringBuffer
 	text " was"
@@ -1567,15 +1502,15 @@ _MonWasStoredText::
 	prompt
 
 _CantDepositLastMonText::
-	text "You can't deposit"
-	line "the last #MON!"
+	text "You can't archive"
+	line "your last pocket"
+	cont "pol!"
 	prompt
-
 _BoxFullText::
-	text "Oops! This Box is"
-	line "full of #MON."
+	text "Oops! This box is"
+	line "full of pocket"
+	cont "pols."
 	prompt
-
 _MonIsTakenOutText::
 	text_ram wStringBuffer
 	text " is"
@@ -1587,22 +1522,21 @@ _MonIsTakenOutText::
 
 _NoMonText::
 	text "What? There are"
-	line "no #MON here!"
+	line "no pocket pols"
+	cont "here!"
 	prompt
-
 _CantTakeMonText::
 	text "You can't take"
-	line "any more #MON."
+	line "any more pocket"
+	cont "pols."
 
-	para "Deposit #MON"
+	para "Archive some"
 	line "first."
 	prompt
-
 _ReleaseWhichMonText::
 	text "Release which"
-	line "#MON?"
+	line "pocket pol?"
 	done
-
 _OnceReleasedText::
 	text "Once released,"
 	line "@"
@@ -1661,23 +1595,21 @@ _OhFineThenText::
 	text_end
 
 _GetDexRatedText::
-	text "Want to get your"
-	line "#DEX rated?"
+	text "Want your"
+	line "Rolodex rated?"
 	done
-
 _ClosedOaksPCText::
 	text "Closed link to"
-	line "PROF.OAK's PC.@"
+	line "ROCK's PC.@"
 	text_end
-
 _AccessedOaksPCText::
-	text "Accessed PROF."
-	line "OAK's PC."
+	text "Accessed"
+	line "ROGER ROCK's"
+	cont "PC."
 
-	para "Accessed #DEX"
+	para "Accessed Rolodex"
 	line "Rating System."
 	prompt
-
 _WhereWouldYouLikeText::
 	text "Where would you"
 	line "like to go?"
@@ -1694,64 +1626,114 @@ _LinkCanceledText::
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "The PC buzzes."
+	line "It was not on."
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "UNKNOWN USER:"
+	line "Kid, stop"
+	cont "staring like"
+	cont "it owes you rent."
+
+	para "I am on the"
+	line "lawn. Not"
+	cont "metaphorically."
+	cont "Legally."
+
+	para "Name's Roger"
+	line "Rock. The court"
+	cont "calls this house"
+	cont "arrest."
+
+	para "I call it"
+	line "remote operations."
 	prompt
-
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@"
-	text_end
+	text "Pocket pols"
+	line "are tiny"
+	cont "candidates"
+	cont "with donor"
+	cont "needs."
 
+	para "And terrible"
+	line "survival"
+	cont "instincts."
+
+	para "They shake"
+	line "hands."
+	cont "They start"
+	cont "fires."
+
+	para "They call both"
+	line "things"
+	cont "outreach.@"
+	text_end
 _OakSpeechText2B::
 	text_start
 
-	para "For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	para "Your job is"
+	line "not to save"
+	cont "them."
 
-	para "Myself..."
+	para "Your job is to"
+	line "see them,"
+	cont "pocket them,"
+	cont "and fill the"
+	cont "Rolodex."
 
-	para "I study #MON"
-	line "as a profession."
+	para "The Rolodex"
+	line "keeps names,"
+	cont "habits,"
+	cont "weaknesses,"
+	cont "and who looked"
+	cont "nervous on"
+	cont "boats."
 	prompt
-
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "First, what name"
+	line "goes on the"
+	cont "file?"
 	prompt
-
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "This is the"
+	line "Prescott kid."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "He was born"
+	line "ahead of you and"
+	cont "calls it skill."
+
+	para "...What's his"
+	line "name again?"
 	prompt
-
 _OakSpeechText3::
-	text "<PLAYER>!"
+	text "First steps:"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "When this file"
+	line "closes, leave"
+	cont "your room."
+	cont "Leave the house."
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "Front lawn."
+	line "No shortcuts."
+
+	para "My bracelet gets"
+	line "poetic about"
+	cont "property lines."
+
+	para "Try the road"
+	line "first and I"
+	cont "start yelling."
+
+	para "Then take a"
+	line "donation kit"
+	cont "from my war room."
+
+	para "After that,"
+	line "every errand is"
+	cont "field research."
+
+	para "Every form"
+	line "forgets my name."
 	done
-
 _DoYouWantToNicknameText::
 	text "Do you want to"
 	line "give a nickname"

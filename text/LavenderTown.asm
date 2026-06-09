@@ -20,45 +20,33 @@ _LavenderTownLittleGirlHaHaGuessNotText::
 _LavenderTownCooltrainerMText::
 	text "This town is known"
 	line "as the grave site"
-	cont "of #MON."
+	cont "of pocket pols."
 
 	para "Memorial services"
 	line "are held in"
-	cont "#MON TOWER."
+	cont "MEMORIAL DISTRICT."
 	done
 
 _LavenderTownSuperNerdText::
 	text "GHOSTs appeared"
-	line "in #MON TOWER."
+	line "in MEMORIAL DISTRICT."
 
 	para "I think they're"
 	line "the spirits of"
-	cont "#MON that the"
-	cont "ROCKETs killed."
+	cont "pocket pols that the"
+	cont "AeroPACs killed."
 	done
 
 _LavenderTownSignText::
-	text "LAVENDER TOWN"
-	line "The Noble Purple"
-	cont "Town"
+	text "MEMORIAL DISTRICT"
 	done
-
 _LavenderTownSilphScopeSignText::
-	text "New SILPH SCOPE!"
-
-	para "Make the Invisible"
-	line "Plain to See!"
-
-	para "SILPH CO."
+	text "FOIA SCOPE"
 	done
-
 _LavenderTownPokemonHouseSignText::
 	text "LAVENDER VOLUNTEER"
-	line "#MON HOUSE"
+	line "pocket pols HOUSE"
 	done
-
 _LavenderTownPokemonTowerSignText::
-	text "May the Souls of"
-	line "#MON Rest Easy"
-	cont "#MON TOWER"
+	text "MEMORIAL DISTRICT"
 	done

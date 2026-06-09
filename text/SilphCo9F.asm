@@ -14,49 +14,48 @@ SilphCo9FNurseThankYouText::
 	done
 
 _SilphCo9FRocket1BattleText::
-	text "Your #MON seem"
+	text "Your pocket pols seem"
 	line "to adore you, kid!"
 	done
 
 _SilphCo9FRocket1EndBattleText::
-	text "Ghaaah!"
+	text "I just became a"
+	line "classified"
+	cont "expense."
 	prompt
-
 _SilphCo9FRocket1AfterBattleText::
-	text "If I had started"
-	line "as a trainer at"
-	cont "your age..."
+	text "The incident"
+	line "report will hate"
+	cont "your tone."
 	done
-
 _SilphCo9FScientistBattleText::
-	text "Your #MON have"
+	text "Your pocket pols have"
 	line "weak points! I"
 	cont "can nail them!"
 	done
 
 _SilphCo9FScientistEndBattleText::
-	text "You"
-	line "hammered me!"
+	text "The acquisition"
+	line "team saw that."
 	prompt
-
 _SilphCo9FScientistAfterBattleText::
-	text "Exploiting weak"
-	line "spots does work!"
-	cont "Think about"
-	cont "element types!"
+	text "Legal will decide"
+	line "whether that"
+	cont "happened."
 	done
-
 _SilphCo9FRocket2BattleText::
 	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	line "AeroPAC CREW!"
 	done
 
 _SilphCo9FRocket2EndBattleText::
-	text "Warg!"
-	line "Brothers, I lost!"
+	text "Warg. Brothers,"
+	line "update the risk"
+	cont "memo."
 	prompt
-
 _SilphCo9FRocket2AfterBattleText::
-	text "My brothers will"
-	line "avenge me!"
+	text "By lunch this"
+	line "becomes a"
+	cont "procurement"
+	cont "lesson."
 	done

@@ -1,35 +1,38 @@
 _Route9CooltrainerF1BattleText::
-	text "You have #MON"
+	text "You have pocket pols"
 	line "with you!"
 	cont "You're mine!"
 	done
 
 _Route9CooltrainerF1EndBattleText::
-	text "You"
-	line "deceived me!"
+	text "The parcel"
+	line "underperformed."
 	prompt
-
 _Route9CooltrainerF1AfterBattleText::
-	text "You need light to"
-	line "get through that"
-	cont "dark tunnel ahead."
+	text "You need light for"
+	line "the tunnel ahead."
+	cont "The county keeps"
+	cont "calling that a"
+	cont "personal"
+	cont "responsibility"
+	cont "issue."
 	done
-
 _Route9CooltrainerM1BattleText::
 	text "Who's that walking"
 	line "with those good"
-	cont "looking #MON?"
+	cont "looking pocket pols?"
 	done
 
 _Route9CooltrainerM1EndBattleText::
-	text "Out"
-	line "like a light!"
+	text "No comment without"
+	line "counsel."
 	prompt
-
 _Route9CooltrainerM1AfterBattleText::
-	text "Keep walking!"
+	text "Keep walking."
+	line "Stopping is how"
+	cont "this place gets"
+	cont "inside you."
 	done
-
 _Route9CooltrainerM2BattleText::
 	text "I'm taking ROCK"
 	line "TUNNEL to go to"
@@ -37,31 +40,32 @@ _Route9CooltrainerM2BattleText::
 	done
 
 _Route9CooltrainerM2EndBattleText::
-	text "Can't"
-	line "measure up!"
+	text "That was not in"
+	line "the risk memo."
 	prompt
-
 _Route9CooltrainerM2AfterBattleText::
-	text "Are you off to"
-	line "ROCK TUNNEL too?"
+	text "You headed into"
+	line "the tunnel too?"
+	cont "Then stop admiring"
+	cont "the entrance and"
+	cont "move."
 	done
-
 _Route9CooltrainerF2BattleText::
 	text "Don't you dare"
 	line "condescend me!"
 	done
 
 _Route9CooltrainerF2EndBattleText::
-	text "No!"
-	line "You're too much!"
+	text "There goes the"
+	line "redevelopment"
+	cont "pitch."
 	prompt
-
 _Route9CooltrainerF2AfterBattleText::
 	text "You're obviously"
-	line "talented! Good"
-	cont "luck to you!"
+	line "talented. That's"
+	cont "not the same as"
+	cont "prepared."
 	done
-
 _Route9Hiker1BattleText::
 	text "Bwahaha!"
 	line "Great! I was"
@@ -69,19 +73,14 @@ _Route9Hiker1BattleText::
 	done
 
 _Route9Hiker1EndBattleText::
-	text "Keep it"
-	line "coming, eh!"
-
-	para "Oh wait. I'm out"
-	line "of #MON!"
+	text "The parcel"
+	line "underperformed."
 	prompt
-
 _Route9Hiker1AfterBattleText::
-	text "You sure had guts"
-	line "standing up to me"
-	cont "there, eh?"
+	text "You've got nerve,"
+	line "kid. Nerve is most"
+	cont "of infrastructure."
 	done
-
 _Route9Hiker2BattleText::
 	text "Hahaha!"
 	line "Aren't you a"
@@ -89,69 +88,62 @@ _Route9Hiker2BattleText::
 	done
 
 _Route9Hiker2EndBattleText::
-	text "What's"
-	line "that?"
+	text "The floor plan"
+	line "lied."
 	prompt
-
 _Route9Hiker2AfterBattleText::
-	text "Hahaha! Kids"
-	line "should be tough!"
+	text "Kids should be"
+	line "tough. Nobody else"
+	cont "is fixing this"
+	cont "place."
 	done
-
 _Route9Youngster1BattleText::
 	text "I got up early"
 	line "every day to"
-	cont "raise my #MON"
+	cont "raise my pocket pols"
 	cont "from cocoons!"
 	done
 
 _Route9Youngster1EndBattleText::
-	text "WHAT?"
-
-	para "What a total"
-	line "waste of time!"
+	text "There goes the"
+	line "redevelopment"
+	cont "pitch."
 	prompt
-
 _Route9Youngster1AfterBattleText::
-	text "I have to collect"
-	line "more than bugs to"
-	cont "get stronger..."
+	text "I need meaner"
+	line "pocket pols. Cute"
+	cont "ones don't survive"
+	cont "the commute."
 	done
-
 _Route9Hiker3BattleText::
 	text "Hahahaha!"
 	line "Come on, dude!"
 	done
 
 _Route9Hiker3EndBattleText::
-	text "Hahahaha!"
-	line "You beat me fair!"
+	text "The parcel"
+	line "underperformed."
 	prompt
-
 _Route9Hiker3AfterBattleText::
-	text "Hahahaha!"
-	line "Us hearty guys"
-	cont "always laugh!"
+	text "We laugh because"
+	line "the lights won't."
 	done
-
 _Route9Youngster2BattleText::
 	text "Go, my super bug"
-	line "#MON!"
+	line "pocket pols!"
 	done
 
 _Route9Youngster2EndBattleText::
-	text "My"
-	line "bugs..."
+	text "The floor plan"
+	line "lied."
 	prompt
-
 _Route9Youngster2AfterBattleText::
 	text "If you don't like"
-	line "bug #MON, you"
-	cont "bug me!"
+	line "bug pocket pols,"
+	cont "this whole"
+	cont "corridor probably"
+	cont "hates you too."
 	done
-
 _Route9SignText::
-	text "ROUTE 9"
-	line "CERULEAN CITY-"
-	cont "ROCK TUNNEL"
+	text "BLACKOUT TUNNEL"
 	done

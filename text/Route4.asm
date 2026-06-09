@@ -1,35 +1,30 @@
 _Route4CooltrainerF1Text::
 	text "Ouch! I tripped"
 	line "over a rocky"
-	cont "#MON, GEODUDE!"
+	cont "pocket pols, County Kemp!"
 	done
 
 _Route4CooltrainerF2BattleText::
 	text "I came to get my"
-	line "mushroom #MON!"
+	line "mushroom pocket pols!"
 	done
 
 _Route4CooltrainerF2EndBattleText::
-	text "Oh! My cute"
-	line "mushroom #MON!"
+	text "I need to center"
+	line "my setback."
 	prompt
-
 _Route4CooltrainerF2AfterBattleText::
-	text "There might not"
-	line "be any more"
-	cont "mushrooms here."
-
-	para "I think I got"
-	line "them all."
+	text "There might not be"
+	line "any more mushrooms"
+	cont "left in here. I"
+	cont "think I turned the"
+	cont "whole cave into a"
+	cont "boutique shortage."
 	done
-
 _Route4MtMoonSignText::
-	text "MT.MOON"
-	line "Tunnel Entrance"
+	text "MT.MOON Tunnel"
+	line "Entrance"
 	done
-
 _Route4SignText::
-	text "ROUTE 4"
-	line "MT.MOON -"
-	cont "CERULEAN CITY"
+	text "MOUNT MONEY"
 	done

@@ -159,7 +159,7 @@ HandlePokedexListMenu:
 	ldh [hAutoBGTransferEnabled], a
 ; draw the horizontal line separating the seen and owned amounts from the menu
 	hlcoord 15, 8
-	ld a, '─'
+	ld a, 'â”€'
 	ld [hli], a
 	ld [hli], a
 	ld [hli], a
@@ -369,7 +369,7 @@ PokedexContentsText:
 	db "CONTENTS@"
 
 PokedexMenuItemsText:
-	db   "DATA"
+	db "DATA"
 	next "CRY"
 	next "AREA"
 	next "QUIT@"
@@ -476,7 +476,7 @@ ShowPokedexDataInternal:
 	call IndexToPokedex
 
 	hlcoord 2, 8
-	ld a, '№'
+	ld a, 'â„–'
 	ld [hli], a
 	ld a, '<DOT>'
 	ld [hli], a
@@ -518,14 +518,14 @@ ShowPokedexDataInternal:
 	hlcoord 12, 6
 	lb bc, 1, 2
 	call PrintNumber ; print feet (height)
-	ld a, '′'
+	ld a, 'â€²'
 	ld [hl], a
 	inc de
 	inc de ; de = address of inches (height)
 	hlcoord 15, 6
 	lb bc, LEADING_ZEROES | 1, 2
 	call PrintNumber ; print inches (height)
-	ld a, '″'
+	ld a, 'â€³'
 	ld [hl], a
 ; now print the weight (note that weight is stored in tenths of pounds internally)
 	inc de
@@ -590,7 +590,7 @@ ShowPokedexDataInternal:
 	ret
 
 HeightWeightText:
-	db   "HT  ?′??″"
+	db "HT  ?â€²??â€³"
 	next "WT   ???lb@"
 
 ; leftover from JPN Pokedex, where species have the suffix "Pokemon"
@@ -624,7 +624,7 @@ DrawTileLine:
 INCLUDE "data/pokemon/dex_entries.asm"
 
 PokedexToIndex:
-	; converts the Pokédex number at [wPokedexNum] to an index
+	; converts the PokÃ©dex number at [wPokedexNum] to an index
 	push bc
 	push hl
 	ld a, [wPokedexNum]
@@ -645,7 +645,7 @@ PokedexToIndex:
 	ret
 
 IndexToPokedex:
-	; converts the index number at [wPokedexNum] to a Pokédex number
+	; converts the index number at [wPokedexNum] to a PokÃ©dex number
 	push bc
 	push hl
 	ld a, [wPokedexNum]

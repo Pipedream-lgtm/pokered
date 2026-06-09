@@ -54,140 +54,121 @@ _AlreadyKnowsText::
 	prompt
 
 _ConnectCableText::
-	text "Okay, connect the"
-	line "cable like so!"
+	text "Okay. Line it"
+	line "up. Let's make"
+	cont "the swap."
 	prompt
-
 _TradedForText::
-	text "<PLAYER> traded"
-	line "@"
-	text_ram wInGameTradeGiveMonName
-	text " for"
-	cont "@"
-	text_ram wInGameTradeReceiveMonName
-	text "!@"
+	text "<PLAYER> made"
+	line "the trade!@"
 	text_end
-
 _WannaTrade1Text::
-	text "I'm looking for"
-	line "@"
-	text_ram wInGameTradeGiveMonName
-	text "! Wanna"
+	text "I'm after one"
+	line "very specific"
+	cont "pocket pol."
 
-	para "trade one for"
-	line "@"
-	text_ram wInGameTradeReceiveMonName
-	text "? "
-	done
-
-_NoTrade1Text::
-	text "Awww!"
-	line "Oh well..."
-	done
-
-_WrongMon1Text::
-	text "What? That's not"
-	line "@"
-	text_ram wInGameTradeGiveMonName
-	text "!"
-
-	para "If you get one,"
-	line "come back here!"
-	done
-
-_Thanks1Text::
-	text "Hey thanks!"
-	done
-
-_AfterTrade1Text::
-	text "Isn't my old"
-	line "@"
-	text_ram wInGameTradeReceiveMonName
-	text " great?"
-	done
-
-_WannaTrade2Text::
-	text "Hello there! Do"
-	line "you want to trade"
-
-	para "your @"
+	para "Bring me @"
 	text_ram wInGameTradeGiveMonName
 	text_start
-	line "for @"
+	line "and I'll trade"
+	cont "you @"
+	text_ram wInGameTradeReceiveMonName
+	text "!"
+	done
+_NoTrade1Text::
+	text "Fine. Then we"
+	line "both keep our"
+	cont "little freaks."
+	done
+_WrongMon1Text::
+	text "That's not @"
+	text_ram wInGameTradeGiveMonName
+	text "."
+
+	para "Bring me the"
+	line "right one and"
+	cont "come back."
+	done
+_Thanks1Text::
+	text "Hey, thanks!"
+	done
+_AfterTrade1Text::
+	text "How's my old @"
+	text_ram wInGameTradeReceiveMonName
+	text "?"
+
+	para "Mine settled in"
+	line "faster than I"
+	cont "expected."
+	done
+_WannaTrade2Text::
+	text "Want to trade"
+	line "your @"
+	text_ram wInGameTradeGiveMonName
+	text_start
+
+	para "for my @"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 	done
-
 _NoTrade2Text::
 	text "Well, if you"
 	line "don't want to..."
 	done
-
 _WrongMon2Text::
-	text "Hmmm? This isn't"
+	text "Hmmm? That's not"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "."
 
 	para "Think of me when"
-	line "you get one."
+	line "you find one."
 	done
-
 _Thanks2Text::
 	text "Thanks!"
 	done
-
 _AfterTrade2Text::
 	text "The @"
 	text_ram wInGameTradeGiveMonName
 	text " you"
-	line "traded to me"
+	line "traded me"
 
-	para "went and evolved!"
+	para "went and"
+	line "evolved."
 	done
-
 _WannaTrade3Text::
-	text "Hi! Do you have"
-	line "@"
+	text "Do you have @"
 	text_ram wInGameTradeGiveMonName
 	text "?"
 
-	para "Want to trade it"
-	line "for @"
+	para "Trade it for @"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 	done
-
 _NoTrade3Text::
 	text "That's too bad."
 	done
-
 _WrongMon3Text::
-	text "...This is no"
+	text "No. That's not"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "."
 
-	para "If you get one,"
-	line "trade it with me!"
+	para "Bring the right"
+	line "one and we'll"
+	cont "deal."
 	done
-
 _Thanks3Text::
-	text "Thanks pal!"
+	text "Thanks, pal."
 	done
-
 _AfterTrade3Text::
-	text "How is my old"
-	line "@"
+	text "How's my old @"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 
-	para "My @"
-	text_ram wInGameTradeGiveMonName
-	text " is"
-	line "doing great!"
+	para "Mine's doing"
+	line "great so far."
 	done
-
 _NothingToCutText::
 	text "There isn't"
 	line "anything to CUT!"

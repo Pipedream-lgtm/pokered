@@ -1,43 +1,37 @@
 _AgathaBeforeBattleText::
-	text "I am AGATHA of"
-	line "the ELITE FOUR!"
+	text "So Roger Rock's"
+	line "runner made it"
+	cont "this far. Cute."
 
-	para "OAK's taken a lot"
-	line "of interest in"
-	cont "you, child!"
+	para "I'm the old part"
+	line "of the regime,"
+	cont "child."
 
-	para "That old duff was"
-	line "once tough and"
-	cont "handsome! That"
-	cont "was decades ago!"
+	para "Memory,"
+	line "punishment,"
+	cont "etiquette, and"
+	cont "all the cruelty"
+	cont "people call"
+	cont "standards."
 
-	para "Now he just wants"
-	line "to fiddle with"
-	cont "his #DEX! He's"
-	cont "wrong! #MON"
-	cont "are for fighting!"
-
-	para "<PLAYER>! I'll show"
-	line "you how a real"
-	cont "trainer fights!"
+	para "Come here and"
+	line "let me disappoint"
+	cont "your mentor."
 	done
-
 _AgathaEndBattleText::
-	text "Oh ho!"
-	line "You're something"
-	cont "special, child!"
+	text "Oh ho. There you"
+	line "are."
 	prompt
-
 _AgathaAfterBattleText::
-	text "You win! I see"
-	line "what the old duff"
-	cont "sees in you now!"
-
-	para "I have nothing"
-	line "else to say! Run"
-	cont "along now, child!"
+	text "You got the room."
+	line "I see why Roger"
+	cont "Rock keeps"
+	cont "meddling in your"
+	cont "future. Go on,"
+	cont "child. Somebody"
+	cont "even emptier is"
+	cont "upstairs."
 	done
-
 _AgathasRoomAgathaDontRunAwayText::
 	text "Someone's voice:"
 	line "Don't run away!"

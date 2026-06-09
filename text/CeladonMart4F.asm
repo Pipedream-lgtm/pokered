@@ -9,18 +9,16 @@ _CeladonMart4FYoungsterText::
 	line "useful."
 
 	para "You can run from"
-	line "wild #MON by"
+	line "wild pocket pols by"
 	cont "distracting them"
 	cont "with a # DOLL!"
 	done
 
 _CeladonMart4FCurrentFloorSignText::
 	text "Express yourself"
-	line "with gifts!"
-
-	para "4F: WISEMAN GIFTS"
-
-	para "Evolution Special!"
-	line "Element STONEs on"
+	line "with gifts! 4F:"
+	cont "WISEMAN GIFTS"
+	cont "Evolution Special!"
+	cont "Element STONEs on"
 	cont "sale now!"
 	done

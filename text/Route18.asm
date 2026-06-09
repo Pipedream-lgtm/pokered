@@ -1,18 +1,20 @@
 _Route18CooltrainerM1BattleText::
 	text "I always check"
 	line "every grassy area"
-	cont "for new #MON."
+	cont "for new pocket pols."
 	done
 
 _Route18CooltrainerM1EndBattleText::
-	text "Tch!"
+	text "There goes the"
+	line "lookout schedule."
 	prompt
-
 _Route18CooltrainerM1AfterBattleText::
-	text "I wish I had a"
-	line "BIKE!"
+	text "No e-scooter? Then"
+	line "enjoy walking"
+	cont "through other"
+	cont "people's"
+	cont "aftermath."
 	done
-
 _Route18CooltrainerM2BattleText::
 	text "Kurukkoo!"
 	line "How do you like"
@@ -20,39 +22,39 @@ _Route18CooltrainerM2BattleText::
 	done
 
 _Route18CooltrainerM2EndBattleText::
-	text "I"
-	line "had to bug you!"
+	text "The donor table"
+	line "moved on."
 	prompt
-
 _Route18CooltrainerM2AfterBattleText::
-	text "I also collect sea"
-	line "#MON on"
-	cont "weekends!"
+	text "I watch the sea"
+	line "routes on"
+	cont "weekends. That's"
+	cont "where discretion"
+	cont "turns offshore."
 	done
-
 _Route18CooltrainerM3BattleText::
 	text "This is my turf!"
 	line "Get out of here!"
 	done
 
 _Route18CooltrainerM3EndBattleText::
-	text "Darn!"
+	text "Fine. Take the"
+	line "off-ramp."
 	prompt
-
 _Route18CooltrainerM3AfterBattleText::
-	text "This is my fave"
-	line "#MON hunting"
-	cont "area!"
+	text "Convention Marsh"
+	line "is ahead. Then the"
+	cont "preserve. After"
+	cont "that, everybody"
+	cont "starts speaking in"
+	cont "eligibility"
+	cont "language."
 	done
-
 _Route18SignText::
-	text "ROUTE 18"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	text "ESCORT LANE"
 	done
-
 _Route18CyclingRoadSignText::
-	text "CYCLING ROAD"
-	line "No pedestrians"
+	text "CYCLING ROAD No"
+	line "pedestrians"
 	cont "permitted!"
 	done

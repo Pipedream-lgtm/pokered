@@ -1,7 +1,10 @@
 _PowerPlantVoltorbBattleText::
-	text "Bzzzt!"
+	text "The fake item"
+	line "snaps with"
+	cont "substation static."
 	done
-
 _PowerPlantZapdosBattleText::
-	text "Gyaoo!@"
+	text "A storm bird"
+	line "screams over the"
+	cont "substation."
 	text_end

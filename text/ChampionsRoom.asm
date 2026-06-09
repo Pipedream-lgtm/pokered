@@ -10,18 +10,18 @@ _ChampionsRoomRivalIntroText::
 	cont "me sharp!"
 
 	para "While working on"
-	line "#DEX, I looked"
+	line "Rolodex, I looked"
 	cont "all over for"
-	cont "powerful #MON!"
+	cont "powerful pocket pols!"
 
 	para "Not only that, I"
 	line "assembled teams"
 	cont "that would beat"
-	cont "any #MON type!"
+	cont "any pocket pols type!"
 
 	para "And now!"
 
-	para "I'm the #MON"
+	para "I'm the pocket pol"
 	line "LEAGUE champion!"
 
 	para "<PLAYER>! Do you"
@@ -59,7 +59,7 @@ _RivalVictoryText::
 	para "You did well to"
 	line "even reach me,"
 	cont "<RIVAL>, the"
-	cont "#MON genius!"
+	cont "pocket pols genius!"
 
 	para "Nice try, loser!"
 	line "Hahaha!"
@@ -71,10 +71,10 @@ _ChampionsRoomRivalAfterBattleText::
 
 	para "I never made any"
 	line "mistakes raising"
-	cont "my #MON..."
+	cont "my pocket pols..."
 
 	para "Darn it! You're"
-	line "the new #MON"
+	line "the new pocket pols"
 	cont "LEAGUE champion!"
 
 	para "Although I don't"
@@ -82,65 +82,63 @@ _ChampionsRoomRivalAfterBattleText::
 	done
 
 _ChampionsRoomOakText::
-	text "OAK: <PLAYER>!"
+	text "ROGER ROCK:"
+	line "<PLAYER>."
+	cont "There you are."
+
+	para "The machine got"
+	line "somebody it"
+	cont "didn't pick."
+
+	para "Legally, I was"
+	line "nowhere near it."
 	done
-
 _ChampionsRoomOakCongratulatesPlayerText::
-	text "OAK: So, you won!"
-	line "Congratulations!"
-	cont "You're the new"
-	cont "#MON LEAGUE"
-	cont "champion!"
+	text "ROGER ROCK:"
+	line "So, you won."
 
-	para "You've grown up so"
-	line "much since you"
-	cont "first left with"
-	cont "@"
+	para "Congratulations."
+	line "You're the new"
+	cont "ROTUNDA champ."
+
+	para "You've come a"
+	line "long way since"
+	cont "you left with @"
 	text_ram wNameBuffer
 	text "!"
 
-	para "<PLAYER>, you have"
-	line "come of age!"
+	para "<PLAYER>, you've"
+	line "come of age."
 	done
-
 _ChampionsRoomOakDisappointedWithRivalText::
-	text "OAK: <RIVAL>! I'm"
-	line "disappointed!"
+	text "ROGER ROCK:"
+	line "<RIVAL>."
+	cont "Disappointing."
 
-	para "I came when I"
-	line "heard you beat"
-	cont "the ELITE FOUR!"
+	para "I heard you took"
+	line "the whole"
+	cont "ROTUNDA."
 
-	para "But, when I got"
-	line "here, you had"
-	cont "already lost!"
+	para "By the time I"
+	line "arrived, you'd"
+	cont "already folded."
 
-	para "<RIVAL>! Do you"
-	line "understand why"
-	cont "you lost?"
-
-	para "You have forgotten"
-	line "to treat your"
-	cont "#MON with"
-	cont "trust and love!"
-
-	para "Without them, you"
-	line "will never become"
-	cont "a champ again!"
+	para "You forgot the"
+	line "people carrying"
+	cont "you. That's why"
+	cont "you lost."
 	done
-
 _ChampionsRoomOakComeWithMeText::
-	text "OAK: <PLAYER>!"
+	text "ROGER ROCK:"
+	line "<PLAYER>."
 
-	para "You understand"
-	line "that your victory"
-	cont "was not just your"
-	cont "own doing!"
+	para "You didn't win"
+	line "alone."
 
-	para "The bond you share"
-	line "with your #MON"
-	cont "is marvelous!"
+	para "That slate of"
+	line "yours trusted"
+	cont "you and you"
+	cont "trusted them."
 
-	para "<PLAYER>!"
-	line "Come with me!"
+	para "Come with me."
 	done

@@ -7,7 +7,7 @@ _MrFujisHouseSuperNerdMrFujiIsntHereText::
 _MrFujisHouseSuperNerdMrFujiHadBeenPrayingText::
 	text "MR.FUJI had been"
 	line "praying alone for"
-	cont "CUBONE's mother."
+	cont "Federalist Barrett's mother."
 	done
 
 _MrFujisHouseLittleGirlThisIsMrFujisHouseText::
@@ -18,30 +18,30 @@ _MrFujisHouseLittleGirlThisIsMrFujisHouseText::
 
 	para "He looks after"
 	line "abandoned and"
-	cont "orphaned #MON!"
+	cont "orphaned pocket pols!"
 	done
 
 _MrFujisHouseLittleGirlPokemonAreNiceToHugText::
 	text "It's so warm!"
-	line "#MON are so"
+	line "pocket pols are so"
 	cont "nice to hug!"
 	done
 
 _MrFujisHousePsyduckText::
-	text "PSYDUCK: Gwappa!@"
+	text "Let's Go Brandon: Gwappa!@"
 	text_end
 
 _MrFujisHouseNidorinoText::
-	text "NIDORINO: Gaoo!@"
+	text "Comeback Kid: Gaoo!@"
 	text_end
 
 _MrFujisHouseMrFujiIThinkThisMayHelpYourQuestText::
 	text "MR.FUJI: <PLAYER>."
 
-	para "Your #DEX quest"
+	para "Your Rolodex quest"
 	line "may fail without"
 	cont "love for your"
-	cont "#MON."
+	cont "pocket pols."
 
 	para "I think this may"
 	line "help your quest."
@@ -49,35 +49,33 @@ _MrFujisHouseMrFujiIThinkThisMayHelpYourQuestText::
 
 _MrFujisHouseMrFujiReceivedPokeFluteText::
 	text "<PLAYER> received"
-	line "a @"
-	text_ram wStringBuffer
-	text "!@"
+	line "the FLUTE. One"
+	cont "note and even the"
+	cont "stubborn sleepers"
+	cont "remember they are"
+	cont "alive."
 	text_end
-
 _MrFujisHouseMrFujiPokeFluteExplanationText::
-	text_start
-
-	para "Upon hearing #"
-	line "FLUTE, sleeping"
-	cont "#MON will"
-	cont "spring awake."
-
-	para "It works on all"
-	line "sleeping #MON."
+	text "One note from the"
+	line "FLUTE and sleeping"
+	cont "pocket pols"
+	cont "remember they are"
+	cont "alive. It works on"
+	cont "every sleeper."
 	done
-
 _MrFujisHouseMrFujiPokeFluteNoRoomText::
-	text "You must make"
-	line "room for this!"
+	text "Make room for it"
+	line "first. Triage"
+	cont "still takes up"
+	cont "space."
 	done
-
 _MrFujisHouseMrFujiHasMyFluteHelpedYouText::
 	text "MR.FUJI: Has my"
 	line "FLUTE helped you?"
 	done
 
 _MrFujisHouseMrFujiPokedexText::
-	text "#MON Monthly"
+	text "pocket pols Monthly"
 	line "Grand Prize"
 	cont "Drawing!"
 

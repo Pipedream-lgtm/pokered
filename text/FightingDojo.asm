@@ -1,17 +1,13 @@
 _FightingDojoKarateMasterText::
 	text "Grunt!"
-
 	para "I am the KARATE"
-	line "MASTER! I am the"
-	cont "LEADER here!"
-
-	para "You wish to"
-	line "challenge us?"
-	cont "Expect no mercy!"
-
+	line "MASTER."
+	para "I chair this room."
+	para "You want a"
+	line "hearing? Expect no"
+	cont "mercy!"
 	para "Fwaaa!"
 	done
-
 _FightingDojoKarateMasterDefeatedText::
 	text "Hwa!"
 	line "Arrgh! Beaten!"
@@ -28,7 +24,7 @@ _FightingDojoKarateMasterIWillGiveYouAPokemonText::
 
 	para "In return, I will"
 	line "give you a prized"
-	cont "fighting #MON!"
+	cont "fighting pocket pols!"
 
 	para "Choose whichever"
 	line "one you like!"
@@ -47,33 +43,28 @@ _FightingDojoBlackbelt1BattleText::
 	done
 
 _FightingDojoBlackbelt1EndBattleText::
-	text "I give"
-	line "up!"
+	text "Fine. Pull the"
+	line "donor robe."
 	prompt
-
 _FightingDojoBlackbelt1AfterBattleText::
-	text "You wait 'til you"
-	line "see our Master!"
-
-	para "I'm a small fry"
-	line "compared to him!"
+	text "Private rooms"
+	line "exist to make"
+	cont "losses negotiable."
 	done
-
 _FightingDojoBlackbelt2BattleText::
 	text "I hear you're"
 	line "good! Show me!"
 	done
 
 _FightingDojoBlackbelt2EndBattleText::
-	text "Judge!"
-	line "1 point!"
+	text "The room got less"
+	line "private."
 	prompt
-
 _FightingDojoBlackbelt2AfterBattleText::
-	text "Our Master is a"
-	line "pro fighter!"
+	text "Money hates"
+	line "embarrassment, but"
+	cont "it heals quickly."
 	done
-
 _FightingDojoBlackbelt3BattleText::
 	text "Nothing tough"
 	line "frightens me!"
@@ -83,16 +74,17 @@ _FightingDojoBlackbelt3BattleText::
 	done
 
 _FightingDojoBlackbelt3EndBattleText::
-	text "Yow!"
-	line "Stubbed fingers!"
+	text "My discretion"
+	line "package leaked."
 	prompt
-
 _FightingDojoBlackbelt3AfterBattleText::
 	text "The only thing"
-	line "that frightens us"
-	cont "is psychic power!"
+	line "that scares this"
+	cont "room is patriotic"
+	cont "panic with"
+	cont "billionaire"
+	cont "lighting."
 	done
-
 _FightingDojoBlackbelt4BattleText::
 	text "Hoohah!"
 
@@ -102,26 +94,24 @@ _FightingDojoBlackbelt4BattleText::
 	done
 
 _FightingDojoBlackbelt4EndBattleText::
-	text "Oof!"
-	line "I give up!"
+	text "Oof. The patron"
+	line "table folds."
 	prompt
-
 _FightingDojoBlackbelt4AfterBattleText::
-	text "The prime fighters"
-	line "across the land"
-	cont "train here."
+	text "Do not mistake"
+	line "access for"
+	cont "accountability."
 	done
-
 _FightingDojoHitmonleePokeBallText::
 	text "You want the"
 	line "hard kicking"
-	cont "HITMONLEE?"
+	cont "Spartacus Booker?"
 	done
 
 _FightingDojoHitmonchanPokeBallText::
 	text "You want the"
 	line "piston punching"
-	cont "HITMONCHAN?"
+	cont "Dissent Jackson?"
 	done
 
 _FightingDojoBetterNotGetGreedyText::

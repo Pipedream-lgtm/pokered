@@ -10,7 +10,7 @@ _ViridianNicknameHouseBaldingGuyText::
 
 _ViridianNicknameHouseLittleGirlText::
 	text "My Daddy loves"
-	line "#MON too."
+	line "pocket pols too."
 	done
 
 _ViridianNicknameHouseSpearowText::
@@ -18,6 +18,6 @@ _ViridianNicknameHouseSpearowText::
 	done
 
 _ViridianNicknameHouseSpearySignText::
-	text "SPEAROW"
-	line "Name: SPEARY"
+	text "Weekend Warrior"
+	line "Pete Name: SPEARY"
 	done

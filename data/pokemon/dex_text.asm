@@ -1,1509 +1,1290 @@
-_RhydonDexEntry::
-	text "Protected by an"
-	next "armor-like hide,"
-	next "it is capable of"
+﻿_RhydonDexEntry::
+	text "Precedent-Crusher"
+	next "Gorsuch"
+	next "Heavy charging"
 
-	page "living in molten"
-	next "lava of 3,600"
-	next "degrees"
+	page "doctrinal beast."
 	dex
 
 _KangaskhanDexEntry::
-	text "The infant rarely"
-	next "ventures out of"
-	next "its mother's"
+	text "Coach Walz"
+	next "Dad-coach warmth"
+	next "with the reflexes"
 
-	page "protective pouch"
-	next "until it is 3"
-	next "years old"
+	page "of a statehouse"
+	next "pro."
 	dex
 
 _NidoranMDexEntry::
-	text "Stiffens its ears"
-	next "to sense danger."
-	next "The larger its"
+	text "Arkansas Bill"
+	next "Male Nidoran"
+	next "corruption-charism"
 
-	page "horns, the more"
-	next "powerful its"
-	next "secreted venom"
+	page "a line."
 	dex
 
 _ClefairyDexEntry::
-	text "Its magical and"
-	next "cute appeal has"
-	next "many admirers."
+	text "Professor Warren"
+	next "Policy homework"
+	next "with a DNA kit"
 
-	page "It is rare and"
-	next "found only in"
-	next "certain areas"
+	page "taped to the"
+	next "cover."
 	dex
 
 _SpearowDexEntry::
-	text "Eats bugs in"
-	next "grassy areas. It"
-	next "has to flap its"
+	text "Weekend Warrior"
+	next "Pete"
+	next "Weekend bluster"
 
-	page "short wings at"
-	next "high speed to"
-	next "stay airborne"
+	page "hardens into a"
+	next "camera-ready war"
+	next "cry."
 	dex
 
 _VoltorbDexEntry::
-	text "Usually found in"
-	next "power plants."
-	next "Easily mistaken"
+	text "Open-Carry Lauren"
+	next "Explosive"
+	next "attention grenade."
 
-	page "for a # BALL,"
-	next "they have zapped"
-	next "many people"
+	page "Filed and indexed."
 	dex
 
 _NidokingDexEntry::
-	text "It uses its"
-	next "powerful tail in"
-	next "battle to smash,"
+	text "Foundation Bill"
+	next "Male Nidoran"
+	next "corruption-charism"
 
-	page "constrict, then"
-	next "break the prey's"
-	next "bones"
+	page "a line."
 	dex
 
 _SlowbroDexEntry::
-	text "The SHELLDER that"
-	next "is latched onto"
-	next "SLOWPOKE's tail"
+	text "Shutdown Schumer"
+	next "Donor-room weather"
+	next "vane with caucus"
 
-	page "is said to feed"
-	next "on the host's left"
-	next "over scraps"
+	page "keys."
 	dex
 
 _IvysaurDexEntry::
-	text "When the bulb on"
-	next "its back grows"
-	next "large, it appears"
+	text "Medium Marco"
+	next "Gets larger in the"
+	next "file without"
 
-	page "to lose the"
-	next "ability to stand"
-	next "on its hind legs"
+	page "getting heavier in"
+	next "the room."
 	dex
 
 _ExeggutorDexEntry::
-	text "Legend has it that"
-	next "on rare occasions,"
-	next "one of its heads"
+	text "Context Kamala"
+	next "Egg cluster of"
+	next "contexts resolving"
 
-	page "will drop off and"
-	next "continue on as an"
-	next "EXEGGCUTE"
+	page "into one"
+	next "meme-bearing form."
 	dex
 
 _LickitungDexEntry::
-	text "Its tongue can be"
-	next "extended like a"
-	next "chameleon's. It"
+	text "Club-Mayor Adams"
+	next "Nightclub swagger"
+	next "with city hall"
 
-	page "leaves a tingling"
-	next "sensation when it"
-	next "licks enemies"
+	page "stuck to its shoe."
 	dex
 
 _ExeggcuteDexEntry::
-	text "Often mistaken"
-	next "for eggs."
-	next "When disturbed,"
+	text "Coconut Kamala"
+	next "Egg cluster of"
+	next "contexts resolving"
 
-	page "they quickly"
-	next "gather and attack"
-	next "in swarms"
+	page "into one"
+	next "meme-bearing form."
 	dex
 
 _GrimerDexEntry::
-	text "Appears in filthy"
-	next "areas. Thrives by"
-	next "sucking up"
+	text "America's Mayor"
+	next "Goop slide from"
+	next "civic symbol to"
 
-	page "polluted sludge"
-	next "that is pumped"
-	next "out of factories"
+	page "dripping ruin."
 	dex
 
 _GengarDexEntry::
-	text "Under a full moon,"
-	next "this #MON"
-	next "likes to mimic"
+	text "Afterlife Cheney"
+	next "Ghost line fits"
+	next "hidden power"
 
-	page "the shadows of"
-	next "people and laugh"
-	next "at their fright"
+	page "operator"
+	next "perfectly."
 	dex
 
 _NidoranFDexEntry::
-	text "Although small,"
-	next "its venomous"
-	next "barbs render this"
+	text "First Lady Clinton"
+	next "Female Nidoran"
+	next "power line."
 
-	page "#MON dangerous."
-	next "The female has"
-	next "smaller horns"
+	page "Filed and indexed."
 	dex
 
 _NidoqueenDexEntry::
-	text "Its hard scales"
-	next "provide strong"
-	next "protection. It"
+	text "Concession Hillary"
+	next "Female Nidoran"
+	next "power line."
 
-	page "uses its hefty"
-	next "bulk to execute"
-	next "powerful moves"
+	page "Filed and indexed."
 	dex
 
 _CuboneDexEntry::
-	text "Because it never"
-	next "removes its skull"
-	next "helmet, no one"
+	text "Federalist Barrett"
+	next "Bare-bones jurist"
+	next "into fully armored"
 
-	page "has ever seen"
-	next "this #MON's"
-	next "real face"
+	page "culture-war form."
 	dex
 
 _RhyhornDexEntry::
-	text "Its massive bones"
-	next "are 1000 times"
-	next "harder than human"
+	text "Textualist Gorsuch"
+	next "Heavy charging"
+	next "doctrinal beast."
 
-	page "bones. It can"
-	next "easily knock a"
-	next "trailer flying"
+	page "Filed and indexed."
 	dex
 
 _LaprasDexEntry::
-	text "A #MON that"
-	next "has been over-"
-	next "hunted almost to"
+	text "Veto Gretch"
+	next "Roadwork steel in"
+	next "polite Midwestern"
 
-	page "extinction. It"
-	next "can ferry people"
-	next "across the water"
+	page "packaging."
 	dex
 
 _ArcanineDexEntry::
-	text "A #MON that"
-	next "has been admired"
-	next "since the past"
+	text "Cop-Costume Noem"
+	next "Gravel-pit cruelty"
+	next "wearing a sheriff"
 
-	page "for its beauty."
-	next "It runs agilely"
-	next "as if on wings"
+	page "costume for"
+	next "donors."
 	dex
 
 _MewDexEntry::
-	text "So rare that it"
-	next "is still said to"
-	next "be a mirage by"
+	text "Source Code Reagan"
+	next "Source-code myth"
+	next "where every bug"
 
-	page "many experts. Only"
-	next "a few people have"
-	next "seen it worldwide"
+	page "became policy."
 	dex
 
 _GyaradosDexEntry::
-	text "Rarely seen in"
-	next "the wild. Huge"
-	next "and vicious, it"
+	text "Cain-dy Man"
+	next "Looks silly until"
+	next "the myth turns"
 
-	page "is capable of"
-	next "destroying entire"
-	next "cities in a rage"
+	page "monstrous."
 	dex
 
 _ShellderDexEntry::
-	text "Its hard shell"
-	next "repels any kind"
-	next "of attack."
+	text "Umpire Roberts"
+	next "Umpire mask over a"
+	next "locked-room"
 
-	page "It is vulnerable"
-	next "only when its"
-	next "shell is open"
+	page "operator."
 	dex
 
 _TentacoolDexEntry::
-	text "Drifts in shallow"
-	next "seas. Anglers who"
-	next "hook them by"
+	text "Cuomosexual Andrew"
+	next "Tentacular media"
+	next "entanglement to"
 
-	page "accident are"
-	next "often punished by"
-	next "its stinging acid"
+	page "scandal collapse."
 	dex
 
 _GastlyDexEntry::
-	text "Almost invisible,"
-	next "this gaseous"
-	next "#MON cloaks"
+	text "Undisclosed Cheney"
+	next "Ghost line fits"
+	next "hidden power"
 
-	page "the target and"
-	next "puts it to sleep"
-	next "without notice"
+	page "operator"
+	next "perfectly."
 	dex
 
 _ScytherDexEntry::
-	text "With ninja-like"
-	next "agility and speed,"
-	next "it can create the"
+	text "Impeachment Schiff"
+	next "Hearing-room blade"
+	next "polished for prime"
 
-	page "illusion that"
-	next "there is more"
-	next "than one"
+	page "time."
 	dex
 
 _StaryuDexEntry::
-	text "An enigmatic"
-	next "#MON that can"
-	next "effortlessly"
+	text "Astronaut Kelly"
+	next "Astronaut polish"
+	next "strapped to"
 
-	page "regenerate any"
-	next "appendage it"
-	next "loses in battle"
+	page "swing-state math."
 	dex
 
 _BlastoiseDexEntry::
-	text "A brutal #MON"
-	next "with pressurized"
-	next "water jets on its"
+	text "Graveyard Mitch"
+	next "Every stage chills"
+	next "the room until"
 
-	page "shell. They are"
-	next "used for high"
-	next "speed tackles"
+	page "only the whip"
+	next "count breathes."
 	dex
 
 _PinsirDexEntry::
-	text "If it fails to"
-	next "crush the victim"
-	next "in its pincers,"
+	text "Send-Troops Cotton"
+	next "Pincer ideologue"
+	next "mistaking every"
 
-	page "it will swing it"
-	next "around and toss"
-	next "it hard"
+	page "map for a target."
 	dex
 
 _TangelaDexEntry::
-	text "The whole body is"
-	next "swathed with wide"
-	next "vines that are"
+	text "Turnout Abrams"
+	next "Single-stage"
+	next "turnout vine-mass."
 
-	page "similar to sea-"
-	next "weed. Its vines"
-	next "shake as it walks"
+	page "Filed and indexed."
 	dex
 
 _GrowlitheDexEntry::
-	text "Very protective"
-	next "of its territory."
-	next "It will bark and"
+	text "Puppy-Killer"
+	next "Kristi"
+	next "Gravel-pit cruelty"
 
-	page "bite to repel"
-	next "intruders from"
-	next "its space"
+	page "wearing a sheriff"
+	next "costume for"
+	next "donors."
 	dex
 
 _OnixDexEntry::
-	text "As it grows, the"
-	next "stone portions of"
-	next "its body harden"
+	text "Hoodie Fetterman"
+	next "Blunt hoodie mass"
+	next "that makes"
 
-	page "to become similar"
-	next "to a diamond, but"
-	next "colored black"
+	page "consultants sweat."
 	dex
 
 _FearowDexEntry::
-	text "With its huge and"
-	next "magnificent wings,"
-	next "it can keep aloft"
+	text "Pete Kegseth"
+	next "Weekend bluster"
+	next "hardens into a"
 
-	page "without ever"
-	next "having to land"
-	next "for rest"
+	page "camera-ready war"
+	next "cry."
 	dex
 
 _PidgeyDexEntry::
-	text "A common sight in"
-	next "forests and woods."
-	next "It flaps its"
+	text "A-to-Z Hakeem"
+	next "Alphabet speech"
+	next "molting into"
 
-	page "wings at ground"
-	next "level to kick up"
-	next "blinding sand"
+	page "caucus laminate"
+	next "and gavel hunger."
 	dex
 
 _SlowpokeDexEntry::
-	text "Incredibly slow"
-	next "and dopey. It"
-	next "takes 5 seconds"
+	text "Wall-Street Chuck"
+	next "Donor-room weather"
+	next "vane with caucus"
 
-	page "for it to feel"
-	next "pain when under"
-	next "attack"
+	page "keys."
 	dex
 
 _KadabraDexEntry::
-	text "It emits special"
-	next "alpha waves from"
-	next "its body that"
+	text "DA Shapiro"
+	next "County prodigy"
+	next "polished into a"
 
-	page "induce headaches"
-	next "just by being"
-	next "close by"
+	page "national"
+	next "mind-reader."
 	dex
 
 _GravelerDexEntry::
-	text "Rolls down slopes"
-	next "to move. It rolls"
-	next "over any obstacle"
+	text "Machine Kemp"
+	next "Local stone to"
+	next "statewide machine"
 
-	page "without slowing"
-	next "or changing its"
-	next "direction"
+	page "to full courthouse"
+	next "rock."
 	dex
 
 _ChanseyDexEntry::
-	text "A rare and elusive"
-	next "#MON that is"
-	next "said to bring"
+	text "Justice Sotomayor"
+	next "Single-stage wise"
+	next "and durable"
 
-	page "happiness to those"
-	next "who manage to get"
-	next "it"
+	page "healer/judge"
+	next "energy."
 	dex
 
 _MachokeDexEntry::
-	text "Its muscular body"
-	next "is so powerful, it"
-	next "must wear a power"
+	text "Cabinet Linda"
+	next "Kayfabe boss"
+	next "suplexing labor"
 
-	page "save belt to be"
-	next "able to regulate"
-	next "its motions"
+	page "and calling it"
+	next "reform."
 	dex
 
 _MrMimeDexEntry::
-	text "If interrupted"
-	next "while it is"
-	next "miming, it will"
+	text "McKinsey Pete"
+	next "McKinsey polish"
+	next "miming empathy"
 
-	page "slap around the"
-	next "offender with its"
-	next "broad hands"
+	page "beside a"
+	next "spreadsheet."
 	dex
 
 _HitmonleeDexEntry::
-	text "When in a hurry,"
-	next "its legs lengthen"
-	next "progressively."
+	text "Spartacus Booker"
+	next "Spotlight preacher"
+	next "treating every"
 
-	page "It runs smoothly"
-	next "with extra long,"
-	next "loping strides"
+	page "room like fight"
+	next "night."
 	dex
 
 _HitmonchanDexEntry::
-	text "While apparently"
-	next "doing nothing, it"
-	next "fires punches in"
+	text "Dissent Jackson"
+	next "Precise dissenter"
+	next "landing clean"
 
-	page "lightning fast"
-	next "volleys that are"
-	next "impossible to see"
+	page "through the"
+	next "circus."
 	dex
 
 _ArbokDexEntry::
-	text "It is rumored that"
-	next "the ferocious"
-	next "warning markings"
+	text "Cancun Ted"
+	next "Debate-club snake"
+	next "that sheds skin at"
 
-	page "on its belly"
-	next "differ from area"
-	next "to area"
+	page "the airport."
 	dex
 
 _ParasectDexEntry::
-	text "A host-parasite"
-	next "pair in which the"
-	next "parasite mushroom"
+	text "Brainworm RFK"
+	next "Crank martyr kept"
+	next "alive by worms,"
 
-	page "has taken over the"
-	next "host bug. Prefers"
-	next "damp places"
+	page "nostalgia, and"
+	next "static."
 	dex
 
 _PsyduckDexEntry::
-	text "While lulling its"
-	next "enemies with its"
-	next "vacant look, this"
+	text "Let's Go Brandon"
+	next "Confusion evolves"
+	next "into meme armor"
 
-	page "wily #MON will"
-	next "use psychokinetic"
-	next "powers"
+	page "and aviators."
 	dex
 
 _DrowzeeDexEntry::
-	text "Puts enemies to"
-	next "sleep then eats"
-	next "their dreams."
+	text "SNL Franken"
+	next "Comedian dream-man"
+	next "into career-ending"
 
-	page "Occasionally gets"
-	next "sick from eating"
-	next "bad dreams"
+	page "hypnosis haze."
 	dex
 
 _GolemDexEntry::
-	text "Its boulder-like"
-	next "body is extremely"
-	next "hard. It can"
+	text "Granite Kemp"
+	next "Local stone to"
+	next "statewide machine"
 
-	page "easily withstand"
-	next "dynamite blasts"
-	next "without damage"
+	page "to full courthouse"
+	next "rock."
 	dex
 
 _MagmarDexEntry::
-	text "Its body always"
-	next "burns with an"
-	next "orange glow that"
+	text "Mama Grizzly Palin"
+	next "One-stage media"
+	next "flamethrower."
 
-	page "enables it to"
-	next "hide perfectly"
-	next "among flames"
+	page "Filed and indexed."
 	dex
 
 _ElectabuzzDexEntry::
-	text "Normally found"
-	next "near power plants,"
-	next "they can wander"
+	text "LinkedIn Vivek"
+	next "LinkedIn voltage"
+	next "sprinting until"
 
-	page "away and cause"
-	next "major blackouts"
-	next "in cities"
+	page "the sentence"
+	next "collapses."
 	dex
 
 _MagnetonDexEntry::
-	text "Formed by several"
-	next "MAGNEMITEs linked"
-	next "together. They"
+	text "Stop-and-Frisk"
+	next "Mike"
+	next "Cold metallic"
 
-	page "frequently appear"
-	next "when sunspots"
-	next "flare up"
+	page "finance line."
 	dex
 
 _KoffingDexEntry::
-	text "Because it stores"
-	next "several kinds of"
-	next "toxic gases in"
+	text "Prep-School Brett"
+	next "Toxic frat vapor"
+	next "line."
 
-	page "its body, it is"
-	next "prone to exploding"
-	next "without warning"
+	page "Filed and indexed."
 	dex
 
 _MankeyDexEntry::
-	text "Extremely quick to"
-	next "anger. It could"
-	next "be docile one"
+	text "Gym Jordan"
+	next "Red-faced brawler"
+	next "who turns hearings"
 
-	page "moment then"
-	next "thrashing away"
-	next "the next instant"
+	page "into mat drills."
 	dex
 
 _SeelDexEntry::
-	text "The protruding"
-	next "horn on its head"
-	next "is very hard."
+	text "Mother's Pence"
+	next "Cold, smooth,"
+	next "sanctimonious seal"
 
-	page "It is used for"
-	next "bashing through"
-	next "thick ice"
+	page "line."
 	dex
 
 _DiglettDexEntry::
-	text "Lives about one"
-	next "yard underground"
-	next "where it feeds on"
+	text "Little Richard"
+	next "Nixon"
+	next "They multiply"
 
-	page "plant roots. It"
-	next "sometimes appears"
-	next "above ground"
+	page "wherever"
+	next "resentment starts"
+	next "digging."
 	dex
 
 _TaurosDexEntry::
-	text "When it targets"
-	next "an enemy, it"
-	next "charges furiously"
+	text "Border-Buoy Abbott"
+	next "Border theater"
+	next "with a veto pen"
 
-	page "while whipping its"
-	next "body with its"
-	next "long tails"
+	page "and a press riser."
 	dex
 
 _FarfetchdDexEntry::
-	text "The sprig of"
-	next "green onions it"
-	next "holds is its"
+	text "Hall-Monitor Adam"
+	next "Hall monitor exile"
+	next "still asking the"
 
-	page "weapon. It is"
-	next "used much like a"
-	next "metal sword"
+	page "party for a pass."
 	dex
 
 _VenonatDexEntry::
-	text "Lives in the"
-	next "shadows of tall"
-	next "trees where it"
+	text "Dean Kagan"
+	next "Soft academic bug"
+	next "into consensus"
 
-	page "eats insects. It"
-	next "is attracted by"
-	next "light at night"
+	page "moth."
 	dex
 
 _DragoniteDexEntry::
-	text "An extremely"
-	next "rarely seen"
-	next "marine #MON."
+	text "Drone-Era Obama"
+	next "Prestige dragon"
+	next "route."
 
-	page "Its intelligence"
-	next "is said to match"
-	next "that of humans"
+	page "Filed and indexed."
 	dex
 
 _DoduoDexEntry::
-	text "A bird that makes"
-	next "up for its poor"
-	next "flying with its"
+	text "Coal Manchin"
+	next "Coal smoke"
+	next "drifting from a"
 
-	page "fast foot speed."
-	next "Leaves giant"
-	next "footprints"
+	page "yacht with two"
+	next "votes."
 	dex
 
 _PoliwagDexEntry::
-	text "Its newly grown"
-	next "legs prevent it"
-	next "from running. It"
+	text "Adult-in-the-Room"
+	next "Kasich"
+	next "Centrist tadpole"
 
-	page "appears to prefer"
-	next "swimming than"
-	next "trying to stand"
+	page "to media frog."
 	dex
 
 _JynxDexEntry::
-	text "It seductively"
-	next "wiggles its hips"
-	next "as it walks. It"
+	text "Wig-Receipt Santos"
+	next "Receipts, wigs,"
+	next "and lies glitter"
 
-	page "can cause people"
-	next "to dance in"
-	next "unison with it"
+	page "under cheap"
+	next "lights."
 	dex
 
 _MoltresDexEntry::
-	text "Known as the"
-	next "legendary bird of"
-	next "fire. Every flap"
+	text "Maverick McCain"
+	next "Single-stage"
+	next "firebird with"
 
-	page "of its wings"
-	next "creates a dazzling"
-	next "flash of flames"
+	page "bipartisan aura."
 	dex
 
 _ArticunoDexEntry::
-	text "A legendary bird"
-	next "#MON that is"
-	next "said to appear to"
+	text "Notorious RBG"
+	next "Icy prestige"
+	next "legendary."
 
-	page "doomed people who"
-	next "are lost in icy"
-	next "mountains"
+	page "Filed and indexed."
 	dex
 
 _ZapdosDexEntry::
-	text "A legendary bird"
-	next "#MON that is"
-	next "said to appear"
+	text "Justice Marshall"
+	next "High-voltage"
+	next "constitutional"
 
-	page "from clouds while"
-	next "dropping enormous"
-	next "lightning bolts"
+	page "legendary."
 	dex
 
 _DittoDexEntry::
-	text "Capable of copying"
-	next "an enemy's genetic"
-	next "code to instantly"
+	text "Wine-Cave Sinema"
+	next "Mirror-bright and"
+	next "impossible to pin"
 
-	page "transform itself"
-	next "into a duplicate"
-	next "of the enemy"
+	page "down past the wine"
+	next "cave."
 	dex
 
 _MeowthDexEntry::
-	text "Adores circular"
-	next "objects. Wanders"
-	next "the streets on a"
+	text "Fundraiser Nancy"
+	next "Velvet fundraiser"
+	next "fingers hiding the"
 
-	page "nightly basis to"
-	next "look for dropped"
-	next "loose change"
+	page "cleanest knife"
+	next "alive."
 	dex
 
 _KrabbyDexEntry::
-	text "Its pincers are"
-	next "not only powerful"
-	next "weapons, they are"
+	text "Binder Klobuchar"
+	next "Office-supply claw"
+	next "line."
 
-	page "used for balance"
-	next "when walking"
-	next "sideways"
+	page "Filed and indexed."
 	dex
 
 _VulpixDexEntry::
-	text "At the time of"
-	next "birth, it has"
-	next "just one tail."
+	text "Hair-Gel Gavin"
+	next "Polished"
+	next "California fox"
 
-	page "The tail splits"
-	next "from its tip as"
-	next "it grows older"
+	page "energy."
 	dex
 
 _NinetalesDexEntry::
-	text "Very smart and"
-	next "very vengeful."
-	next "Grabbing one of"
+	text "French Laundry"
+	next "Gavin"
+	next "Polished"
 
-	page "its many tails"
-	next "could result in a"
-	next "1000-year curse"
+	page "California fox"
+	next "energy."
 	dex
 
 _PikachuDexEntry::
-	text "When several of"
-	next "these #MON"
-	next "gather, their"
+	text "AOC"
+	next "Mascot-tier"
+	next "charisma with"
 
-	page "electricity could"
-	next "build and cause"
-	next "lightning storms"
+	page "power-up form."
 	dex
 
 _RaichuDexEntry::
-	text "Its long tail"
-	next "serves as a"
-	next "ground to protect"
+	text "Met Gala AOC"
+	next "Mascot-tier"
+	next "charisma with"
 
-	page "itself from its"
-	next "own high voltage"
-	next "power"
+	page "power-up form."
 	dex
 
 _DratiniDexEntry::
-	text "Long considered a"
-	next "mythical #MON"
-	next "until recently"
+	text "Hope Obama"
+	next "Prestige dragon"
+	next "route."
 
-	page "when a small"
-	next "colony was found"
-	next "living underwater"
+	page "Filed and indexed."
 	dex
 
 _DragonairDexEntry::
-	text "A mystical #MON"
-	next "that exudes a"
-	next "gentle aura."
+	text "No-Drama Obama"
+	next "Prestige dragon"
+	next "route."
 
-	page "Has the ability"
-	next "to change climate"
-	next "conditions"
+	page "Filed and indexed."
 	dex
 
 _KabutoDexEntry::
-	text "A #MON that"
-	next "was resurrected"
-	next "from a fossil"
+	text "Grievance Alito"
+	next "Hard-shelled"
+	next "grievance fossil."
 
-	page "found in what was"
-	next "once the ocean"
-	next "floor eons ago"
+	page "Filed and indexed."
 	dex
 
 _KabutopsDexEntry::
-	text "Its sleek shape is"
-	next "perfect for swim-"
-	next "ming. It slashes"
+	text "Flagpole Alito"
+	next "Hard-shelled"
+	next "grievance fossil."
 
-	page "prey with its"
-	next "claws and drains"
-	next "the body fluids"
+	page "Filed and indexed."
 	dex
 
 _HorseaDexEntry::
-	text "Known to shoot"
-	next "down flying bugs"
-	next "with precision"
+	text "Tacticool Crenshaw"
+	next "Tacticool punditry"
+	next "with a"
 
-	page "blasts of ink"
-	next "from the surface"
-	next "of the water"
+	page "studio-ready war"
+	next "story."
 	dex
 
 _SeadraDexEntry::
-	text "Capable of swim-"
-	next "ming backwards by"
-	next "rapidly flapping"
+	text "SEAL Pundit"
+	next "Crenshaw"
+	next "Tacticool punditry"
 
-	page "its wing-like"
-	next "pectoral fins and"
-	next "stout tail"
+	page "with a"
+	next "studio-ready war"
+	next "story."
 	dex
 
 _SandshrewDexEntry::
-	text "Burrows deep"
-	next "underground in"
-	next "arid locations"
+	text "Pudding Cup Ron"
+	next "Burrowing spite"
+	next "creature with"
 
-	page "far from water."
-	next "It only emerges"
-	next "to hunt for food"
+	page "pudding-finger"
+	next "canon."
 	dex
 
 _SandslashDexEntry::
-	text "Curls up into a"
-	next "spiny ball when"
-	next "threatened. It"
+	text "Pudding Fingers"
+	next "Burrowing spite"
+	next "creature with"
 
-	page "can roll while"
-	next "curled up to"
-	next "attack or escape"
+	page "pudding-finger"
+	next "canon."
 	dex
 
 _OmanyteDexEntry::
-	text "Although long"
-	next "extinct, in rare"
-	next "cases, it can be"
+	text "Originalist"
+	next "Clarence"
+	next "Ancient fossil"
 
-	page "genetically"
-	next "resurrected from"
-	next "fossils"
+	page "justice with"
+	next "luxury add-on."
 	dex
 
 _OmastarDexEntry::
-	text "A prehistoric"
-	next "#MON that died"
-	next "out when its"
+	text "Donor-Trip"
+	next "Clarence"
+	next "Ancient fossil"
 
-	page "heavy shell made"
-	next "it impossible to"
-	next "catch prey"
+	page "justice with"
+	next "luxury add-on."
 	dex
 
 _JigglypuffDexEntry::
-	text "When its huge eyes"
-	next "light up, it sings"
-	next "a mysteriously"
+	text "Podium Sarah"
+	next "A podium scold"
+	next "recycled into"
 
-	page "soothing melody"
-	next "that lulls its"
-	next "enemies to sleep"
+	page "hereditary"
+	next "government."
 	dex
 
 _WigglytuffDexEntry::
-	text "The body is soft"
-	next "and rubbery. When"
-	next "angered, it will"
+	text "Nepo Sanders"
+	next "A podium scold"
+	next "recycled into"
 
-	page "suck in air and"
-	next "inflate itself to"
-	next "an enormous size"
+	page "hereditary"
+	next "government."
 	dex
 
 _EeveeDexEntry::
-	text "Its genetic code"
-	next "is irregular."
-	next "It may mutate if"
+	text "Antiwar Tulsi"
+	next "Every pivot"
+	next "arrives wearing"
 
-	page "it is exposed to"
-	next "radiation from"
-	next "element STONEs"
+	page "yesterday's"
+	next "principles as"
+	next "merch."
 	dex
 
 _FlareonDexEntry::
-	text "When storing"
-	next "thermal energy in"
-	next "its body, its"
+	text "Fox Tulsi"
+	next "Every pivot"
+	next "arrives wearing"
 
-	page "temperature could"
-	next "soar to over 1600"
-	next "degrees"
+	page "yesterday's"
+	next "principles as"
+	next "merch."
 	dex
 
 _JolteonDexEntry::
-	text "It accumulates"
-	next "negative ions in"
-	next "the atmosphere to"
+	text "Podcast Tulsi"
+	next "Every pivot"
+	next "arrives wearing"
 
-	page "blast out 10000-"
-	next "volt lightning"
-	next "bolts"
+	page "yesterday's"
+	next "principles as"
+	next "merch."
 	dex
 
 _VaporeonDexEntry::
-	text "Lives close to"
-	next "water. Its long"
-	next "tail is ridged"
+	text "Pivot Tulsi"
+	next "Every pivot"
+	next "arrives wearing"
 
-	page "with a fin which"
-	next "is often mistaken"
-	next "for a mermaid's"
+	page "yesterday's"
+	next "principles as"
+	next "merch."
 	dex
 
 _MachopDexEntry::
-	text "Loves to build"
-	next "its muscles."
-	next "It trains in all"
+	text "Kayfabe Linda"
+	next "Kayfabe boss"
+	next "suplexing labor"
 
-	page "styles of martial"
-	next "arts to become"
-	next "even stronger"
+	page "and calling it"
+	next "reform."
 	dex
 
 _ZubatDexEntry::
-	text "Forms colonies in"
-	next "perpetually dark"
-	next "places. Uses"
+	text "Never-Trump Graham"
+	next "Moral panic bat"
+	next "trained to love"
 
-	page "ultrasonic waves"
-	next "to identify and"
-	next "approach targets"
+	page "whoever owns the"
+	next "cave."
 	dex
 
 _EkansDexEntry::
-	text "Moves silently"
-	next "and stealthily."
-	next "Eats the eggs of"
+	text "Zodiac Ted"
+	next "Debate-club snake"
+	next "that sheds skin at"
 
-	page "birds, such as"
-	next "PIDGEY and"
-	next "SPEAROW, whole"
+	page "the airport."
 	dex
 
 _ParasDexEntry::
-	text "Burrows to suck"
-	next "tree roots. The"
-	next "mushrooms on its"
+	text "Goddamn Bobby"
+	next "Crank martyr kept"
+	next "alive by worms,"
 
-	page "back grow by draw-"
-	next "ing nutrients from"
-	next "the bug host"
+	page "nostalgia, and"
+	next "static."
 	dex
 
 _PoliwhirlDexEntry::
-	text "Capable of living"
-	next "in or out of"
-	next "water. When out"
+	text "CNN Kasich"
+	next "Centrist tadpole"
+	next "to media frog."
 
-	page "of water, it"
-	next "sweats to keep"
-	next "its body slimy"
+	page "Filed and indexed."
 	dex
 
 _PoliwrathDexEntry::
-	text "An adept swimmer"
-	next "at both the front"
-	next "crawl and breast"
+	text "Pancake Kasich"
+	next "Centrist tadpole"
+	next "to media frog."
 
-	page "stroke. Easily"
-	next "overtakes the best"
-	next "human swimmers"
+	page "Filed and indexed."
 	dex
 
 _WeedleDexEntry::
-	text "Often found in"
-	next "forests, eating"
-	next "leaves."
+	text "End-the-Fed Ron"
+	next "Fed rage molts"
+	next "through liberty"
 
-	page "It has a sharp"
-	next "venomous stinger"
-	next "on its head"
+	page "paper into goldbug"
+	next "sermon."
 	dex
 
 _KakunaDexEntry::
-	text "Almost incapable"
-	next "of moving, this"
-	next "#MON can only"
+	text "Liberty Cocoon"
+	next "Fed rage molts"
+	next "through liberty"
 
-	page "harden its shell"
-	next "to protect itself"
-	next "from predators"
+	page "paper into goldbug"
+	next "sermon."
 	dex
 
 _BeedrillDexEntry::
-	text "Flies at high"
-	next "speed and attacks"
-	next "using its large"
+	text "Goldbug Ron"
+	next "Fed rage molts"
+	next "through liberty"
 
-	page "venomous stingers"
-	next "on its forelegs"
-	next "and tail"
+	page "paper into goldbug"
+	next "sermon."
 	dex
 
 _DodrioDexEntry::
-	text "Uses its three"
-	next "brains to execute"
-	next "complex plans."
+	text "Yacht Manchin"
+	next "Coal smoke"
+	next "drifting from a"
 
-	page "While two heads"
-	next "sleep, one head"
-	next "stays awake"
+	page "yacht with two"
+	next "votes."
 	dex
 
 _PrimeapeDexEntry::
-	text "Always furious"
-	next "and tenacious to"
-	next "boot. It will not"
+	text "Subpoena Jordan"
+	next "Red-faced brawler"
+	next "who turns hearings"
 
-	page "abandon chasing"
-	next "its quarry until"
-	next "it is caught"
+	page "into mat drills."
 	dex
 
 _DugtrioDexEntry::
-	text "A team of DIGLETT"
-	next "triplets."
-	next "It triggers huge"
+	text "Dicktrio"
+	next "They multiply"
+	next "wherever"
 
-	page "earthquakes by"
-	next "burrowing 60 miles"
-	next "underground"
+	page "resentment starts"
+	next "digging."
 	dex
 
 _VenomothDexEntry::
-	text "The dust-like"
-	next "scales covering"
-	next "its wings are"
+	text "Consensus Kagan"
+	next "Soft academic bug"
+	next "into consensus"
 
-	page "color coded to"
-	next "indicate the kinds"
-	next "of poison it has"
+	page "moth."
 	dex
 
 _DewgongDexEntry::
-	text "Stores thermal"
-	next "energy in its"
-	next "body. Swims at a"
+	text "Fly-on-Head Pence"
+	next "Cold, smooth,"
+	next "sanctimonious seal"
 
-	page "steady 8 knots"
-	next "even in intensely"
-	next "cold waters"
+	page "line."
 	dex
 
 _CaterpieDexEntry::
-	text "Its short feet"
-	next "are tipped with"
-	next "suction pads that"
+	text "Hillbilly Elegist"
+	next "Career larva"
+	next "molted by patron"
 
-	page "enable it to"
-	next "tirelessly climb"
-	next "slopes and walls"
+	page "cash into"
+	next "grievance merch."
 	dex
 
 _MetapodDexEntry::
-	text "This #MON is"
-	next "vulnerable to"
-	next "attack while its"
+	text "Thiel Cocoon"
+	next "Career larva"
+	next "molted by patron"
 
-	page "shell is soft,"
-	next "exposing its weak"
-	next "and tender body"
+	page "cash into"
+	next "grievance merch."
 	dex
 
 _ButterfreeDexEntry::
-	text "In battle, it"
-	next "flaps its wings"
-	next "at high speed to"
+	text "Couch Vance"
+	next "Career larva"
+	next "molted by patron"
 
-	page "release highly"
-	next "toxic dust into"
-	next "the air"
+	page "cash into"
+	next "grievance merch."
 	dex
 
 _MachampDexEntry::
-	text "Using its heavy"
-	next "muscles, it throws"
-	next "powerful punches"
+	text "Union-Buster Linda"
+	next "Kayfabe boss"
+	next "suplexing labor"
 
-	page "that can send the"
-	next "victim clear over"
-	next "the horizon"
+	page "and calling it"
+	next "reform."
 	dex
 
 _GolduckDexEntry::
-	text "Often seen swim-"
-	next "ming elegantly by"
-	next "lake shores. It"
+	text "Dark Brandon"
+	next "Confusion evolves"
+	next "into meme armor"
 
-	page "is often mistaken"
-	next "for the Japanese"
-	next "monster, Kappa"
+	page "and aviators."
 	dex
 
 _HypnoDexEntry::
-	text "When it locks eyes"
-	next "with an enemy, it"
-	next "will use a mix of"
+	text "Resignation"
+	next "Franken"
+	next "Comedian dream-man"
 
-	page "PSI moves such as"
-	next "HYPNOSIS and"
-	next "CONFUSION"
+	page "into career-ending"
+	next "hypnosis haze."
 	dex
 
 _GolbatDexEntry::
-	text "Once it strikes,"
-	next "it will not stop"
-	next "draining energy"
+	text "Lapdog Graham"
+	next "Moral panic bat"
+	next "trained to love"
 
-	page "from the victim"
-	next "even if it gets"
-	next "too heavy to fly"
+	page "whoever owns the"
+	next "cave."
 	dex
 
 _MewtwoDexEntry::
-	text "It was created by"
-	next "a scientist after"
-	next "years of horrific"
+	text "Golden-Calf Trump"
+	next "Lab-fed ego idol"
+	next "that eats cameras,"
 
-	page "gene splicing and"
-	next "DNA engineering"
-	next "experiments"
+	page "cash, and"
+	next "consequences."
 	dex
 
 _SnorlaxDexEntry::
-	text "Very lazy. Just"
-	next "eats and sleeps."
-	next "As its rotund"
+	text "Bridgegate"
+	next "Christie"
+	next "Big road-block"
 
-	page "bulk builds, it"
-	next "becomes steadily"
-	next "more slothful"
+	page "single-stage form."
 	dex
 
 _MagikarpDexEntry::
-	text "In the distant"
-	next "past, it was"
-	next "somewhat stronger"
+	text "9-9-9 Cain"
+	next "Looks silly until"
+	next "the myth turns"
 
-	page "than the horribly"
-	next "weak descendants"
-	next "that exist today"
+	page "monstrous."
 	dex
 
 _MukDexEntry::
-	text "Thickly covered"
-	next "with a filthy,"
-	next "vile sludge. It"
+	text "Four Seasons Rudy"
+	next "Goop slide from"
+	next "civic symbol to"
 
-	page "is so toxic, even"
-	next "its footprints"
-	next "contain poison"
+	page "dripping ruin."
 	dex
 
 _KinglerDexEntry::
-	text "The large pincer"
-	next "has 10000 hp of"
-	next "crushing power."
+	text "Stapler Queen"
+	next "Office-supply claw"
+	next "line."
 
-	page "However, its huge"
-	next "size makes it"
-	next "unwieldy to use"
+	page "Filed and indexed."
 	dex
 
 _CloysterDexEntry::
-	text "When attacked, it"
-	next "launches its"
-	next "horns in quick"
+	text "Locked-Room"
+	next "Roberts"
+	next "Umpire mask over a"
 
-	page "volleys. Its"
-	next "innards have"
-	next "never been seen"
+	page "locked-room"
+	next "operator."
 	dex
 
 _ElectrodeDexEntry::
-	text "It stores electric"
-	next "energy under very"
-	next "high pressure."
+	text "Beetlejuice"
+	next "Boebert"
+	next "Explosive"
 
-	page "It often explodes"
-	next "with little or no"
-	next "provocation"
+	page "attention grenade."
 	dex
 
 _ClefableDexEntry::
-	text "A timid fairy"
-	next "#MON that is"
-	next "rarely seen. It"
+	text "23andMe Warren"
+	next "Policy homework"
+	next "with a DNA kit"
 
-	page "will run and hide"
-	next "the moment it"
-	next "senses people"
+	page "taped to the"
+	next "cover."
 	dex
 
 _WeezingDexEntry::
-	text "Where two kinds"
-	next "of poison gases"
-	next "meet, 2 KOFFINGs"
+	text "Beer Calendar"
+	next "Brett"
+	next "Toxic frat vapor"
 
-	page "can fuse into a"
-	next "WEEZING over many"
-	next "years"
+	page "line."
 	dex
 
 _PersianDexEntry::
-	text "Although its fur"
-	next "has many admirers,"
-	next "it is tough to"
+	text "Speaker Pelosi"
+	next "Velvet fundraiser"
+	next "fingers hiding the"
 
-	page "raise as a pet"
-	next "because of its"
-	next "fickle meanness"
+	page "cleanest knife"
+	next "alive."
 	dex
 
 _MarowakDexEntry::
-	text "The bone it holds"
-	next "is its key weapon."
-	next "It throws the"
+	text "Handmaid Barrett"
+	next "Bare-bones jurist"
+	next "into fully armored"
 
-	page "bone skillfully"
-	next "like a boomerang"
-	next "to KO targets"
+	page "culture-war form."
 	dex
 
 _HaunterDexEntry::
-	text "Because of its"
-	next "ability to slip"
-	next "through block"
+	text "Executive Cheney"
+	next "Ghost line fits"
+	next "hidden power"
 
-	page "walls, it is said"
-	next "to be from an-"
-	next "other dimension"
+	page "operator"
+	next "perfectly."
 	dex
 
 _AbraDexEntry::
-	text "Using its ability"
-	next "to read minds, it"
-	next "will identify"
+	text "County Shapiro"
+	next "County prodigy"
+	next "polished into a"
 
-	page "impending danger"
-	next "and TELEPORT to"
-	next "safety"
+	page "national"
+	next "mind-reader."
 	dex
 
 _AlakazamDexEntry::
-	text "Its brain can out-"
-	next "perform a super-"
-	next "computer."
+	text "Swing-State"
+	next "Shapiro"
+	next "County prodigy"
 
-	page "Its intelligence"
-	next "quotient is said"
-	next "to be 5,000"
+	page "polished into a"
+	next "national"
+	next "mind-reader."
 	dex
 
 _PidgeottoDexEntry::
-	text "Very protective"
-	next "of its sprawling"
-	next "territorial area,"
+	text "Caucus Jeffries"
+	next "Alphabet speech"
+	next "molting into"
 
-	page "this #MON will"
-	next "fiercely peck at"
-	next "any intruder"
+	page "caucus laminate"
+	next "and gavel hunger."
 	dex
 
 _PidgeotDexEntry::
-	text "When hunting, it"
-	next "skims the surface"
-	next "of water at high"
+	text "Speaker Jeffries"
+	next "Alphabet speech"
+	next "molting into"
 
-	page "speed to pick off"
-	next "unwary prey such"
-	next "as MAGIKARP"
+	page "caucus laminate"
+	next "and gavel hunger."
 	dex
 
 _StarmieDexEntry::
-	text "Its central core"
-	next "glows with the"
-	next "seven colors of"
+	text "Swing-State Kelly"
+	next "Astronaut polish"
+	next "strapped to"
 
-	page "the rainbow. Some"
-	next "people value the"
-	next "core as a gem"
+	page "swing-state math."
 	dex
 
 _BulbasaurDexEntry::
-	text "A strange seed was"
-	next "planted on its"
-	next "back at birth."
+	text "Little Marco"
+	next "Gets larger in the"
+	next "file without"
 
-	page "The plant sprouts"
-	next "and grows with"
-	next "this #MON"
+	page "getting heavier in"
+	next "the room."
 	dex
 
 _VenusaurDexEntry::
-	text "The plant blooms"
-	next "when it is"
-	next "absorbing solar"
+	text "Big Marco"
+	next "Gets larger in the"
+	next "file without"
 
-	page "energy. It stays"
-	next "on the move to"
-	next "seek sunlight"
+	page "getting heavier in"
+	next "the room."
 	dex
 
 _TentacruelDexEntry::
-	text "The tentacles are"
-	next "normally kept"
-	next "short. On hunts,"
+	text "Resignation Cuomo"
+	next "Tentacular media"
+	next "entanglement to"
 
-	page "they are extended"
-	next "to ensnare and"
-	next "immobilize prey"
+	page "scandal collapse."
 	dex
 
 _GoldeenDexEntry::
-	text "Its tail fin"
-	next "billows like an"
-	next "elegant ballroom"
+	text "Ambassador Haley"
+	next "Decorative but"
+	next "sharp donor-fish"
 
-	page "dress, giving it"
-	next "the nickname of"
-	next "the Water Queen"
+	page "line."
 	dex
 
 _SeakingDexEntry::
-	text "In the autumn"
-	next "spawning season,"
-	next "they can be seen"
+	text "Donor Nikki"
+	next "Decorative but"
+	next "sharp donor-fish"
 
-	page "swimming power-"
-	next "fully up rivers"
-	next "and creeks"
+	page "line."
 	dex
 
 _PonytaDexEntry::
-	text "Its hooves are 10"
-	next "times harder than"
-	next "diamonds. It can"
+	text "Mormon Mitt"
+	next "Well-groomed"
+	next "racehorse line."
 
-	page "trample anything"
-	next "completely flat"
-	next "in little time"
+	page "Filed and indexed."
 	dex
 
 _RapidashDexEntry::
-	text "Very competitive,"
-	next "this #MON will"
-	next "chase anything"
+	text "Dressage Mitt"
+	next "Well-groomed"
+	next "racehorse line."
 
-	page "that moves fast"
-	next "in the hopes of"
-	next "racing it"
+	page "Filed and indexed."
 	dex
 
 _RattataDexEntry::
-	text "Bites anything"
-	next "when it attacks."
-	next "Small and very"
+	text "Desk-List Pam"
+	next "Keeps every list"
+	next "on her desk until"
 
-	page "quick, it is a"
-	next "common sight in"
-	next "many places"
+	page "someone asks to"
+	next "read it."
 	dex
 
 _RaticateDexEntry::
-	text "It uses its whis-"
-	next "kers to maintain"
-	next "its balance."
+	text "No-List Bondi"
+	next "Keeps every list"
+	next "on her desk until"
 
-	page "It apparently"
-	next "slows down if"
-	next "they are cut off"
+	page "someone asks to"
+	next "read it."
 	dex
 
 _NidorinoDexEntry::
-	text "An aggressive"
-	next "#MON that is"
-	next "quick to attack."
+	text "Comeback Kid"
+	next "Male Nidoran"
+	next "corruption-charism"
 
-	page "The horn on its"
-	next "head secretes a"
-	next "powerful venom"
+	page "a line."
 	dex
 
 _NidorinaDexEntry::
-	text "The female's horn"
-	next "develops slowly."
-	next "Prefers physical"
+	text "Inevitable Hillary"
+	next "Female Nidoran"
+	next "power line."
 
-	page "attacks such as"
-	next "clawing and"
-	next "biting"
+	page "Filed and indexed."
 	dex
 
 _GeodudeDexEntry::
-	text "Found in fields"
-	next "and mountains."
-	next "Mistaking them"
+	text "County Kemp"
+	next "Local stone to"
+	next "statewide machine"
 
-	page "for boulders,"
-	next "people often step"
-	next "or trip on them"
+	page "to full courthouse"
+	next "rock."
 	dex
 
 _PorygonDexEntry::
-	text "A #MON that"
-	next "consists entirely"
-	next "of programming"
+	text "Spreadsheet Yang"
+	next "Pure data"
+	next "candidate."
 
-	page "code. Capable of"
-	next "moving freely in"
-	next "cyberspace"
+	page "Filed and indexed."
 	dex
 
 _AerodactylDexEntry::
-	text "A ferocious, pre-"
-	next "historic #MON"
-	next "that goes for the"
+	text "Camelot RFK"
+	next "Ancient preserved"
+	next "dynasty fossil."
 
-	page "enemy's throat"
-	next "with its serrated"
-	next "saw-like fangs"
+	page "Filed and indexed."
 	dex
 
 _MagnemiteDexEntry::
-	text "Uses anti-gravity"
-	next "to stay suspended."
-	next "Appears without"
+	text "Terminal Mike"
+	next "Cold metallic"
+	next "finance line."
 
-	page "warning and uses"
-	next "THUNDER WAVE and"
-	next "similar moves"
+	page "Filed and indexed."
 	dex
 
 _CharmanderDexEntry::
-	text "Obviously prefers"
-	next "hot places. When"
-	next "it rains, steam"
+	text "Mayor Bernie"
+	next "Old march made"
+	next "permanent by"
 
-	page "is said to spout"
-	next "from the tip of"
-	next "its tail"
+	page "crowds, grievance,"
+	next "and grit."
 	dex
 
 _SquirtleDexEntry::
-	text "After birth, its"
-	next "back swells and"
-	next "hardens into a"
+	text "Turtle Mitch"
+	next "Every stage chills"
+	next "the room until"
 
-	page "shell. Powerfully"
-	next "sprays foam from"
-	next "its mouth"
+	page "only the whip"
+	next "count breathes."
 	dex
 
 _CharmeleonDexEntry::
-	text "When it swings"
-	next "its burning tail,"
-	next "it elevates the"
+	text "Movement Bernie"
+	next "Old march made"
+	next "permanent by"
 
-	page "temperature to"
-	next "unbearably high"
-	next "levels"
+	page "crowds, grievance,"
+	next "and grit."
 	dex
 
 _WartortleDexEntry::
-	text "Often hides in"
-	next "water to stalk"
-	next "unwary prey. For"
+	text "Whip Mitch"
+	next "Every stage chills"
+	next "the room until"
 
-	page "swimming fast, it"
-	next "moves its ears to"
-	next "maintain balance"
+	page "only the whip"
+	next "count breathes."
 	dex
 
 _CharizardDexEntry::
-	text "Spits fire that"
-	next "is hot enough to"
-	next "melt boulders."
+	text "Elder Bernie"
+	next "Old march made"
+	next "permanent by"
 
-	page "Known to cause"
-	next "forest fires"
-	next "unintentionally"
+	page "crowds, grievance,"
+	next "and grit."
 	dex
 
 _OddishDexEntry::
-	text "During the day,"
-	next "it keeps its face"
-	next "buried in the"
+	text "Camera Mace"
+	next "Camera hunger that"
+	next "calls every heel"
 
-	page "ground. At night,"
-	next "it wanders around"
-	next "sowing its seeds"
+	page "turn brave."
 	dex
 
 _GloomDexEntry::
-	text "The fluid that"
-	next "oozes from its"
-	next "mouth isn't drool."
+	text "Crybully Mace"
+	next "Camera hunger that"
+	next "calls every heel"
 
-	page "It is a nectar"
-	next "that is used to"
-	next "attract prey"
+	page "turn brave."
 	dex
 
 _VileplumeDexEntry::
-	text "The larger its"
-	next "petals, the more"
-	next "toxic pollen it"
+	text "Gaslight Mace"
+	next "Camera hunger that"
+	next "calls every heel"
 
-	page "contains. Its big"
-	next "head is heavy and"
-	next "hard to hold up"
+	page "turn brave."
 	dex
 
 _BellsproutDexEntry::
-	text "A carnivorous"
-	next "#MON that traps"
-	next "and eats bugs."
+	text "Facebook Marge"
+	next "Feed-scroll weed"
+	next "to screaming"
 
-	page "It uses its root"
-	next "feet to soak up"
-	next "needed moisture"
+	page "plant."
 	dex
 
 _WeepinbellDexEntry::
-	text "It spits out"
-	next "POISONPOWDER to"
-	next "immobilize the"
+	text "Committee Marge"
+	next "Feed-scroll weed"
+	next "to screaming"
 
-	page "enemy and then"
-	next "finishes it with"
-	next "a spray of ACID"
+	page "plant."
 	dex
 
 _VictreebelDexEntry::
-	text "Said to live in"
-	next "huge colonies"
-	next "deep in jungles,"
+	text "Space-Laser Marge"
+	next "Feed-scroll weed"
+	next "to screaming"
 
-	page "although no one"
-	next "has ever returned"
-	next "from there"
+	page "plant."
 	dex

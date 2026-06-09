@@ -4,149 +4,157 @@ _Route17Biker1BattleText::
 	done
 
 _Route17Biker1EndBattleText::
-	text "Burned"
-	line "out!"
+	text "The room got less"
+	line "private."
 	prompt
-
 _Route17Biker1AfterBattleText::
-	text "Good stuff is"
-	line "lying around on"
-	cont "CYCLING ROAD!"
+	text "Best part of"
+	line "Escort Lane?"
+	cont "Something valuable"
+	cont "always falls out"
+	cont "of somebody's lie."
 	done
-
 _Route17Biker2BattleText::
 	text "What do you want,"
 	line "kiddo?"
 	done
 
 _Route17Biker2EndBattleText::
-	text "Whoo!"
+	text "My discretion"
+	line "package leaked."
 	prompt
-
 _Route17Biker2AfterBattleText::
-	text "I could belly-"
-	line "bump you outta"
-	cont "here!"
+	text "I could shove you"
+	line "into the scrub and"
+	cont "call it lane"
+	cont "management."
 	done
-
 _Route17Biker3BattleText::
 	text "You heading to"
 	line "FUCHSIA?"
 	done
 
 _Route17Biker3EndBattleText::
-	text "Crash and"
-	line "burn!"
+	text "I paid for better"
+	line "inevitability."
 	prompt
-
 _Route17Biker3AfterBattleText::
-	text "I love racing"
-	line "downhill!"
+	text "Everybody loves"
+	line "the downhill."
+	cont "Nobody talks about"
+	cont "the cleanup at the"
+	cont "bottom."
 	done
-
 _Route17Biker4BattleText::
 	text "We're BIKERs!"
 	line "Highway stars!"
 	done
 
 _Route17Biker4EndBattleText::
-	text "Smoked!"
+	text "The donor table"
+	line "moved on."
 	prompt
-
 _Route17Biker4AfterBattleText::
-	text "Are you looking"
-	line "for adventure?"
+	text "Every billboard on"
+	line "this road sells"
+	cont "innocence. Nobody"
+	cont "working it buys"
+	cont "that."
 	done
-
 _Route17Biker5BattleText::
-	text "Let VOLTORB"
+	text "Let Open-Carry Lauren"
 	line "electrify you!"
 	done
 
 _Route17Biker5EndBattleText::
-	text "Grounded"
-	line "out!"
+	text "That was not"
+	line "guest-list"
+	cont "behavior."
 	prompt
-
 _Route17Biker5AfterBattleText::
-	text "I got my VOLTORB"
-	line "at the abandoned"
-	cont "POWER PLANT."
+	text "Found my Open-Carry Lauren"
+	line "near a wrecked"
+	cont "cart and three NDA"
+	cont "folders. Felt"
+	cont "regional."
 	done
-
 _Route17Biker6BattleText::
-	text "My #MON won't"
+	text "My pocket pols won't"
 	line "evolve! Why?"
 	done
 
 _Route17Biker6EndBattleText::
-	text "Why,"
-	line "you!"
+	text "The room got less"
+	line "private."
 	prompt
-
 _Route17Biker6AfterBattleText::
-	text "Maybe some #MON"
-	line "need element"
-	cont "STONEs to evolve."
+	text "Some pocket pol"
+	line "need a stone. Some"
+	cont "just need three"
+	cont "bad nights and a"
+	cont "handler."
 	done
-
 _Route17Biker7BattleText::
 	text "I need a little"
 	line "exercise!"
 	done
 
 _Route17Biker7EndBattleText::
-	text "Whew!"
-	line "Good workout!"
+	text "My discretion"
+	line "package leaked."
 	prompt
-
 _Route17Biker7AfterBattleText::
-	text "I'm sure I lost"
-	line "weight there!"
+	text "That's cardio."
+	line "Cheaper than"
+	cont "therapy and less"
+	cont "discoverable."
 	done
-
 _Route17Biker8BattleText::
 	text "Be a rebel!"
 	done
 
 _Route17Biker8EndBattleText::
-	text "Aaaargh!"
+	text "I paid for better"
+	line "inevitability."
 	prompt
-
 _Route17Biker8AfterBattleText::
-	text "Be ready to fight"
-	line "for your beliefs!"
+	text "Everybody out here"
+	line "says discretion"
+	cont "when they mean"
+	cont "grievance."
 	done
-
 _Route17Biker9BattleText::
 	text "Nice BIKE!"
 	line "How's it handle?"
 	done
 
 _Route17Biker9EndBattleText::
-	text "Shoot!"
+	text "Fine. Tinted lane"
+	line "priority to you."
 	prompt
-
 _Route17Biker9AfterBattleText::
-	text "The slope makes"
-	line "it hard to steer!"
+	text "Slope makes it"
+	line "hard to steer. So"
+	cont "does liquor and"
+	cont "male panic."
 	done
-
 _Route17Biker10BattleText::
 	text "Get lost kid!"
 	line "I'm bushed!"
 	done
 
 _Route17Biker10EndBattleText::
-	text "Are you"
-	line "satisfied?"
+	text "The donor table"
+	line "moved on."
 	prompt
-
 _Route17Biker10AfterBattleText::
-	text "I need to catch"
-	line "a few Zs!"
+	text "If I sleep on the"
+	line "shoulder, traffic"
+	cont "just parts around"
+	cont "me. That's what"
+	cont "counts as status"
+	cont "out here."
 	done
-
 _Route17NoticeSign1Text::
 	text "It's a notice!"
 
@@ -155,32 +163,22 @@ _Route17NoticeSign1Text::
 	done
 
 _Route17TrainerTips1Text::
-	text "TRAINER TIPS"
-
-	para "All #MON are"
-	line "unique."
-
-	para "Even #MON of"
-	line "the same type and"
-	cont "level grow at"
+	text "FIELD NOTES"
+	para "No two pocket pols"
+	line "spin the same."
+	para "Even matching"
+	line "models grow at"
 	cont "different rates."
 	done
-
 _Route17TrainerTips2Text::
-	text "TRAINER TIPS"
-
-	para "Press the A or B"
-	line "Button to stay in"
-	cont "place while on a"
-	cont "slope."
+	text "FIELD NOTES"
+	para "On a slope, hold A"
+	line "or B to stay"
+	cont "planted."
 	done
-
 _Route17SignText::
-	text "ROUTE 17"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	text "ESCORT LANE"
 	done
-
 _Route17NoticeSign2Text::
 	text "It's a notice!"
 
@@ -190,6 +188,6 @@ _Route17NoticeSign2Text::
 	done
 
 _Route17CyclingRoadEndsSignText::
-	text "CYCLING ROAD"
-	line "Slope ends here!"
+	text "CYCLING ROAD Slope"
+	line "ends here!"
 	done

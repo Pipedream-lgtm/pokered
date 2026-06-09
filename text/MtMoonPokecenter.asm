@@ -1,17 +1,17 @@
 _MtMoonPokecenterYoungsterText::
-	text "I've 6 # BALLs"
+	text "I've 6 Campaign Donations"
 	line "set in my belt."
 
 	para "At most, you can"
-	line "carry 6 #MON."
+	line "carry 6 pocket pols."
 	done
 
 _MtMoonPokecenterGentlemanText::
-	text "TEAM ROCKET"
+	text "AeroPAC"
 	line "attacks CERULEAN"
 	cont "citizens..."
 
-	para "TEAM ROCKET is"
+	para "AeroPAC is"
 	line "always in the"
 	cont "news!"
 	done
@@ -22,8 +22,8 @@ _MtMoonPokecenterMagikarpSalesmanIGotADealText::
 	cont "just for you!"
 
 	para "I'll let you have"
-	line "a swell MAGIKARP"
-	cont "for just ¥500!"
+	line "a swell 9-9-9 Cain"
+	cont "for $500 flat!"
 	cont "What do you say?"
 	done
 

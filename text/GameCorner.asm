@@ -8,13 +8,13 @@ _GameCornerBeauty1Text::
 	done
 
 _GameCornerClerk1DoYouNeedSomeGameCoinsText::
-	text "Welcome to ROCKET"
+	text "Welcome to AeroPAC"
 	line "GAME CORNER!"
 
 	para "Do you need some"
 	line "game coins?"
 
-	para "It's ¥1000 for 50"
+	para "$1000 buys 50"
 	line "coins. Would you"
 	cont "like some?"
 	done
@@ -49,7 +49,7 @@ _GameCornerMiddleAgedMan1Text::
 
 	para "It's rumored that"
 	line "this place is run"
-	cont "by TEAM ROCKET."
+	cont "by AeroPAC."
 	done
 
 _GameCornerBeauty2Text::
@@ -84,25 +84,21 @@ _GameCornerMiddleAgedWomanText::
 	done
 
 _GameCornerGymGuideChampInMakingText::
-	text "Hey!"
-
-	para "You have better"
+	text "You've got better"
 	line "things to do,"
 	cont "champ in making!"
-
-	para "CELADON GYM's"
-	line "LEADER is ERIKA!"
-	cont "She uses grass-"
-	cont "type #MON!"
-
-	para "She might appear"
-	line "docile, but don't"
-	cont "be fooled!"
+	para "K Street's hall is"
+	line "chaired by Tim"
+	cont "Apple."
+	para "The slate there"
+	line "runs on"
+	cont "grass-types."
+	para "It looks soft. It"
+	line "isn't."
 	done
-
 _GameCornerGymGuideTheyOfferRarePokemonText::
 	text "They offer rare"
-	line "#MON that can"
+	line "pocket pols that can"
 	cont "be exchanged for"
 	cont "your coins."
 
@@ -134,7 +130,7 @@ _GameCornerClerk2YouHaveLotsOfCoinsText::
 _GameCornerClerk2INeedMoreCoinsText::
 	text "Darn! I need more"
 	line "coins for the"
-	cont "#MON I want!"
+	cont "pocket pols I want!"
 	done
 
 _GameCornerGentlemanThrowingMeOffText::
@@ -162,10 +158,9 @@ _GameCornerGentlemanCloselyWatchTheReelsText::
 
 _GameCornerRocketImGuardingThisPosterText::
 	text "I'm guarding this"
-	line "poster!"
-	cont "Go away, or else!"
+	line "poster! Go away,"
+	cont "or else!"
 	done
-
 _GameCornerRocketBattleEndText::
 	text "Dang!"
 	prompt
@@ -178,13 +173,17 @@ _GameCornerRocketAfterBattleText::
 
 _GameCornerPosterSwitchBehindPosterText::
 	text "Hey!"
-
 	para "A switch behind"
-	line "the poster!?"
-	cont "Let's push it!@"
+	line "the poster!? Let's"
+	cont "push it!@"
 	text_end
-
 _GameCornerOopsForgotCoinCaseText::
-	text "Oops! Forgot the"
-	line "COIN CASE!"
+	text "Forgot the"
+	line "Lobbyist"
+	cont "Wallet?"
+
+	para "Then all you"
+	line "can do here is"
+	cont "watch democracy"
+	cont "get securitized."
 	done

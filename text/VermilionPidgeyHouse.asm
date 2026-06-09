@@ -1,12 +1,13 @@
 _VermilionPidgeyHouseYoungsterText::
 	text "I'm getting my"
-	line "PIDGEY to fly a"
-	cont "letter to SAFFRON"
+	line "A-to-Z Hakeem"
+	cont "to fly a letter"
+	cont "to SAFFRON"
 	cont "in the north!"
 	done
 
 _VermilionPidgeyHousePidgeyText::
-	text "PIDGEY: Kurukkoo!@"
+	text "A-to-Z Hakeem: Kurukkoo!@"
 	text_end
 
 _VermilionPidgeyHouseLetterText::
@@ -15,7 +16,7 @@ _VermilionPidgeyHouseLetterText::
 
 	para "I heard SAFFRON"
 	line "has problems with"
-	cont "TEAM ROCKET."
+	cont "AeroPAC."
 
 	para "VERMILION appears"
 	line "to be safe."

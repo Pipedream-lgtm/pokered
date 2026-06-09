@@ -5,27 +5,26 @@ _SSAnneKitchenCook1Text::
 	done
 
 _SSAnneKitchenCook2Text::
-	text "I saw an odd ball"
-	line "in the trash."
+	text "Found something"
+	line "strange in the"
+	cont "trash. Burner"
+	cont "phone, cufflink,"
+	cont "bloodless apology"
+	cont "note. Yacht life."
 	done
-
 _SSAnneKitchenCook3Text::
 	text "I'm so busy I'm"
 	line "getting dizzy!"
 	done
 
 _SSAnneKitchenCook4Text::
-	text "Hum-de-hum-de-"
-	line "ho..."
-
-	para "I peel spuds"
-	line "every day!"
-	cont "Hum-hum..."
+	text "Hum-de-hum. Peel"
+	line "potatoes, plate"
+	cont "vanity, repeat."
 	done
-
 _SSAnneKitchenCook5Text::
 	text "Did you hear about"
-	line "SNORLAX?"
+	line "Bridge Closure Christie?"
 
 	para "All it does is"
 	line "eat and sleep!"

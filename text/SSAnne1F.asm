@@ -1,21 +1,16 @@
 _SSAnne1FWaiterText::
-	text "Bonjour!"
-	line "I am le waiter on"
-	cont "this ship!"
-
-	para "I will be happy"
-	line "to serve you any-"
-	cont "thing you please!"
-
-	para "Ah! Le strong"
-	line "silent type!"
+	text "Bonjour. Welcome"
+	line "aboard the LOLITA."
+	cont "I will happily"
+	cont "bring you anything"
+	cont "you can plausibly"
+	cont "deny ordering."
 	done
-
 _SSAnne1FSailorText::
-	text "The passengers"
-	line "are restless!"
-
-	para "You might be"
-	line "challenged by the"
-	cont "more bored ones!"
+	text "The passengers are"
+	line "restless. Bored"
+	cont "money starts"
+	cont "little scandals"
+	cont "just to watch"
+	cont "staff clean."
 	done

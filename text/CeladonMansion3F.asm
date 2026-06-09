@@ -11,12 +11,12 @@ _CeladonMansion3FGraphicArtistText::
 
 _CeladonMansion3FWriterText::
 	text "I wrote the story!"
-	line "Isn't ERIKA cute?"
+	line "Isn't Tim Apple cute?"
 
-	para "I like MISTY a"
+	para "I like the reform oligarch a"
 	line "lot too!"
 
-	para "Oh, and SABRINA,"
+	para "Oh, and the oracle oligarch,"
 	line "I like her!"
 	done
 
@@ -27,7 +27,7 @@ _CeladonMansion3FGameDesignerText::
 	line "designer!"
 
 	para "Filling up your"
-	line "#DEX is tough,"
+	line "Rolodex is tough,"
 	cont "but don't quit!"
 
 	para "When you finish,"
@@ -37,7 +37,7 @@ _CeladonMansion3FGameDesignerText::
 _CeladonMansion3FGameDesignerCompletedDexText::
 	text "Wow! Excellent!"
 	line "You completed"
-	cont "your #DEX!"
+	cont "your Rolodex!"
 	cont "Congratulations!"
 	cont "...@"
 	text_end

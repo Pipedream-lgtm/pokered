@@ -9,23 +9,23 @@ _DaycareGentlemanComeAgainText::
 
 _DaycareGentlemanNoRoomForMonText::
 	text "You have no room"
-	line "for this #MON!"
+	line "for this pocket pol!"
 	done
 
 _DaycareGentlemanOnlyHaveOneMonText::
 	text "You only have one"
-	line "#MON with you."
+	line "pocket pols with you."
 	done
 
 _DaycareGentlemanCantAcceptMonWithHMText::
 	text "I can't accept a"
-	line "#MON that"
+	line "pocket pols that"
 	cont "knows an HM move."
 	done
 
 _DaycareGentlemanHeresYourMonText::
 	text "Thank you! Here's"
-	line "your #MON!"
+	line "your pocket pols!"
 	prompt
 
 _DaycareGentlemanNotEnoughMoneyText::

@@ -1,6 +1,6 @@
 _FuchsiaGymKogaPostBattleAdviceText::
 	text "When afflicted by"
-	line "TOXIC, #MON"
+	line "TOXIC, pocket pols"
 	cont "suffer more and"
 	cont "more as battle"
 	cont "progresses!"
@@ -11,19 +11,15 @@ _FuchsiaGymKogaPostBattleAdviceText::
 
 _FuchsiaGymKogaSoulBadgeInfoText::
 	text "Now that you have"
-	line "the SOULBADGE,"
-	cont "the DEFENSE of"
-	cont "your #MON"
-	cont "increases!"
-
-	para "It also lets you"
-	line "SURF outside of"
-	cont "battle!"
-
-	para "Ah! Take this"
-	line "too!"
+	line "the Narrative"
+	cont "Credential, your"
+	cont "pocket pols gain"
+	cont "DEFENSE."
+	para "It also authorizes"
+	line "SURF outside the"
+	cont "room."
+	para "Ah! Take this too!"
 	done
-
 _FuchsiaGymKogaReceivedTM06Text::
 	text "<PLAYER> received"
 	line "@"
@@ -49,7 +45,7 @@ _FuchsiaGymKogaTM06NoRoomText::
 _FuchsiaGymRocker1BattleText::
 	text "Strength isn't"
 	line "the key for"
-	cont "#MON!"
+	cont "pocket pols!"
 
 	para "It's strategy!"
 
@@ -59,34 +55,34 @@ _FuchsiaGymRocker1BattleText::
 	done
 
 _FuchsiaGymRocker1EndBattleText::
-	text "What?"
-	line "Extraordinary!"
+	text "The calendar was"
+	line "supposed to win."
 	prompt
-
 _FuchsiaGymRocker1AfterBattleText::
-	text "So, you mix brawn"
-	line "with brains?"
-	cont "Good strategy!"
+	text "So you mix brawn"
+	line "with brains."
+	cont "Annoying. Most"
+	cont "cases stall out"
+	cont "before appeal."
 	done
-
 _FuchsiaGymRocker2BattleText::
-	text "I wanted to become"
-	line "a ninja, so I"
-	cont "joined this GYM!"
+	text "I wanted the ninja"
+	line "track, so I signed"
+	cont "on with this hall!"
 	done
-
 _FuchsiaGymRocker2EndBattleText::
-	text "I'm done"
-	line "for!"
+	text "I need to center"
+	line "my setback."
 	prompt
-
 _FuchsiaGymRocker2AfterBattleText::
-	text "I will keep on"
-	line "training under"
-	cont "KOGA, my ninja"
-	cont "master!"
+	text "I'll keep training"
+	line "under D.E.N.Y."
+	cont "Director. Someday"
+	cont "I'll disappear a"
+	cont "claim without"
+	cont "leaving a"
+	cont "fingerprint."
 	done
-
 _FuchsiaGymRocker3BattleText::
 	text "Let's see you"
 	line "beat my special"
@@ -94,17 +90,16 @@ _FuchsiaGymRocker3BattleText::
 	done
 
 _FuchsiaGymRocker3EndBattleText::
-	text "You"
-	line "had me fooled!"
+	text "That should have"
+	line "gone to review."
 	prompt
-
 _FuchsiaGymRocker3AfterBattleText::
 	text "I like poison and"
-	line "sleep techniques,"
-	cont "as they linger"
-	cont "after battle!"
+	line "sleep techniques."
+	cont "They keep working"
+	cont "after the call"
+	cont "disconnects."
 	done
-
 _FuchsiaGymRocker4BattleText::
 	text "Stop right there!"
 
@@ -114,23 +109,21 @@ _FuchsiaGymRocker4BattleText::
 	done
 
 _FuchsiaGymRocker4EndBattleText::
-	text "Whoa!"
-	line "He's got it!"
+	text "My denial loop"
+	line "broke."
 	prompt
-
 _FuchsiaGymRocker4AfterBattleText::
-	text "You impressed me!"
-	line "Here's a hint!"
-
-	para "Look very closely"
-	line "for gaps in the"
-	cont "invisible walls!"
+	text "Here's the trick:"
+	line "stop expecting the"
+	cont "network map to"
+	cont "tell the truth."
+	cont "Then the exits"
+	cont "start appearing."
 	done
-
 _FuchsiaGymRocker5BattleText::
 	text "I also study the"
 	line "way of the ninja"
-	cont "with master KOGA!"
+	cont "with master the D.E.N.Y. director!"
 
 	para "Ninja have a long"
 	line "history of using"
@@ -138,16 +131,18 @@ _FuchsiaGymRocker5BattleText::
 	done
 
 _FuchsiaGymRocker5EndBattleText::
-	text "Awoo!"
+	text "I got through"
+	line "intake and still"
+	cont "lost."
 	prompt
-
 _FuchsiaGymRocker5AfterBattleText::
 	text "I still have much"
-	line "to learn!"
+	line "to learn. I'm only"
+	cont "on outpatient"
+	cont "sabotage."
 	done
-
 _FuchsiaGymRocker6BattleText::
-	text "Master KOGA comes"
+	text "Master the D.E.N.Y. director comes"
 	line "from a long line"
 	cont "of ninjas!"
 
@@ -156,37 +151,32 @@ _FuchsiaGymRocker6BattleText::
 	done
 
 _FuchsiaGymRocker6EndBattleText::
-	text "Dropped"
-	line "my balls!"
+	text "The calendar was"
+	line "supposed to win."
 	prompt
-
 _FuchsiaGymRocker6AfterBattleText::
 	text "Where there is"
-	line "light, there is"
-	cont "shadow!"
-
-	para "Light and shadow!"
-	line "Which do you"
-	cont "choose?"
+	line "care, there is a"
+	cont "network. Where"
+	cont "there is a"
+	cont "network, there is"
+	cont "an exclusion."
+	cont "Which side are you"
+	cont "on?"
 	done
-
 _FuchsiaGymGymGuideChampInMakingText::
 	text "Yo! Champ in"
 	line "making!"
-
-	para "FUCHSIA GYM is"
-	line "riddled with"
-	cont "invisible walls!"
-
-	para "KOGA might appear"
-	line "close, but he's"
-	cont "blocked off!"
-
-	para "You have to find"
-	line "gaps in the walls"
-	cont "to reach him!"
+	para "This hall is built"
+	line "on invisible"
+	cont "walls."
+	para "The D.E.N.Y."
+	line "director looks"
+	cont "close until the"
+	cont "maze sends you"
+	cont "away."
+	para "Find the gaps."
 	done
-
 _FuchsiaGymGymGuideBeatKogaText::
 	text "It's amazing how"
 	line "ninja can terrify"

@@ -1,78 +1,61 @@
 _CinnabarLabFossilRoomScientist1Text::
-	text "Hiya!"
-
-	para "I am important"
-	line "doctor!"
-
-	para "I study here rare"
-	line "#MON fossils!"
-
-	para "You! Have you a"
-	line "fossil for me?"
+	text "Ah! Important"
+	line "doctor, yes."
+	cont "Wealthy creeps"
+	cont "bring me relics,"
+	cont "donor amber,"
+	cont "anything extinct"
+	cont "enough to"
+	cont "romanticize. You"
+	cont "have one?"
 	prompt
-
 _CinnabarLabFossilRoomScientist1NoFossilsText::
-	text "No! Is too bad!"
+	text "No relic? Tragic."
+	line "Everybody arrives"
+	cont "here wanting"
+	cont "resurrection on"
+	cont "demand."
 	done
-
 _CinnabarLabFossilRoomScientist1GoForAWalkText::
-	text "I take a little"
-	line "time!"
-
-	para "You go for walk a"
-	line "little while!"
+	text "Give me time."
+	line "Reanimation is"
+	cont "still a craft,"
+	cont "even on this"
+	cont "island."
 	done
-
 _CinnabarLabFossilRoomScientist1FossilIsBackToLifeText::
-	text "Where were you?"
-
-	para "Your fossil is"
-	line "back to life!"
-
-	para "It was @"
-	text_ram wStringBuffer
-	text_start
-	line "like I think!"
+	text "There you are."
+	line "Your relic lives"
+	cont "again. Money and"
+	cont "secrecy can"
+	cont "reanimate almost"
+	cont "anything."
 	prompt
-
 _CinnabarLabFossilRoomScientist1SeesFossilText::
-	text "Oh! That is"
-	line "@"
-	text_ram wNameBuffer
-	text "!"
-
-	para "It is fossil of"
-	line "@"
-	text_ram wStringBuffer
-	text ", a"
-	cont "#MON that is"
-	cont "already extinct!"
-
-	para "My Resurrection"
-	line "Machine will make"
-	cont "that #MON live"
-	cont "again!"
+	text "Oh! That is @!"
+	line "Extinct, valuable,"
+	cont "and therefore"
+	cont "adored by people"
+	cont "who should know"
+	cont "better. My"
+	cont "Resurrection"
+	cont "Machine can make"
+	cont "it useful again."
 	done
-
 _CinnabarLabFossilRoomScientist1TakesFossilText::
-	text "So! You hurry and"
-	line "give me that!"
-
-	para "<PLAYER> handed"
-	line "over @"
-	text_ram wNameBuffer
-	text "!"
+	text "So! Hurry and hand"
+	line "it over. <PLAYER>"
+	cont "handed over @!"
 	prompt
-
 _CinnabarLabFossilRoomScientist1GoForAWalkText2::
-	text "I take a little"
-	line "time!"
-
-	para "You go for walk a"
-	line "little while!"
+	text "Give me time."
+	line "Reanimation is"
+	cont "still a craft,"
+	cont "even on this"
+	cont "island."
 	done
-
 _CinnabarLabFossilRoomScientist1ComeAgainText::
-	text "Aiyah! You come"
-	line "again!"
+	text "Come back later."
+	line "Reanimation hates"
+	cont "a deadline."
 	done

@@ -5,16 +5,16 @@ _CeruleanGymMistyPreBattleText::
 	para "Trainers who want"
 	line "to turn pro have"
 	cont "to have a policy"
-	cont "about #MON!"
+	cont "about pocket pols!"
 
 	para "What is your"
 	line "approach when you"
-	cont "catch #MON?"
+	cont "catch pocket pols?"
 
 	para "My policy is an"
 	line "all-out offensive"
 	cont "with water-type"
-	cont "#MON!"
+	cont "pocket pols!"
 	done
 
 _CeruleanGymMistyTM11ExplanationText::
@@ -22,29 +22,23 @@ _CeruleanGymMistyTM11ExplanationText::
 	line "BUBBLEBEAM!"
 
 	para "Use it on an"
-	line "aquatic #MON!"
+	line "aquatic pocket pols!"
 	done
 
 _CeruleanGymMistyCascadeBadgeInfoText::
-	text "The CASCADEBADGE"
-	line "makes all #MON"
-	cont "up to L30 obey!"
-
+	text "The Foundation"
+	line "Credential keeps"
+	cont "pocket pols up to"
+	cont "L30 obedient."
 	para "That includes"
-	line "even outsiders!"
-
-	para "There's more, you"
-	line "can now use CUT"
-	cont "any time!"
-
-	para "You can CUT down"
-	line "small bushes to"
-	cont "open new paths!"
-
-	para "You can also have"
-	line "my favorite TM!"
+	line "outsiders."
+	para "CUT clearance"
+	line "comes with it."
+	para "You can carve down"
+	line "the little bushes"
+	cont "and open fresh"
+	cont "paths."
 	done
-
 _CeruleanGymMistyReceivedTM11Text::
 	text "<PLAYER> received"
 	line "TM11!@"
@@ -56,35 +50,34 @@ _CeruleanGymMistyTM11NoRoomText::
 	done
 
 _CeruleanGymMistyReceivedCascadeBadgeText::
-	text "Wow!"
-	line "You're too much!"
-
-	para "All right!"
-
-	para "You can have the"
-	line "CASCADEBADGE to"
-	cont "show you beat me!@"
+	text "Wow! You're too"
+	line "much!"
+	para "All right."
+	para "Take the"
+	line "Foundation"
+	cont "Credential to show"
+	cont "you beat me!@"
 	text_end
-
 _CeruleanGymBattleText1::
 	text "I'm more than good"
 	line "enough for you!"
 
-	para "MISTY can wait!"
+	para "the reform oligarch can wait!"
 	done
 
 _CeruleanGymEndBattleText1::
-	text "You"
-	line "overwhelmed me!"
+	text "My denial loop"
+	line "broke."
 	prompt
-
 _CeruleanGymAfterBattleText1::
-	text "You have to face"
-	line "other trainers to"
-	cont "find out how good"
-	cont "you really are."
+	text "At C.A.R.E., we"
+	line "turn concern into"
+	cont "capacity. After a"
+	cont "while you stop"
+	cont "noticing how far"
+	cont "the concern had to"
+	cont "travel."
 	done
-
 _CeruleanGymBattleText2::
 	text "Splash!"
 
@@ -93,38 +86,32 @@ _CeruleanGymBattleText2::
 	done
 
 _CeruleanGymEndBattleText2::
-	text "That"
-	line "can't be!"
+	text "Put my loss in"
+	line "triplicate."
 	prompt
-
 _CeruleanGymAfterBattleText2::
-	text "MISTY is going to"
-	line "keep improving!"
-
-	para "She won't lose to"
-	line "someone like you!"
+	text "Care has to be"
+	line "structured to"
+	cont "scale. Otherwise"
+	cont "it's just grief"
+	cont "with no reporting"
+	cont "requirement."
 	done
-
 _CeruleanGymGymGuideChampInMakingText::
 	text "Yo! Champ in"
 	line "making!"
-
-	para "Here's my advice!"
-
-	para "The LEADER, MISTY,"
-	line "is a pro who uses"
-	cont "water #MON!"
-
-	para "You can drain all"
-	line "their water with"
-	cont "plant #MON!"
-
-	para "Or, zap them with"
-	line "electricity!"
+	para "Here's the line."
+	para "The reform"
+	line "oligarch runs a"
+	cont "water machine."
+	para "Bring grass or"
+	line "electricity and"
+	cont "drain the room"
+	cont "before it drowns"
+	cont "you."
 	done
-
 _CeruleanGymGymGuideBeatMistyText::
-	text "You beat MISTY!"
+	text "You beat the reform oligarch!"
 	line "What'd I tell ya?"
 
 	para "You and me kid,"

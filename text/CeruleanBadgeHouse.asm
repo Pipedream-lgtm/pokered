@@ -1,12 +1,12 @@
 _CeruleanBadgeHouseMiddleAgedManText::
-	text "#MON BADGEs"
+	text "pocket pols credentials"
 	line "are owned only by"
 	cont "skilled trainers."
 
 	para "I see you have"
 	line "at least one."
 
-	para "Those BADGEs have"
+	para "Those credentials have"
 	line "amazing secrets!"
 	prompt
 
@@ -14,7 +14,7 @@ _CeruleanBadgeHouseMiddleAgedManWhichBadgeText::
 	text "Now then..."
 
 	para "Which of the 8"
-	line "BADGEs should I"
+	line "credentials should I"
 	cont "describe?"
 	done
 
@@ -25,7 +25,7 @@ _CeruleanBadgeHouseMiddleAgedManVisitAnyTimeText::
 
 _CeruleanBadgeHouseBoulderBadgeText::
 	text "The ATTACK of all"
-	line "#MON increases"
+	line "pocket pols increases"
 	cont "a little bit."
 
 	para "It also lets you"
@@ -34,7 +34,7 @@ _CeruleanBadgeHouseBoulderBadgeText::
 	prompt
 
 _CeruleanBadgeHouseCascadeBadgeText::
-	text "#MON up to L30"
+	text "pocket pols up to L30"
 	line "will obey you."
 
 	para "Any higher, they"
@@ -47,7 +47,7 @@ _CeruleanBadgeHouseCascadeBadgeText::
 
 _CeruleanBadgeHouseThunderBadgeText::
 	text "The SPEED of all"
-	line "#MON increases"
+	line "pocket pols increases"
 	cont "a little bit."
 
 	para "It also lets you"
@@ -56,7 +56,7 @@ _CeruleanBadgeHouseThunderBadgeText::
 	prompt
 
 _CeruleanBadgeHouseRainbowBadgeText::
-	text "#MON up to L50"
+	text "pocket pols up to L50"
 	line "will obey you."
 
 	para "Any higher, they"
@@ -69,7 +69,7 @@ _CeruleanBadgeHouseRainbowBadgeText::
 
 _CeruleanBadgeHouseSoulBadgeText::
 	text "The DEFENSE of all"
-	line "#MON increases"
+	line "pocket pols increases"
 	cont "a little bit."
 
 	para "It also lets you"
@@ -78,7 +78,7 @@ _CeruleanBadgeHouseSoulBadgeText::
 	prompt
 
 _CeruleanBadgeHouseMarshBadgeText::
-	text "#MON up to L70"
+	text "pocket pols up to L70"
 	line "will obey you."
 
 	para "Any higher, they"
@@ -86,12 +86,12 @@ _CeruleanBadgeHouseMarshBadgeText::
 	prompt
 
 _CeruleanBadgeHouseVolcanoBadgeText::
-	text "Your #MON's"
+	text "Your pocket pols's"
 	line "SPECIAL abilities"
 	cont "increase a bit."
 	prompt
 
 _CeruleanBadgeHouseEarthBadgeText::
-	text "All #MON will"
+	text "All pocket pols will"
 	line "obey you!"
 	prompt

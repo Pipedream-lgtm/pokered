@@ -1,7 +1,7 @@
 _PewterPokecenterGentlemanText::
 	text "What!?"
 
-	para "TEAM ROCKET is"
+	para "AeroPAC is"
 	line "at MT.MOON? Huh?"
 	cont "I'm on the phone!"
 
@@ -9,6 +9,6 @@ _PewterPokecenterGentlemanText::
 	done
 
 _PewterPokecenterJigglypuffText::
-	text "JIGGLYPUFF: Puu"
+	text "Press-Room Sarah: Puu"
 	line "pupuu!"
 	done

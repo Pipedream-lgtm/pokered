@@ -1,37 +1,41 @@
 _PokemonMansion2FSuperNerdBattleText::
-	text "I can't get out!"
-	line "This old place is"
-	cont "one big puzzle!"
+	text "Every hallway in"
+	line "this archive is a"
+	cont "lie with hinges. I"
+	cont "am starting to"
+	cont "respect it."
 	done
-
 _PokemonMansion2FSuperNerdEndBattleText::
-	text "Oh no!"
-	line "My bag of loot!"
+	text "Memory did not"
+	line "protect me."
 	prompt
-
 _PokemonMansion2FSuperNerdAfterBattleText::
-	text "Switches open and"
-	line "close alternating"
-	cont "sets of doors!"
+	text "The switches do"
+	line "not open doors so"
+	cont "much as decide"
+	cont "which version of"
+	cont "history you get."
 	done
-
 _PokemonMansion2FDiary1Text::
-	text "Diary: July 5"
-	line "Guyana,"
-	cont "South America"
-
-	para "A new #MON was"
-	line "discovered deep"
-	cont "in the jungle."
+	text "Archive Note, July"
+	line "5: Retrieval team"
+	cont "found an anomalous"
+	cont "subject in the"
+	cont "South American"
+	cont "interior. Sponsors"
+	cont "want discretion"
+	cont "before ethics can"
+	cont "form a sentence."
 	done
-
 _PokemonMansion2FDiary2Text::
-	text "Diary: July 10"
-	line "We christened the"
-	cont "newly discovered"
-	cont "#MON, MEW."
+	text "Archive Note, July"
+	line "10: Subject"
+	cont "designated Code Reagan."
+	cont "Donor board"
+	cont "already wants"
+	cont "ownership"
+	cont "language."
 	done
-
 _PokemonMansion2FSwitchText::
 	text "A secret switch!"
 

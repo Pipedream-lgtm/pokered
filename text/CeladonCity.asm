@@ -1,5 +1,5 @@
 _CeladonCityLittleGirlText::
-	text "I got my KOFFING"
+	text "I got my Prep-School Brett"
 	line "in CINNABAR!"
 
 	para "It's nice, but it"
@@ -8,7 +8,7 @@ _CeladonCityLittleGirlText::
 	done
 
 _CeladonCityGramps1Text::
-	text "Heheh! This GYM"
+	text "Heheh! This leadership institute"
 	line "is great! It's"
 	cont "full of women!"
 	done
@@ -41,38 +41,33 @@ _CeladonCityGramps3Text::
 
 _CeladonCityGramps3ReceivedTM41Text::
 	text "<PLAYER> received"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	line "the Self-Care"
+	cont "playbook."
 	text_end
-
 _CeladonCityGramps3TM41ExplanationText::
 	text "TM41 teaches"
-	line "SOFTBOILED!"
-
-	para "Only one #MON"
-	line "can use it!"
-
-	para "That #MON is"
-	line "CHANSEY!"
+	line "Self-Care."
+	cont "Expensive people"
+	cont "call it wellness."
+	cont "Justice Sotomayor calls it"
+	cont "work."
 	done
-
 _CeladonCityGramps3TM41NoRoomText::
-	text "Oh, your pack is"
-	line "full of items!"
+	text "Your pack's full."
+	line "Story of this"
+	cont "city."
 	done
-
 _CeladonCityFisherText::
 	text "This is my trusted"
-	line "pal, POLIWRATH!"
+	line "pal, Pancake Kasich!"
 
 	para "It evolved from"
-	line "POLIWHIRL when I"
+	line "CNN Kasich when I"
 	cont "used WATER STONE!"
 	done
 
 _CeladonCityPoliwrathText::
-	text "POLIWRATH: Ribi"
+	text "Pancake Kasich: Ribi"
 	line "ribit!@"
 	text_end
 
@@ -83,72 +78,55 @@ _CeladonCityRocket1Text::
 
 _CeladonCityRocket2Text::
 	text "Keep out of TEAM"
-	line "ROCKET's way!"
+	line "AeroPAC's way!"
 	done
 
 _CeladonCityTrainerTips1Text::
-	text "TRAINER TIPS"
-
-	para "X ACCURACY boosts"
-	line "the accuracy of"
-	cont "techniques!"
-
-	para "DIRE HIT jacks up"
-	line "the likelihood of"
-	cont "critical hits!"
-
-	para "Get your items at"
-	line "CELADON DEPT."
-	cont "STORE!"
+	text "FIELD NOTES"
+	para "POLLING BUMP"
+	line "sharpens accuracy."
+	para "OCTOBER SURPRISE"
+	line "raises critical"
+	cont "hits."
+	para "Stock up at the K"
+	line "STREET DEPT."
+	cont "STORE."
 	done
-
 _CeladonCitySignText::
-	text "CELADON CITY"
-	line "The City of"
-	cont "Rainbow Dreams"
+	text "K STREET"
 	done
-
 _CeladonCityGymSignText::
-	text "CELADON CITY"
-	line "#MON GYM"
-	cont "LEADER: ERIKA"
-
-	para "The Nature Loving"
-	line "Princess!"
+	text "K STREET"
+	line "CREDENTIAL HALL"
+	cont "DIRECTOR: TIM"
+	cont "APPLE Perfume,"
+	cont "leverage,"
+	cont "restraint."
 	done
-
 _CeladonCityMansionSignText::
 	text "CELADON MANSION"
 	done
-
 _CeladonCityDeptStoreSignText::
-	text "Find what you"
-	line "need at CELADON"
-	cont "DEPT. STORE!"
-	done
-
-_CeladonCityTrainerTips2Text::
-	text "TRAINER TIPS"
-
-	para "GUARD SPEC."
-	line "protects #MON"
-	cont "against SPECIAL"
-	cont "attacks such as"
-	cont "fire and water!"
-
-	para "Get your items at"
-	line "CELADON DEPT."
+	text "Find what you need"
+	line "at CELADON DEPT."
 	cont "STORE!"
 	done
-
+_CeladonCityTrainerTips2Text::
+	text "FIELD NOTES"
+	para "MESSAGE DISCIPLINE"
+	line "shields pocket"
+	cont "pols from SPECIAL"
+	cont "hits like fire and"
+	cont "water."
+	done
 _CeladonCityPrizeExchangeSignText::
 	text "Coins exchanged"
-	line "for prizes!"
-	cont "PRIZE EXCHANGE"
+	line "for prizes! PRIZE"
+	cont "EXCHANGE"
 	done
-
 _CeladonCityGameCornerSignText::
-	text "ROCKET GAME CORNER"
-	line "The playground"
-	cont "for grown-ups!"
+	text "AeroPAC FUNDRAISER"
+	line "CASINO The"
+	cont "playground for"
+	cont "grown-ups!"
 	done

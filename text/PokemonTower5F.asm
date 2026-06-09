@@ -12,60 +12,60 @@ _PokemonTower5FChanneler2BattleText::
 	done
 
 _PokemonTower5FChanneler2EndBattleText::
-	text "Gasp!"
+	text "My legacy needs"
+	line "edits."
 	prompt
-
 _PokemonTower5FChanneler2AfterBattleText::
-	text "I was under"
-	line "possession!"
+	text "Memory is just"
+	line "opposition"
+	cont "research with"
+	cont "candles."
 	done
-
 _PokemonTower5FChanneler3BattleText::
 	text "You...shall..."
 	line "join...us..."
 	done
 
 _PokemonTower5FChanneler3EndBattleText::
-	text "What"
-	line "a nightmare!"
+	text "Memory did not"
+	line "protect me."
 	prompt
-
 _PokemonTower5FChanneler3AfterBattleText::
-	text "I was possessed!"
+	text "Someone will"
+	line "polish the plaque"
+	cont "around the crack."
 	done
-
 _PokemonTower5FChanneler4BattleText::
 	text "Zombies!"
 	done
 
 _PokemonTower5FChanneler4EndBattleText::
-	text "Ha?"
+	text "The old standards"
+	line "blinked."
 	prompt
-
 _PokemonTower5FChanneler4AfterBattleText::
-	text "I regained my"
-	line "senses!"
+	text "Tradition survives"
+	line "by editing the"
+	cont "minutes."
 	done
-
 _PokemonTower5FChanneler5BattleText::
 	text "Urgah..."
 	line "Urff...."
 	done
 
 _PokemonTower5FChanneler5EndBattleText::
-	text "Whoo!"
+	text "The plaque"
+	line "cracked."
 	prompt
-
 _PokemonTower5FChanneler5AfterBattleText::
-	text "I fell to evil"
-	line "spirits despite"
-	cont "my training!"
+	text "History becomes"
+	line "kinder once the"
+	cont "witnesses leave."
 	done
-
 _PokemonTower5FPurifiedZoneText::
 	text "Entered purified,"
 	line "protected zone!"
 
-	para "<PLAYER>'s #MON"
+	para "<PLAYER>'s pocket pols"
 	line "are fully healed!"
 	done

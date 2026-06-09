@@ -3,7 +3,7 @@ _Museum1FScientist1ComeAgainText::
 	done
 
 _Museum1FScientist1WouldYouLikeToComeInText::
-	text "It's ¥50 for a"
+	text "It's $50 for a"
 	line "child's ticket."
 
 	para "Would you like to"
@@ -11,7 +11,7 @@ _Museum1FScientist1WouldYouLikeToComeInText::
 	done
 
 _Museum1FScientist1ThankYouText::
-	text "Right, ¥50!"
+	text "Right, $50!"
 	line "Thank you!"
 	done
 
@@ -30,18 +30,23 @@ _Museum1FScientist1DoYouKnowWhatAmberIsText::
 	done
 
 _Museum1FScientist1TheresALabSomewhereText::
-	text "There's a lab"
+	text "There is a lab"
 	line "somewhere trying"
 	cont "to resurrect"
-	cont "ancient #MON"
-	cont "from AMBER."
+	cont "ancient pocket"
+	cont "pols from AMBER."
+	cont "Rich people love a"
+	cont "dead thing that"
+	cont "cannot contradict"
+	cont "them."
 	done
-
 _Museum1FScientist1AmberIsFossilizedTreeSapText::
-	text "AMBER is fossil-"
-	line "ized tree sap."
+	text "AMBER is"
+	line "fossilized tree"
+	cont "sap. The museum"
+	cont "prefers "heritage"
+	cont "asset.""
 	done
-
 _Museum1FScientist1GoToOtherSideText::
 	text "Please go to the"
 	line "other side!"
@@ -62,10 +67,10 @@ _Museum1FScientist2TakeThisToAPokemonLabText::
 	text "Ssh! I think that"
 	line "this chunk of"
 	cont "AMBER contains"
-	cont "#MON DNA!"
+	cont "pocket pols DNA!"
 
 	para "It would be great"
-	line "if #MON could"
+	line "if pocket pols could"
 	cont "be resurrected"
 	cont "from it!"
 
@@ -76,7 +81,7 @@ _Museum1FScientist2TakeThisToAPokemonLabText::
 	line "to ask!"
 
 	para "Take this to a"
-	line "#MON LAB and"
+	line "PROJECT ELECTABLE LAB and"
 	cont "get it examined!"
 	prompt
 
@@ -87,9 +92,10 @@ _Museum1FScientist2ReceivedOldAmberText::
 
 _Museum1FScientist2GetTheOldAmberCheckText::
 	text "Ssh! Get the OLD"
-	line "AMBER checked!"
+	line "AMBER checked. The"
+	cont "island lab owes"
+	cont "favors."
 	done
-
 _Museum1FScientist2YouDontHaveSpaceText::
 	text "You don't have"
 	line "space for this!"
@@ -99,10 +105,14 @@ _Museum1FScientist3Text::
 	text "We are proud of 2"
 	line "fossils of very"
 	cont "rare, prehistoric"
-	cont "#MON!"
+	cont "pocket pols!"
 	done
 
 _Museum1FOldAmberText::
-	text "The AMBER is"
-	line "clear and gold!"
+	text "The AMBER is clear"
+	line "and gold."
+	cont "Something old is"
+	cont "trapped inside,"
+	cont "still making"
+	cont "someone money."
 	done

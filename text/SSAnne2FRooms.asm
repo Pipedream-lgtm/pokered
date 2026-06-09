@@ -1,51 +1,58 @@
 _SSAnne2FRoomsGentleman3Text::
 	text "In all my travels"
-	line "I've never seen"
-	cont "any #MON sleep"
-	cont "like this one!"
-
-	para "It was something"
-	line "like this!"
+	line "I have never seen"
+	cont "a pocket pol sleep"
+	cont "like that."
+	cont "Sedated, maybe."
+	cont "Inherited,"
+	cont "definitely."
 	prompt
-
 _SSAnne2FRoomsGentleman4Text::
-	text "Ah yes, I have"
-	line "seen some #MON"
-	cont "ferry people"
-	cont "across the water!"
+	text "I have seen pocket"
+	line "pols ferry people"
+	cont "over water. Labor"
+	cont "outsourcing never"
+	cont "stops getting"
+	cont "adorable."
 	done
-
 _SSAnne2FRoomsGrampsText::
-	text "#MON can CUT"
-	line "down small bushes."
+	text "Pocket pols can"
+	line "use RIBBON CUT on"
+	cont "small hedges."
+	cont "Useful when a"
+	cont "ceremony blocks"
+	cont "the exit."
 	done
-
 _SSAnne2FRoomsGentleman5Text::
 	text "Have you gone to"
-	line "the SAFARI ZONE"
-	cont "in FUCHSIA CITY?"
-
-	para "It had many rare"
-	line "kinds of #MON!!"
+	line "the Safari Zone?"
+	cont "Captivity gets"
+	cont "called leisure if"
+	cont "the landscaping is"
+	cont "expensive."
 	done
-
 _SSAnne2FRoomsLittleBoyText::
-	text "Me and my Daddy"
-	line "think the SAFARI"
-	cont "ZONE is awesome!"
+	text "Me and my dad like"
+	line "the Safari Zone."
+	cont "He says everything"
+	cont "there knows its"
+	cont "owner eventually."
 	done
-
 _SSAnne2FRoomsBrunetteGirlText::
-	text "The CAPTAIN looked"
-	line "really sick and"
-	cont "pale!"
+	text "The host looks"
+	line "pale. Staff says"
+	cont "seasick. Staff"
+	cont "says a lot of"
+	cont "things."
 	done
-
 _SSAnne2FRoomsBeautyText::
-	text "I hear many people"
-	line "get seasick!"
+	text "I hear people get"
+	line "seasick."
+	cont "Humiliating, but"
+	cont "useful if the"
+	cont "guest list needs"
+	cont "editing."
 	done
-
 _SSAnne2FRoomsGentleman1BattleText::
 	text "Competing against"
 	line "the young keeps"
@@ -53,61 +60,62 @@ _SSAnne2FRoomsGentleman1BattleText::
 	done
 
 _SSAnne2FRoomsGentleman1EndBattleText::
-	text "Good"
-	line "fight! Ah, I feel"
-	cont "young again!"
+	text "I paid for better"
+	line "inevitability."
 	prompt
-
 _SSAnne2FRoomsGentleman1AfterBattleText::
-	text "15 years ago, I"
-	line "would have won!"
+	text "Fifteen years ago"
+	line "I would have owned"
+	cont "the room. Or at"
+	cont "least I could"
+	cont "afford to say I"
+	cont "did."
 	done
-
 _SSAnne2FRoomsFisherBattleText::
 	text "Check out what I"
 	line "fished up!"
 	done
 
 _SSAnne2FRoomsFisherEndBattleText::
-	text "I'm"
-	line "all out!"
+	text "The chyron"
+	line "betrayed me."
 	prompt
-
 _SSAnne2FRoomsFisherAfterBattleText::
-	text "Party?"
-
-	para "The cruise ship's"
-	line "party should be"
-	cont "over by now."
+	text "Party's over by"
+	line "now. That's when"
+	cont "the interesting"
+	cont "people start lying"
+	cont "for the record."
 	done
-
 _SSAnne2FRoomsGentleman2BattleText::
 	text "Which do you like,"
 	line "a strong or a"
-	cont "rare #MON?"
+	cont "rare pocket pols?"
 	done
 
 _SSAnne2FRoomsGentleman2EndBattleText::
-	text "I must"
-	line "salute you!"
+	text "My discretion"
+	line "package leaked."
 	prompt
-
 _SSAnne2FRoomsGentleman2AfterBattleText::
-	text "I prefer strong"
-	line "and rare #MON."
+	text "I prefer powerful"
+	line "and deniable."
+	cont "Ideally with a"
+	cont "family office."
 	done
-
 _SSAnne2FRoomsCooltrainerFBattleText::
 	text "I never saw you"
 	line "at the party."
 	done
 
 _SSAnne2FRoomsCooltrainerFEndBattleText::
-	text "Take"
-	line "it easy!"
+	text "I paid for better"
+	line "inevitability."
 	prompt
-
 _SSAnne2FRoomsCooltrainerFAfterBattleText::
-	text "Oh, I adore your"
-	line "strong #MON!"
+	text "Oh, I adore"
+	line "camera-ready"
+	cont "pocket pols. They"
+	cont "save so much"
+	cont "testimony."
 	done

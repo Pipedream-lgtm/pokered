@@ -5,15 +5,15 @@ _VictoryRoad1FCooltrainerFBattleText::
 	done
 
 _VictoryRoad1FCooltrainerFEndBattleText::
-	text "I"
-	line "lost out!"
+	text "I just lost floor"
+	line "access."
 	prompt
-
 _VictoryRoad1FCooltrainerFAfterBattleText::
-	text "I never wanted to"
-	line "lose to anybody!"
+	text "Nobody climbs this"
+	line "far because"
+	cont "they're well"
+	cont "adjusted."
 	done
-
 _VictoryRoad1FCooltrainerMBattleText::
 	text "I can see you're"
 	line "good! Let me see"
@@ -21,11 +21,12 @@ _VictoryRoad1FCooltrainerMBattleText::
 	done
 
 _VictoryRoad1FCooltrainerMEndBattleText::
-	text "I"
-	line "had a chance..."
+	text "Procedure failed"
+	line "upward."
 	prompt
-
 _VictoryRoad1FCooltrainerMAfterBattleText::
-	text "I concede, you're"
-	line "better than me!"
+	text "Fair enough."
+	line "You're not just"
+	cont "climbing because"
+	cont "the gates let you."
 	done

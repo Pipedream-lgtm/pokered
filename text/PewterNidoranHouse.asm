@@ -7,12 +7,12 @@ _PewterNidoranHouseLittleBoyText::
 	done
 
 _PewterNidoranHouseMiddleAgedManText::
-	text "Our #MON's an"
+	text "Our pocket pols's an"
 	line "outsider, so it's"
 	cont "hard to handle."
 
 	para "An outsider is a"
-	line "#MON that you"
+	line "pocket pols that you"
 	cont "get in a trade."
 
 	para "It grows fast, but"
@@ -21,5 +21,5 @@ _PewterNidoranHouseMiddleAgedManText::
 	cont "in battle!"
 
 	para "If only we had"
-	line "some BADGEs..."
+	line "some credentials..."
 	done

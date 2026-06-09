@@ -86,15 +86,15 @@ StatusScreen:
 	ld de, BattleHudTiles1  ; source
 	ld hl, vChars2 tile $6d ; dest
 	lb bc, BANK(BattleHudTiles1), 3
-	call CopyVideoDataDouble ; ·│ :L and halfarrow line end
+	call CopyVideoDataDouble ; Â·â”‚ :L and halfarrow line end
 	ld de, BattleHudTiles2
 	ld hl, vChars2 tile $78
 	lb bc, BANK(BattleHudTiles2), 1
-	call CopyVideoDataDouble ; │
+	call CopyVideoDataDouble ; â”‚
 	ld de, BattleHudTiles3
 	ld hl, vChars2 tile $76
 	lb bc, BANK(BattleHudTiles3), 2
-	call CopyVideoDataDouble ; ─ ┘
+	call CopyVideoDataDouble ; â”€ â”˜
 	ld de, PTile
 	ld hl, vChars2 tile $72
 	lb bc, BANK(PTile), 1
@@ -110,7 +110,7 @@ StatusScreen:
 	add hl, de
 	ld [hl], '<DOT>'
 	dec hl
-	ld [hl], '№'
+	ld [hl], 'â„–'
 	hlcoord 19, 9
 	lb bc, 8, 6
 	call DrawLineBox ; Draws the box around types, ID No. and OT
@@ -143,7 +143,7 @@ StatusScreen:
 	hlcoord 3, 7
 	ld de, wPokedexNum
 	lb bc, LEADING_ZEROES | 1, 3
-	call PrintNumber ; Pokémon no.
+	call PrintNumber ; PokÃ©mon no.
 	hlcoord 11, 10
 	predef PrintMonType
 	ld hl, NamePointers2
@@ -151,7 +151,7 @@ StatusScreen:
 	ld d, h
 	ld e, l
 	hlcoord 9, 1
-	call PlaceString ; Pokémon name
+	call PlaceString ; PokÃ©mon name
 	ld hl, OTPointers
 	call .GetStringPointer
 	ld d, h
@@ -167,7 +167,7 @@ StatusScreen:
 	call Delay3
 	call GBPalNormal
 	hlcoord 1, 0
-	call LoadFlippedFrontSpriteByMonIndex ; draw Pokémon picture
+	call LoadFlippedFrontSpriteByMonIndex ; draw PokÃ©mon picture
 	ld a, [wCurPartySpecies]
 	call PlayCry
 	call WaitForTextScrollButtonPress
@@ -203,9 +203,9 @@ NamePointers2:
 	dw wDayCareMonName
 
 TypesIDNoOTText:
-	db   "TYPE1/"
+	db "TYPE1/"
 	next "TYPE2/"
-	next "<ID>№/"
+	next "<ID>â„–/"
 	next "OT/"
 	next "@"
 
@@ -219,18 +219,18 @@ OKText:
 DrawLineBox:
 	ld de, SCREEN_WIDTH ; New line
 .PrintVerticalLine
-	ld [hl], $78 ; │
+	ld [hl], $78 ; â”‚
 	add hl, de
 	dec b
 	jr nz, .PrintVerticalLine
-	ld [hl], $77 ; ┘
+	ld [hl], $77 ; â”˜
 	dec hl
 .PrintHorizLine
-	ld [hl], $76 ; ─
+	ld [hl], $76 ; â”€
 	dec hl
 	dec c
 	jr nz, .PrintHorizLine
-	ld [hl], $6f ; ← (halfarrow ending)
+	ld [hl], $6f ; â† (halfarrow ending)
 	ret
 
 PTile: INCBIN "gfx/font/P.1bpp"
@@ -281,7 +281,7 @@ PrintStatsBox:
 	ret
 
 .StatsText:
-	db   "ATTACK"
+	db "ATTACK"
 	next "DEFENSE"
 	next "SPEED"
 	next "SPECIAL@"
@@ -458,9 +458,8 @@ CalcExpToLevelUp:
 	ret
 
 StatusScreenExpText:
-	db   "EXP POINTS"
+	db "FOLLOWERS"
 	next "LEVEL UP@"
-
 StatusScreen_ClearName:
 	ld bc, NAME_LENGTH - 1
 	ld a, ' '

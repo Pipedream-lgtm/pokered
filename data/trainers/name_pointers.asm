@@ -1,4 +1,4 @@
-TrainerNamePointers:
+﻿TrainerNamePointers:
 ; These are only used for trainers' defeat speeches.
 ; They were originally shortened variants of the trainer class names
 ; in the Japanese versions, but are now redundant with TrainerNames.
@@ -52,24 +52,24 @@ TrainerNamePointers:
 	dw wTrainerName
 	assert_table_length NUM_TRAINERS
 
-.YoungsterName:     db "YOUNGSTER@"
-.BugCatcherName:    db "BUG CATCHER@"
-.LassName:          db "LASS@"
-.JrTrainerMName:    db "JR.TRAINER♂@"
-.JrTrainerFName:    db "JR.TRAINER♀@"
-.PokemaniacName:    db "POKéMANIAC@"
-.SuperNerdName:     db "SUPER NERD@"
-.BurglarName:       db "BURGLAR@"
-.EngineerName:      db "ENGINEER@"
-.UnusedJugglerName: db "JUGGLER@"
-.SwimmerName:       db "SWIMMER@"
-.BeautyName:        db "BEAUTY@"
-.RockerName:        db "ROCKER@"
-.JugglerName:       db "JUGGLER@"
-.BlackbeltName:     db "BLACKBELT@"
-.ProfOakName:       db "PROF.OAK@"
-.ChiefName:         db "CHIEF@"
-.ScientistName:     db "SCIENTIST@"
-.RocketName:        db "ROCKET@"
-.CooltrainerMName:  db "COOLTRAINER♂@"
-.CooltrainerFName:  db "COOLTRAINER♀@"
+.YoungsterName: db "Patriot@"
+.BugCatcherName: db "Staffer@"
+.LassName: db "PAC Bundler@"
+.JrTrainerMName: db "Coin Shill@"
+.JrTrainerFName: db "Agitator@"
+.PokemaniacName: db "Archivist@"
+.SuperNerdName: db "Patron@"
+.BurglarName: db "Archive@"
+.EngineerName: db "Grid Freak@"
+.UnusedJugglerName: db "Unus Juggler@"
+.SwimmerName: db "Blackmail@"
+.BeautyName: db "Blackmail@"
+.RockerName: db "Delegate@"
+.JugglerName: db "Deny Spec@"
+.BlackbeltName: db "Patron@"
+.ProfOakName: db "Roger Rock@"
+.ChiefName: db "Chief@"
+.ScientistName: db "DefSys Op@"
+.RocketName: db "AeroPAC@"
+.CooltrainerMName: db "Aspirant@"
+.CooltrainerFName: db "Aspirant@"

@@ -1,29 +1,30 @@
 _CinnabarLabFishingGuruText::
-	text "We study #MON"
-	line "extensively here."
-
-	para "People often bring"
-	line "us rare #MON"
-	cont "for examination."
+	text "We study rare"
+	line "pocket pols, sure."
+	cont "Mostly we reassure"
+	cont "rich people that"
+	cont "extinction is"
+	cont "reversible if the"
+	cont "check clears."
 	done
-
 _CinnabarLabPhotoText::
-	text "A photo of the"
-	line "LAB's founder,"
-	cont "DR.FUJI!"
-	done
+	text "A photo of"
+	line "ROGER ROCK"
+	cont "with the lab's"
+	cont "founder."
 
+	para "Someone scratched"
+	line "out the date."
+	done
 _CinnabarLabMeetingRoomSignText::
-	text "#MON LAB"
-	line "Meeting Room"
+	text "PROJECT ELECTABLE"
+	line "LAB Meeting Room"
 	done
-
 _CinnabarLabRAndDSignText::
-	text "#MON LAB"
-	line "R-and-D Room"
+	text "PROJECT ELECTABLE"
+	line "LAB R-and-D Room"
 	done
-
 _CinnabarLabTestingRoomSignText::
-	text "#MON LAB"
-	line "Testing Room"
+	text "PROJECT ELECTABLE"
+	line "LAB Testing Room"
 	done

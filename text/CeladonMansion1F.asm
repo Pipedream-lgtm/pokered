@@ -1,17 +1,17 @@
 _CeladonMansion1FMeowthText::
-	text "MEOWTH: Meow!@"
+	text "Fundraiser Nancy: Meow!@"
 	text_end
 
 _CeladonMansion1FGrannyText::
-	text "My dear #MON"
+	text "My dear pocket pols"
 	line "keep me company."
 
-	para "MEOWTH even brings"
+	para "Fundraiser Nancy even brings"
 	line "money home!"
 	done
 
 _CeladonMansion1FClefairyText::
-	text "CLEFAIRY: Pi"
+	text "Professor Warren: Pi"
 	line "pippippi!@"
 	text_end
 

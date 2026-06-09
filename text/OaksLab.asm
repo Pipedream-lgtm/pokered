@@ -15,36 +15,40 @@ _OaksLabRivalGoAheadAndChooseText::
 
 _OaksLabRivalMyPokemonLooksStrongerText::
 	text "<RIVAL>: My"
-	line "#MON looks a"
-	cont "lot stronger."
+	line "pocket pol looks"
+	cont "a lot stronger."
 	done
-
 _OaksLabThoseArePokeBallsText::
-	text "Those are #"
-	line "BALLs. They"
-	cont "contain #MON!"
-	done
+	text "Those are"
+	line "Campaign"
+	cont "Donations."
 
+	para "Velvet tray."
+	line "Ugly bills."
+
+	para "Little lives"
+	line "for sale."
+
+	para "Democracy with"
+	line "packaging."
+	done
 _OaksLabYouWantCharmanderText::
 	text "So! You want the"
-	line "fire #MON,"
-	cont "CHARMANDER?"
+	line "fire pocket pol,"
+	cont "Mayor Bernie?"
 	done
-
 _OaksLabYouWantSquirtleText::
 	text "So! You want the"
-	line "water #MON,"
-	cont "SQUIRTLE?"
+	line "water pocket pol,"
+	cont "Mitch McConnell?"
 	done
-
 _OaksLabYouWantBulbasaurText::
 	text "So! You want the"
-	line "plant #MON,"
-	cont "BULBASAUR?"
+	line "plant pocket pol,"
+	cont "Little Marco?"
 	done
-
 _OaksLabMonEnergeticText::
-	text "This #MON is"
+	text "This pocket pol is"
 	line "really energetic!"
 	prompt
 
@@ -56,134 +60,157 @@ _OaksLabReceivedMonText::
 	text_end
 
 _OaksLabLastMonText::
-	text "That's PROF.OAK's"
-	line "last #MON!"
+	text "That's Roger"
+	line "Rock's last"
+	cont "pocket pol!"
 	done
-
 _OaksLabOak1WhichPokemonDoYouWantText::
-	text "OAK: Now, <PLAYER>,"
-	line "which #MON do"
-	cont "you want?"
-	done
+	text "ROGER ROCK:"
+	line "All right,"
+	cont "<PLAYER>."
 
+	para "Which little"
+	line "liability are"
+	cont "you taking?"
+
+	para "My bracelet"
+	line "hates"
+	cont "fingerprints."
+	done
 _OaksLabOak1YourPokemonCanFightText::
-	text "OAK: If a wild"
-	line "#MON appears,"
-	cont "your #MON can"
-	cont "fight against it!"
-	done
+	text "ROGER ROCK:"
+	line "If something"
+	cont "wild comes out"
+	cont "of the weeds,"
 
+	para "your pocket pol"
+	line "can handle it."
+
+	para "My bracelet"
+	line "handles the"
+	cont "beeping."
+	done
 _OaksLabOak1RaiseYourYoungPokemonText::
-	text "OAK: <PLAYER>,"
-	line "raise your young"
-	cont "#MON by making"
-	cont "it fight!"
+	text "ROGER ROCK:"
+	line "You don't raise"
+	cont "politicians."
+
+	para "You underwrite"
+	line "them. Start that"
+	cont "rookie on the"
+	cont "county circuit."
+
+	para "I used to do"
+	line "the dirty work."
+	cont "Now the court"
+	cont "takes notes."
 	done
-
 _OaksLabOak1DeliverParcelText::
-	text "OAK: Oh, <PLAYER>!"
+	text "ROGER ROCK:"
+	line "Oh, <PLAYER>."
 
-	para "How is my old"
-	line "#MON?"
+	para "My old ward"
+	line "seems attached"
+	cont "to you."
 
-	para "Well, it seems to"
-	line "like you a lot."
-
-	para "You must be"
-	line "talented as a"
-	cont "#MON trainer!"
-
-	para "What? You have"
-	line "something for me?"
-
-	para "<PLAYER> delivered"
-	line "OAK's PARCEL.@"
+	para "What's that?"
+	line "You brought my"
+	cont "parcel?@"
 	text_end
-
 _OaksLabOak1ParcelThanksText::
 	text_start
-	para "Ah! This is the"
-	line "custom # BALL"
-	cont "I ordered!"
-	cont "Thank you!"
-	done
+	para "Good."
+	line "Custom"
+	cont "Campaign"
+	cont "Donations."
 
+	para "Gold ribbon."
+	line "Bad smell."
+
+	para "Right on time."
+	done
 _OaksLabOak1PokemonAroundTheWorldText::
-	text "#MON around the"
-	line "world wait for"
+	text "Pocket pols all"
+	line "over the map"
+	cont "are waiting for"
 	cont "you, <PLAYER>!"
 	done
-
 _OaksLabOak1ReceivedPokeballsText::
-	text "OAK: You can't get"
-	line "detailed data on"
-	cont "#MON by just"
-	cont "seeing them."
+	text "ROGER ROCK:"
+	line "You don't learn"
+	cont "anything by"
+	cont "staring."
 
-	para "You must catch"
-	line "them! Use these"
-	cont "to capture wild"
-	cont "#MON."
-
-	para "<PLAYER> got 5"
-	line "# BALLs!@"
+	para "You pocket them."
+	line "Take these"
+	cont "Campaign"
+	cont "Donations.@"
 	text_end
-
 _OaksLabGivePokeballsExplanationText::
 	text_start
-	para "When a wild"
-	line "#MON appears,"
-	cont "it's fair game."
+	para "When one looks"
+	line "ambitious,"
+	cont "desperate, and"
+	cont "underfunded,"
 
-	para "Just throw a #"
-	line "BALL at it and try"
-	line "to catch it!"
-
-	para "This won't always"
-	line "work, though."
-
-	para "A healthy #MON"
-	line "could escape. You"
-	cont "have to be lucky!"
+	para "throw money and"
+	line "see if it lets"
+	cont "itself get"
+	cont "pocketed."
 	done
-
 _OaksLabOak1ComeSeeMeSometimesText::
-	text "OAK: Come see me"
-	line "sometimes."
+	text "ROGER ROCK:"
+	line "Bring the"
+	cont "Rolodex back"
+	cont "to the war"
+	cont "room."
 
-	para "I want to know how"
-	line "your #DEX is"
-	cont "coming along."
+	para "My hobbies are"
+	line "court-approved"
+	cont "when logged."
 	done
-
 _OaksLabOak1HowIsYourPokedexComingText::
-	text "OAK: Good to see "
-	line "you! How is your "
-	cont "#DEX coming? "
-	cont "Here, let me take"
-	cont "a look!"
+	text "ROGER ROCK:"
+	line "Good. My ankle"
+	cont "monitor hates"
+	cont "dead zones."
+
+	para "How's that"
+	line "Rolodex coming?"
+	cont "Hand it over."
+
+	para "Let me see what"
+	line "you've logged."
 	prompt
-
 _OaksLabPokedexText::
-	text "It's encyclopedia-"
-	line "like, but the"
-	cont "pages are blank!"
-	done
+	text "A gold-plated"
+	line "Rolodex"
+	cont "prototype."
 
+	para "Blank tabs."
+	line "Empty lives"
+	cont "waiting to be"
+	cont "weaponized."
+	done
 _OaksLabOak2Text::
-	text "?"
+	text "ROGER ROCK:"
+	line "Hm? If it's"
+	cont "not my lawyer,"
+	cont "summarize."
 	done
-
 _OaksLabGirlText::
-	text "PROF.OAK is the"
-	line "authority on"
-	cont "#MON!"
+	text "Appointment?"
 
-	para "Many #MON"
-	line "trainers hold him"
-	cont "in high regard!"
+	para "No?"
+
+	para "Then you are"
+	line "a walk-in"
+	cont "liability."
+
+	para "Stand where the"
+	line "camera can see"
+	cont "both hands."
 	done
-
 _OaksLabRivalFedUpWithWaitingText::
 	text "<RIVAL>: Gramps!"
 	line "I'm fed up with"
@@ -191,33 +218,30 @@ _OaksLabRivalFedUpWithWaitingText::
 	done
 
 _OaksLabOakChooseMonText::
-	text "OAK: <RIVAL>?"
-	line "Let me think..."
+	text "ROGER ROCK:"
+	line "<RIVAL>?"
 
-	para "Oh, that's right,"
-	line "I told you to"
-	cont "come! Just wait!"
+	para "Right. I told"
+	line "you to come."
+	cont "Wait."
 
-	para "Here, <PLAYER>!"
+	para "Here, <PLAYER>."
 
-	para "There are 3"
-	line "#MON here!"
+	para "Three donation"
+	line "kits on the"
+	cont "table."
 
-	para "Haha!"
+	para "Each one holds"
+	line "a small career"
+	cont "problem with"
+	cont "eyes."
 
-	para "They are inside"
-	line "the # BALLs."
+	para "Pick one."
 
-	para "When I was young,"
-	line "I was a serious"
-	cont "#MON trainer!"
-
-	para "In my old age, I"
-	line "have only 3 left,"
-	cont "but you can have"
-	cont "one! Choose!"
+	para "The others"
+	line "become someone"
+	cont "else's oppo."
 	done
-
 _OaksLabRivalWhatAboutMeText::
 	text "<RIVAL>: Hey!"
 	line "Gramps! What"
@@ -225,16 +249,18 @@ _OaksLabRivalWhatAboutMeText::
 	done
 
 _OaksLabOakBePatientText::
-	text "OAK: Be patient!"
-	line "<RIVAL>, you can"
-	cont "have one too!"
-	done
+	text "ROGER ROCK:"
+	line "Be patient,"
+	cont "<RIVAL>."
 
+	para "You'll get one"
+	line "too."
+	done
 _OaksLabOakDontGoAwayYetText::
-	text "OAK: Hey! Don't go"
-	line "away yet!"
+	text "ROGER ROCK:"
+	line "Hey! Don't go"
+	cont "yet!"
 	done
-
 _OaksLabRivalIllTakeThisOneText::
 	text "<RIVAL>: I'll take"
 	line "this one, then!"
@@ -251,7 +277,7 @@ _OaksLabRivalIllTakeYouOnText::
 	text "<RIVAL>: Wait"
 	line "<PLAYER>!"
 	cont "Let's check out"
-	cont "our #MON!"
+	cont "our pocket pols!"
 
 	para "Come on, I'll take"
 	line "you on!"
@@ -261,7 +287,7 @@ _OaksLabRivalIPickedTheWrongPokemonText::
 	text "WHAT?"
 	line "Unbelievable!"
 	cont "I picked the"
-	cont "wrong #MON!"
+	cont "wrong pocket pols!"
 	prompt
 
 _OaksLabRivalAmIGreatOrWhatText::
@@ -272,7 +298,7 @@ _OaksLabRivalAmIGreatOrWhatText::
 _OaksLabRivalSmellYouLaterText::
 	text "<RIVAL>: Okay!"
 	line "I'll make my"
-	cont "#MON fight to"
+	cont "proxy fight to"
 	cont "toughen it up!"
 
 	para "<PLAYER>! Gramps!"
@@ -289,76 +315,90 @@ _OaksLabRivalWhatDidYouCallMeForText::
 	done
 
 _OaksLabOakIHaveARequestText::
-	text "OAK: Oh right! I"
-	line "have a request"
-	cont "of you two."
+	text "ROGER ROCK:"
+	line "Right. I've got"
+	cont "a job for you"
+	cont "two."
 	done
-
 _OaksLabOakMyInventionPokedexText::
-	text "On the desk there"
+	text "On the gilt desk"
 	line "is my invention,"
-	cont "#DEX!"
+	cont "the ROLODEX!"
 
-	para "It automatically"
-	line "records data on"
-	cont "#MON you've"
-	cont "seen or caught!"
+	para "It records the"
+	line "pocket pols"
+	cont "you've seen or"
+	cont "pocketed."
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "High-tech dirt"
+	line "for ambitious"
+	cont "kids."
 	done
-
 _OaksLabOakGotPokedexText::
-	text "OAK: <PLAYER> and"
-	line "<RIVAL>! Take"
-	cont "these with you!"
+	text "ROGER ROCK:"
+	line "<PLAYER> and"
+	cont "<RIVAL>."
+
+	para "Take these."
 
 	para "<PLAYER> got"
-	line "#DEX from OAK!@"
+	line "ROLODEX from"
+	cont "ROGER ROCK!@"
 	text_end
-
 _OaksLabOakThatWasMyDreamText::
-	text "To make a complete"
-	line "guide on all the"
-	cont "#MON in the"
-	cont "world..."
+	text "A complete guide"
+	line "to every pocket"
+	cont "pol in the"
+	cont "machine..."
 
-	para "That was my dream!"
+	para "That was my"
+	line "dream."
 
-	para "But, I'm too old!"
-	line "I can't do it!"
+	para "I'm too court-"
+	line "restricted to"
+	cont "finish it."
 
-	para "So, I want you two"
-	line "to fulfill my"
-	cont "dream for me!"
+	para "So you two do"
+	line "the fieldwork"
+	cont "for me."
 
-	para "Get moving, you"
-	line "two!"
+	para "If a yacht asks,"
+	line "I was not"
+	cont "invited."
 
-	para "This is a great"
-	line "undertaking in"
-	cont "#MON history!"
+	para "If an island"
+	line "asks, I was"
+	cont "never there."
+
+	para "Get moving."
+	line "History doesn't"
+	cont "launder itself."
 	done
-
 _OaksLabRivalLeaveItAllToMeText::
 	text "<RIVAL>: Alright"
 	line "Gramps! Leave it"
 	cont "all to me!"
 
-	para "<PLAYER>, I hate to"
-	line "say it, but I"
-	cont "don't need you!"
+	para "<PLAYER>, I hate"
+	line "to say it, but"
+	cont "I don't need you!"
 
 	para "I know! I'll"
-	line "borrow a TOWN MAP"
-	cont "from my sis!"
+	line "borrow a DISTRICT"
+	cont "MAP from my mom!"
 
 	para "I'll tell her not"
 	line "to lend you one,"
 	cont "<PLAYER>! Hahaha!"
 	done
-
 _OaksLabScientistText::
-	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	text "If the red"
+	line "phone rings,"
+	cont "I log"
+	cont "community"
+	cont "outreach."
+
+	para "If the black"
+	line "phone rings,"
+	cont "I stop writing."
 	done

@@ -6,8 +6,8 @@ _ViridianForestSouthGateGirlText::
 	done
 
 _ViridianForestSouthGateLittleGirlText::
-	text "RATTATA may be"
-	line "small, but its"
-	cont "bite is wicked!"
-	cont "Did you get one?"
+	text "Desk-List Pam"
+	line "says the list is"
+	cont "right there."
+	cont "Then you ask."
 	done

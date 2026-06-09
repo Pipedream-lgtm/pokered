@@ -45,42 +45,35 @@ _WardensHouseWardenThanksText::
 
 _WardensHouseWardenReceivedHM04Text::
 	text "<PLAYER> received"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	line "the OPTICS CREW"
+	cont "clearance file."
 	text_end
-
 _WardensHouseWardenHM04ExplanationText::
 	text "WARDEN: HM04"
-	line "teaches STRENGTH!"
-
-	para "It lets #MON"
-	line "move boulders"
-	cont "when you're out-"
-	cont "side of battle."
-
-	para "Oh yes, did you"
-	line "find SECRET HOUSE"
-	cont "in SAFARI ZONE?"
-
-	para "If you do, you"
-	line "win an HM!"
-
-	para "I hear it's the"
-	line "rare SURF HM."
+	line "teaches OPTICS"
+	cont "CREW. Lets a"
+	cont "pocket pol shove"
+	cont "boulders like a"
+	cont "county employee"
+	cont "clearing optics."
+	cont "If you found the"
+	cont "secret house in"
+	cont "the retreat,"
+	cont "there's another HM"
+	cont "there. Better"
+	cont "prize, worse"
+	cont "people."
 	done
-
 _WardensHouseWardenHM04NoRoomText::
-	text "Your pack is"
-	line "stuffed full!"
+	text "Your pack's full."
+	line "Even the county"
+	cont "can't forklift it."
 	done
-
 _WardensHouseDisplayPhotosAndFossilsText::
-	text "#MON photos"
+	text "Campaign photos"
 	line "and fossils."
 	done
-
 _WardensHouseDisplayMerchandiseText::
-	text "Old #MON"
+	text "Old campaign"
 	line "merchandise."
 	done

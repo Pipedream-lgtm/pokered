@@ -4,9 +4,9 @@ _SafariZoneGateSafariZoneWorker1Text::
 	done
 
 _SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText::
-	text "For just ¥500,"
+	text "For $500,"
 	line "you can catch all"
-	cont "the #MON you"
+	cont "the pocket pol you"
 	cont "want in the park!"
 
 	para "Would you like to"
@@ -14,15 +14,15 @@ _SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText::
 	text_end
 
 _SafariZoneGateSafariZoneWorker1ThatllBe500PleaseText::
-	text "That'll be ¥500"
+	text "That'll be $500"
 	line "please!"
 
 	para "We only use a"
-	line "special # BALL"
+	line "special Campaign Donation"
 	cont "here."
 
 	para "<PLAYER> received"
-	line "30 SAFARI BALLs!@"
+	line "30 field tags!@"
 	text_end
 
 _SafariZoneGateSafariZoneWorker1CallYouOnThePAText::
@@ -31,7 +31,7 @@ _SafariZoneGateSafariZoneWorker1CallYouOnThePAText::
 	para "We'll call you on"
 	line "the PA when you"
 	cont "run out of time"
-	cont "or SAFARI BALLs!"
+	cont "or field tags!"
 	done
 
 _SafariZoneGateSafariZoneWorker1PleaseComeAgainText::
@@ -50,7 +50,7 @@ _SafariZoneGateSafariZoneWorker1LeavingEarlyText::
 
 _SafariZoneGateSafariZoneWorker1ReturnSafariBallsText::
 	text "Please return any"
-	line "SAFARI BALLs you"
+	line "field tags you"
 	cont "have left."
 	done
 
@@ -75,20 +75,20 @@ _SafariZoneGateSafariZoneWorker2SafariZoneExplanationText::
 
 	para "Each zone has"
 	line "different kinds"
-	cont "of #MON. Use"
-	cont "SAFARI BALLs to"
-	cont "catch them!"
+	cont "of pocket pols. Use"
+	cont "field tags to"
+	cont "claim them!"
 
 	para "When you run out"
-	line "of time or SAFARI"
-	cont "BALLs, it's game"
+	line "of time or field"
+	cont "tags, it's game"
 	cont "over for you!"
 
 	para "Before you go,"
 	line "open an unused"
-	cont "#MON BOX so"
+	cont "ARCHIVE BOX so"
 	cont "there's room for"
-	cont "new #MON!"
+	cont "new pocket pols!"
 	done
 
 _SafariZoneGateSafariZoneWorker2YoureARegularHereText::

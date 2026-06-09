@@ -47,16 +47,15 @@ _BoulderText::
 	done
 
 _MartSignText::
-	text "All your item"
+	text "All your donor"
 	line "needs fulfilled!"
-	cont "#MON MART"
+	cont "donation shop"
 	done
-
 _PokeCenterSignText::
-	text "Heal Your #MON!"
-	line "#MON CENTER"
+	text "Heal Your pocket"
+	line "pols! CONWAY"
+	cont "COMMUNICATIONS"
 	done
-
 _FoundItemText::
 	text "<PLAYER> found"
 	line "@"
@@ -65,73 +64,76 @@ _FoundItemText::
 	text_end
 
 _NoMoreRoomForItemText::
-	text "No more room for"
-	line "items!"
+	text "No room left in"
+	line "your pockets."
 	done
-
 _OaksAideHiText::
 	text "Hi! Remember me?"
-	line "I'm PROF.OAK's"
-	cont "AIDE!"
+	line "I'm one of"
+	cont "Roger Rock's"
+	cont "field aides."
 
-	para "If you caught @"
+	para "The gold blazer"
+	line "is mandatory."
+
+	para "If you logged @"
 	text_decimal hOaksAideRequirement, 1, 3
 	text_start
-	line "kinds of #MON,"
-	cont "I'm supposed to"
-	cont "give you an"
+	line "kinds of pocket pols,"
+	cont "I'm cleared to"
+	cont "give you the"
 	cont "@"
 	text_ram wOaksAideRewardItemName
 	text "!"
 
-	para "So, <PLAYER>! Have"
-	line "you caught at"
-	cont "least @"
+	para "So, <PLAYER>!"
+	line "Do you have"
+	cont "at least @"
 	text_decimal hOaksAideRequirement, 1, 3
 	text " kinds of"
-	cont "#MON?"
+	cont "pocket pols"
+	cont "on file?"
 	done
-
 _OaksAideUhOhText::
-	text "Let's see..."
-	line "Uh-oh! You have"
-	cont "caught only @"
+	text "Ledger says..."
+	line "Uh-oh. Only @"
 	text_decimal hOaksAideNumMonsOwned, 1, 3
 	text_start
-	cont "kinds of #MON!"
+	cont "kinds on file."
 
 	para "You need @"
 	text_decimal hOaksAideRequirement, 1, 3
 	text " kinds"
-	line "if you want the"
+	line "before I can"
+	cont "release the"
 	cont "@"
 	text_ram wOaksAideRewardItemName
 	text "."
 	done
-
 _OaksAideComeBackText::
 	text "Oh. I see."
 
-	para "When you get @"
+	para "When the"
+	line "Rolodex shows @"
 	text_decimal hOaksAideRequirement, 1, 3
 	text_start
-	line "kinds, come back"
+	cont "kinds, come back"
 	cont "for @"
 	text_ram wOaksAideRewardItemName
 	text "."
 	done
-
 _OaksAideHereYouGoText::
-	text "Great! You have"
-	line "caught @"
+	text "Great. You have"
+	line "logged @"
 	text_decimal hOaksAideNumMonsOwned, 1, 3
 	text " kinds "
-	cont "of #MON!"
-	cont "Congratulations!"
+	cont "of pocket pols"
+	cont "on file."
 
-	para "Here you go!"
+	para "The blazer says"
+	line "congratulations."
+	cont "Here you go!"
 	prompt
-
 _OaksAideGotItemText::
 	text "<PLAYER> got the"
 	line "@"
@@ -140,10 +142,13 @@ _OaksAideGotItemText::
 	text_end
 
 _OaksAideNoRoomText::
-	text "Oh! I see you"
-	line "don't have any"
-	cont "room for the"
+	text "Oh! No room"
+	line "for the"
 	cont "@"
 	text_ram wOaksAideRewardItemName
 	text "."
+
+	para "Even Roger's"
+	line "gifts need"
+	cont "pockets."
 	done

@@ -1,6 +1,6 @@
 _CeruleanTradeHouseGrannyText::
 	text "My husband likes"
-	line "trading #MON."
+	line "trading pocket pols."
 
 	para "If you are a"
 	line "collector, would"

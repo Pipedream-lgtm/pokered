@@ -10,22 +10,15 @@ _CeladonMart1FReceptionistText::
 
 _CeladonMart1FDirectorySignText::
 	text "1F: SERVICE"
-	line "    COUNTER"
-
-	para "2F: TRAINER'S"
-	line "    MARKET"
-
-	para "3F: TV GAME SHOP"
-
-	para "4F: WISEMAN GIFTS"
-
-	para "5F: DRUG STORE"
-
-	para "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
+	line "COUNTER 2F:"
+	cont "HANDLER MARKET 3F:"
+	cont "TV GAME SHOP 4F:"
+	cont "WISEMAN GIFTS 5F:"
+	cont "DRUG STORE ROOFTOP"
+	cont "SQUARE: VENDING"
+	cont "MACHINES"
 	done
-
 _CeladonMart1FCurrentFloorSignText::
 	text "1F: SERVICE"
-	line "    COUNTER"
+	line "COUNTER"
 	done

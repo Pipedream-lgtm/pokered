@@ -5,32 +5,34 @@ _MtMoon1FHikerBattleText::
 	done
 
 _MtMoon1FHikerEndBattleText::
-	text "Wow!"
-	line "Shocked again!"
+	text "Fine. Mark me"
+	line "noncompliant."
 	prompt
-
 _MtMoon1FHikerAfterBattleText::
 	text "Kids like you"
-	line "shouldn't be"
-	cont "here!"
+	line "should not be in"
+	cont "the money cave."
+	cont "Then again,"
+	cont "neither should"
+	cont "most adults down"
+	cont "here."
 	done
-
 _MtMoon1FYoungster1BattleText::
 	text "Did you come to"
 	line "explore too?"
 	done
 
 _MtMoon1FYoungster1EndBattleText::
-	text "Losing"
-	line "stinks!"
+	text "That was not"
+	line "guest-list"
+	cont "behavior."
 	prompt
-
 _MtMoon1FYoungster1AfterBattleText::
-	text "I came down here"
-	line "to show off to"
-	cont "girls."
+	text "Honestly? I came"
+	line "down here hoping"
+	cont "to impress girls"
+	cont "with cave stories."
 	done
-
 _MtMoon1FCooltrainerF1BattleText::
 	text "Wow! It's way"
 	line "bigger in here"
@@ -38,30 +40,31 @@ _MtMoon1FCooltrainerF1BattleText::
 	done
 
 _MtMoon1FCooltrainerF1EndBattleText::
-	text "Oh!"
-	line "I lost it!"
+	text "That was not in"
+	line "the risk memo."
 	prompt
-
 _MtMoon1FCooltrainerF1AfterBattleText::
-	text "How do you get"
-	line "out of here?"
+	text "Seriously, how do"
+	line "people get out of"
+	cont "here with their"
+	cont "dignity intact?"
 	done
-
 _MtMoon1FSuperNerdBattleText::
 	text "What! Don't sneak"
 	line "up on me!"
 	done
 
 _MtMoon1FSuperNerdEndBattleText::
-	text "My"
-	line "#MON won't do!"
+	text "Put my loss in"
+	line "triplicate."
 	prompt
-
 _MtMoon1FSuperNerdAfterBattleText::
-	text "I have to find"
-	line "stronger #MON."
+	text "I need pocket pols"
+	line "with real"
+	cont "followings if I'm"
+	cont "staying in this"
+	cont "cave economy."
 	done
-
 _MtMoon1FCooltrainerF2BattleText::
 	text "What? I'm waiting"
 	line "for my friends to"
@@ -69,15 +72,17 @@ _MtMoon1FCooltrainerF2BattleText::
 	done
 
 _MtMoon1FCooltrainerF2EndBattleText::
-	text "I lost?"
+	text "Great. Donor cave"
+	line "eats another"
+	cont "forecast."
 	prompt
-
 _MtMoon1FCooltrainerF2AfterBattleText::
 	text "I heard there are"
-	line "some very rare"
-	cont "fossils here."
+	line "rare fossils in"
+	cont "here, the kind"
+	cont "donors start wars"
+	cont "over."
 	done
-
 _MtMoon1FYoungster2BattleText::
 	text "Suspicious men"
 	line "are in the cave."
@@ -85,16 +90,16 @@ _MtMoon1FYoungster2BattleText::
 	done
 
 _MtMoon1FYoungster2EndBattleText::
-	text "You"
-	line "got me!"
+	text "Fine. Tell"
+	line "procurement I"
+	cont "blinked."
 	prompt
-
 _MtMoon1FYoungster2AfterBattleText::
-	text "I saw them! I'm"
-	line "sure they're from"
-	cont "TEAM ROCKET!"
+	text "I saw them. I'm"
+	line "telling you, they"
+	cont "were AeroPAC"
+	cont "contractor creeps."
 	done
-
 _MtMoon1FYoungster3BattleText::
 	text "Go through this"
 	line "cave to get to"
@@ -102,18 +107,16 @@ _MtMoon1FYoungster3BattleText::
 	done
 
 _MtMoon1FYoungster3EndBattleText::
-	text "I"
-	line "lost."
+	text "There goes my"
+	line "fossil finder fee."
 	prompt
-
 _MtMoon1FYoungster3AfterBattleText::
-	text "ZUBAT is tough!"
-	line "But, it can be"
-	cont "useful if you"
-	cont "catch one."
+	text "Mono Graham is"
+	line "obnoxious, but"
+	cont "useful if you can"
+	cont "stand it."
 	done
-
 _MtMoon1FBewareZubatSign::
-	text "Beware! ZUBAT is"
+	text "Beware! Mono Graham is"
 	line "a blood sucker!"
 	done

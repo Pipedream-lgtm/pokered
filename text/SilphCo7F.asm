@@ -1,16 +1,16 @@
 _SilphCo7FSilphWorkerM1HaveThisPokemonText::
 	text "Oh! Hi! You're"
-	line "not a ROCKET! You"
+	line "not a AeroPAC! You"
 	cont "came to save us?"
 	cont "Why, thank you!"
 
 	para "I want you to"
-	line "have this #MON"
+	line "have this pocket pol"
 	cont "for saving us."
 	prompt
 
 _SilphCo7FSilphWorkerM1LaprasDescriptionText::
-	text "It's LAPRAS. It's"
+	text "It's Big Gretch. It's"
 	line "very intelligent."
 
 	para "We kept it in our"
@@ -20,7 +20,7 @@ _SilphCo7FSilphWorkerM1LaprasDescriptionText::
 
 	para "I think you will"
 	line "be a good trainer"
-	cont "for LAPRAS!"
+	cont "for Big Gretch!"
 
 	para "It's a good"
 	line "swimmer. It'll"
@@ -28,7 +28,7 @@ _SilphCo7FSilphWorkerM1LaprasDescriptionText::
 	done
 
 _SilphCo7FSilphWorkerM1IsOurPresidentOkText::
-	text "TEAM ROCKET's"
+	text "AeroPAC's"
 	line "BOSS went to the"
 	cont "boardroom! Is our"
 	cont "PRESIDENT OK?"
@@ -40,29 +40,29 @@ _SilphCo7FSilphWorkerM1SavedText::
 	done
 
 _SilphCo7FSilphWorkerM2AfterTheMasterBallText::
-	text "TEAM ROCKET was"
+	text "AeroPAC was"
 	line "after the MASTER"
 	cont "BALL which will"
-	cont "catch any #MON!"
+	cont "catch any pocket pols!"
 	done
 
 _SilphCo7FSilphWorkerM2CancelledMasterBallText::
 	text "We canceled the"
 	line "MASTER BALL"
 	cont "project because"
-	cont "of TEAM ROCKET."
+	cont "of AeroPAC."
 	done
 
 _SilphCo7FSilphWorkerM3ItWouldBeBadText::
 	text "It would be bad"
-	line "if TEAM ROCKET"
+	line "if AeroPAC"
 	cont "took over SILPH"
-	cont "or our #MON!"
+	cont "or our pocket pols!"
 	done
 
 _SilphCo7FSilphWorkerM3YouChasedOffTeamRocketText::
 	text "Wow! You chased"
-	line "off TEAM ROCKET"
+	line "off AeroPAC"
 	cont "all by yourself?"
 	done
 
@@ -84,16 +84,14 @@ _SilphCo7FRocket1BattleText::
 	done
 
 _SilphCo7FRocket1EndBattleText::
-	text "Lights"
-	line "out!"
+	text "Procurement hates"
+	line "surprises."
 	prompt
-
 _SilphCo7FRocket1AfterBattleText::
-	text "You won't find my"
-	line "BOSS by just"
-	cont "scurrying around!"
+	text "You beat me, not"
+	line "the contract"
+	cont "structure."
 	done
-
 _SilphCo7FScientistBattleText::
 	text "Heheh!"
 
@@ -102,48 +100,43 @@ _SilphCo7FScientistBattleText::
 	done
 
 _SilphCo7FScientistEndBattleText::
-	text "I'm"
-	line "done!"
+	text "No comment without"
+	line "counsel."
 	prompt
-
 _SilphCo7FScientistAfterBattleText::
-	text "Despite your age,"
-	line "you are a skilled"
-	cont "trainer!"
+	text "You just wrecked a"
+	line "very expensive"
+	cont "strategic roadmap."
 	done
-
 _SilphCo7FRocket2BattleText::
 	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	line "AeroPAC CREW!"
 	done
 
 _SilphCo7FRocket2EndBattleText::
-	text "Aack!"
-	line "Brothers, I lost!"
+	text "Aack. The"
+	line "acquisition team"
+	cont "saw that."
 	prompt
-
 _SilphCo7FRocket2AfterBattleText::
-	text "Doesn't matter."
-	line "My brothers will"
-	cont "repay the favor!"
+	text "Legal will decide"
+	line "whether that"
+	cont "happened."
 	done
-
 _SilphCo7FRocket3BattleText::
 	text "A child intruder?"
 	line "That must be you!"
 	done
 
 _SilphCo7FRocket3EndBattleText::
-	text "Fine!"
-	line "I lost!"
+	text "Fine. I lost the"
+	line "vertical."
 	prompt
-
 _SilphCo7FRocket3AfterBattleText::
-	text "Go on home"
-	line "before my BOSS"
-	cont "gets ticked off!"
+	text "You beat me, not"
+	line "the contract"
+	cont "structure."
 	done
-
 _SilphCo7FRivalText::
 	text "<RIVAL>: What"
 	line "kept you <PLAYER>?"
@@ -156,7 +149,7 @@ _SilphCo7FRivalWaitedHereText::
 	cont "waited here!"
 
 	para "I guess TEAM"
-	line "ROCKET slowed you"
+	line "AeroPAC slowed you"
 	cont "down! Not that I"
 	cont "care!"
 
@@ -169,7 +162,7 @@ _SilphCo7FRivalWaitedHereText::
 _SilphCo7FRivalDefeatedText::
 	text "Oh ho!"
 	line "So, you are ready"
-	cont "for BOSS ROCKET!"
+	cont "for BOSS AeroPAC!"
 	prompt
 
 _SilphCo7FRivalVictoryText::
@@ -188,15 +181,15 @@ _SilphCo7FRivalGoodLuckToYouText::
 	line "and ahead!"
 
 	para "By checking my"
-	line "#DEX, I'm"
+	line "Rolodex, I'm"
 	cont "starting to see"
 	cont "what's strong and"
 	cont "how they evolve!"
 
 	para "I'm going to the"
-	line "#MON LEAGUE"
+	line "ROTUNDA"
 	cont "to boot out the"
-	cont "ELITE FOUR!"
+	cont "Institutional Four!"
 
 	para "I'll become the"
 	line "world's most"

@@ -8,9 +8,9 @@ _PokemonTower7FMrFujiRescueText::
 
 	para "I came to calm"
 	line "the soul of"
-	cont "CUBONE's mother."
+	cont "Federalist Barrett's mother."
 
-	para "I think MAROWAK's"
+	para "I think Handmaid Barrett's"
 	line "spirit has gone"
 	cont "to the afterlife."
 
@@ -19,7 +19,7 @@ _PokemonTower7FMrFujiRescueText::
 	cont "concern!"
 
 	para "Follow me to my"
-	line "home, #MON"
+	line "home, pocket pols"
 	cont "HOUSE at the foot"
 	cont "of this tower."
 	done
@@ -30,49 +30,49 @@ _PokemonTower7FRocket1BattleText::
 	done
 
 _PokemonTower7FRocket1EndBattleText::
-	text "I give up!"
+	text "Damn it. Audit me"
+	line "later."
 	prompt
-
 _PokemonTower7FRocket1AfterBattleText::
-	text "I'm not going to"
-	line "forget this!"
+	text "I won't forget"
+	line "this. We bill"
+	cont "memory as"
+	cont "overhead."
 	done
-
 _PokemonTower7FRocket2BattleText::
 	text "This old guy came"
 	line "and complained"
 	cont "about us harming"
-	cont "useless #MON!"
+	cont "useless pocket pols!"
 
 	para "We're talking it"
 	line "over as adults!"
 	done
 
 _PokemonTower7FRocket2EndBattleText::
-	text "Please!"
-	line "No more!"
+	text "That was not in"
+	line "the risk memo."
 	prompt
-
 _PokemonTower7FRocket2AfterBattleText::
-	text "#MON are only"
-	line "good for making"
-	cont "money!"
-
-	para "Stay out of our"
-	line "business!"
+	text "Dead pocket pol"
+	line "don't vote. Rich"
+	cont "people still pay"
+	cont "to stop hearing"
+	cont "about them."
 	done
-
 _PokemonTower7FRocket3BattleText::
 	text "You're not saving"
 	line "anyone, kid!"
 	done
 
 _PokemonTower7FRocket3EndBattleText::
-	text "Don't"
-	line "fight us ROCKETs!"
+	text "I just became a"
+	line "classified"
+	cont "expense."
 	prompt
-
 _PokemonTower7FRocket3AfterBattleText::
 	text "You're not getting"
-	line "away with this!"
+	line "away clean. Nobody"
+	cont "leaves the bell"
+	cont "tower clean."
 	done

@@ -19,7 +19,7 @@ _CinnabarLabMetronomeRoomScientist1TM35ExplanationText::
 	cont "of a METRONOME!"
 
 	para "It tweaks your"
-	line "#MON's brain"
+	line "pocket pols's brain"
 	cont "into using moves"
 	cont "it doesn't know!"
 	done
@@ -30,35 +30,34 @@ _CinnabarLabMetronomeRoomScientist1TM35NoRoomText::
 	done
 
 _CinnabarLabMetronomeRoomScientist2Text::
-	text "EEVEE can evolve"
-	line "into 1 of 3 kinds"
-	cont "of #MON."
+	text "Antiwar Tulsi can"
+	line "evolve into three"
+	cont "kinds of pocket"
+	cont "pol. Access"
+	cont "changes the room,"
+	cont "then calls it"
+	cont "nature."
 	done
-
 _CinnabarLabMetronomeRoomPCText::
-	text "There's an e-mail"
+	text "There is an e-mail"
 	line "message!"
-
 	para "..."
-
-	para "The 3 legendary"
-	line "bird #MON are"
-	cont "ARTICUNO, ZAPDOS"
-	cont "and MOLTRES."
-
-	para "Their whereabouts"
-	line "are unknown."
-
-	para "We plan to explore"
-	line "the cavern close"
-	cont "to CERULEAN."
-
-	para "From: #MON"
-	line "RESEARCH TEAM"
-
+	para "Roger wants the"
+	line "bird files offsite"
+	cont "before the island"
+	cont "review."
+	para "Do not write"
+	line ""blackmail" in the"
+	cont "subject line"
+	cont "again."
+	para "From: PROJECT"
+	line "ELECTABLE LAB"
 	para "..."
 	done
-
 _CinnabarLabMetronomeRoomAmberPipeText::
-	text "An amber pipe!"
+	text "An amber pipe."
+	line "Clear, gold, and"
+	cont "full of old life"
+	cont "trying not to be"
+	cont "evidence."
 	done

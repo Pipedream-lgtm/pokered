@@ -1,13 +1,13 @@
 _CeruleanTrashedHouseFishingGuruTheyStoleATMText::
 	text "Those miserable"
-	line "ROCKETs!"
+	line "AeroPACs!"
 
 	para "Look what they"
 	line "did here!"
 
 	para "They stole a TM"
 	line "for teaching"
-	cont "#MON how to"
+	cont "pocket pols how to"
 	cont "DIG holes!"
 
 	para "That cost me a"
@@ -19,18 +19,18 @@ _CeruleanTrashedHouseFishingGuruWhatsLostIsLostText::
 	line "lost is lost!"
 
 	para "I decided to teach"
-	line "DIGLETT how to"
+	line "Little Richard Nixon how to"
 	cont "DIG without a TM!"
 	done
 
 _CeruleanTrashedHouseGirlText::
-	text "TEAM ROCKET must"
+	text "AeroPAC must"
 	line "be trying to DIG"
 	cont "their way into no"
 	cont "good!"
 	done
 
 _CeruleanTrashedHouseWallHoleText::
-	text "TEAM ROCKET left"
+	text "AeroPAC left"
 	line "a way out!"
 	done

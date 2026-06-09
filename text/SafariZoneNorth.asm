@@ -1,33 +1,27 @@
 _SafariZoneNorthRestHouseSignText::
-	text "REST HOUSE"
+	text "DONOR RETREAT /"
+	line "STATE FAIR GROUNDS"
 	done
-
 _SafariZoneNorthTrainerTips1Text::
-	text "TRAINER TIPS"
-
+	text "FIELD NOTES"
 	para "The SECRET HOUSE"
-	line "is still ahead!"
+	line "is still ahead."
 	done
-
 _SafariZoneNorthSignText::
-	text "AREA 2"
+	text "DONOR RETREAT /"
+	line "STATE FAIR GROUNDS"
 	done
-
 _SafariZoneNorthTrainerTips2Text::
-	text "TRAINER TIPS"
-
-	para "#MON hide in"
-	line "tall grass!"
-
-	para "Zigzag through"
-	line "grassy areas to"
-	cont "flush them out."
+	text "FIELD NOTES"
+	para "Pocket pols hide"
+	line "in tall grass."
+	para "Zigzag the lanes"
+	line "to flush them out."
 	done
-
 _SafariZoneNorthTrainerTips3Text::
-	text "TRAINER TIPS"
-
-	para "Win a free HM for"
-	line "finding the"
-	cont "SECRET HOUSE!"
+	text "FIELD NOTES"
+	para "Find the SECRET"
+	line "HOUSE and they"
+	cont "hand you a free"
+	cont "clearance file."
 	done

@@ -9,7 +9,7 @@ _CeruleanCityRivalPreBattleText::
 	para "I'm doing great!"
 	line "I caught a bunch"
 	cont "of strong and"
-	cont "smart #MON!"
+	cont "smart pocket pols!"
 
 	para "Here, let me see"
 	line "what you caught,"
@@ -35,18 +35,18 @@ _CeruleanCityRivalIWentToBillsText::
 	para "I went to BILL's"
 	line "and got him to"
 	cont "show me his rare"
-	cont "#MON!"
+	cont "pocket pols!"
 
 	para "That added a lot"
 	line "of pages to my"
-	cont "#DEX!"
+	cont "Rolodex!"
 
 	para "After all, BILL's"
 	line "world famous as a"
 	cont "#MANIAC!"
 
 	para "He invented the"
-	line "#MON Storage"
+	line "pocket pols Storage"
 	cont "System on PC!"
 
 	para "Since you're using"
@@ -70,9 +70,12 @@ _CeruleanCityRocketText::
 
 _CeruleanCityRocketReceivedTM28Text::
 	text "<PLAYER> recovered"
-	line "TM28!@"
+	line "the Opposition"
+	cont "Research playbook."
+	cont "Great. Now I can"
+	cont "get out of this"
+	cont "neighborhood."
 	text_end
-
 _CeruleanCityRocketIBetterGetMovingText::
 	text_start
 
@@ -81,19 +84,18 @@ _CeruleanCityRocketIBetterGetMovingText::
 	text_end
 
 _CeruleanCityRocketTM28NoRoomText::
-	text "Make room for"
-	line "this!"
-
-	para "I can't run until"
-	line "I give it to you!"
+	text "Make room for it."
+	line "I can't leave"
+	cont "until this thing"
+	cont "is off me."
 	done
-
 _CeruleanCityRocketIGiveUpText::
-	text "Stop!"
-	line "I give up! I'll"
-	cont "leave quietly!"
+	text "Stop. Fine. I will"
+	line "leave quietly."
+	cont "This district has"
+	cont "enough committees"
+	cont "already."
 	prompt
-
 _CeruleanCityRocketIllReturnTheTMText::
 	text "OK! I'll return"
 	line "the TM I stole!"
@@ -118,7 +120,7 @@ _CeruleanCitySuperNerd1Text::
 _CeruleanCitySuperNerd2Text::
 	text "You're making an"
 	line "encyclopedia on"
-	cont "#MON? That"
+	cont "pocket pols? That"
 	cont "sounds amusing."
 	done
 
@@ -127,58 +129,58 @@ _CeruleanCityGuardText::
 	line "were robbed."
 
 	para "It's obvious that"
-	line "TEAM ROCKET is"
+	line "AeroPAC is"
 	cont "behind this most"
 	cont "heinous crime!"
 
 	para "Even our POLICE"
 	line "force has trouble"
-	cont "with the ROCKETs!"
+	cont "with the AeroPACs!"
 	done
 
 _CeruleanCityCooltrainerF1SlowbroUseSonicboomText::
-	text "OK! SLOWBRO!"
+	text "OK! Leader Schumer!"
 	line "Use SONICBOOM!"
-	cont "Come on, SLOWBRO"
+	cont "Come on, Leader Schumer"
 	cont "pay attention!"
 	done
 
 _CeruleanCityCooltrainerF1SlowbroPunchText::
-	text "SLOWBRO punch!"
+	text "Leader Schumer punch!"
 	line "No! You blew it"
 	cont "again!"
 	done
 
 _CeruleanCityCooltrainerF1SlowbroWithdrawText::
-	text "SLOWBRO, WITHDRAW!"
+	text "Leader Schumer, WITHDRAW!"
 	line "No! That's wrong!"
 
 	para "It's so hard to"
-	line "control #MON!"
+	line "control pocket pols!"
 
-	para "Your #MON's"
+	para "Your pocket pols's"
 	line "obedience depends"
 	cont "on your abilities"
 	cont "as a trainer!"
 	done
 
 _CeruleanCitySlowbroTookASnoozeText::
-	text "SLOWBRO took a"
+	text "Leader Schumer took a"
 	line "snooze..."
 	done
 
 _CeruleanCitySlowbroIsLoafingAroundText::
-	text "SLOWBRO is"
+	text "Leader Schumer is"
 	line "loafing around..."
 	done
 
 _CeruleanCitySlowbroTurnedAwayText::
-	text "SLOWBRO turned"
+	text "Leader Schumer turned"
 	line "away..."
 	done
 
 _CeruleanCitySlowbroIgnoredOrdersText::
-	text "SLOWBRO"
+	text "Leader Schumer"
 	line "ignored orders..."
 	done
 
@@ -194,31 +196,24 @@ _CeruleanCityCooltrainerF2Text::
 _CeruleanCitySuperNerd3Text::
 	text "This is CERULEAN"
 	line "CAVE! Horribly"
-	cont "strong #MON"
+	cont "strong pocket pols"
 	cont "live in there!"
 
-	para "The #MON LEAGUE"
+	para "The ROTUNDA"
 	line "champion is the"
 	cont "only person who"
 	cont "is allowed in!"
 	done
 
 _CeruleanCitySignText::
-	text "CERULEAN CITY"
-	line "A Mysterious,"
-	cont "Blue Aura"
-	cont "Surrounds It"
+	text "BLUE STATE HEIGHTS"
 	done
-
 _CeruleanCityTrainerTipsText::
-	text "TRAINER TIPS"
-
-	para "Pressing B Button"
-	line "during evolution"
-	cont "cancels the whole"
-	cont "process."
+	text "FIELD NOTES"
+	para "Press B during a"
+	line "reinvention to"
+	cont "cancel it."
 	done
-
 _CeruleanCityBikeShopSign::
 	text "Grass and caves"
 	line "handled easily!"
@@ -227,9 +222,9 @@ _CeruleanCityBikeShopSign::
 
 _CeruleanCityGymSign::
 	text "CERULEAN CITY"
-	line "#MON GYM"
-	cont "LEADER: MISTY"
-
-	para "The Tomboyish"
-	line "Mermaid!"
+	line "CREDENTIAL HALL"
+	cont "DIRECTOR: THE"
+	cont "REFORM OLIGARCH"
+	cont "Water, charm,"
+	cont "leverage."
 	done

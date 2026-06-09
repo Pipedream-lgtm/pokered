@@ -8,7 +8,7 @@ _SaffronPidgeyHouseBrunetteGirlText::
 	done
 
 _SaffronPidgeyHousePidgeyText::
-	text "PIDGEY: Kurukkoo!@"
+	text "A-to-Z Hakeem: Kurukkoo!@"
 	text_end
 
 _SaffronPidgeyHouseYoungsterText::

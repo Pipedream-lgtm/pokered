@@ -3,121 +3,105 @@ _ViridianForestYoungster1Text::
 	line "some friends!"
 
 	para "They're out for"
-	line "#MON fights!"
+	line "proxy fights!"
 	done
 
 _ViridianForestYoungster2BattleText::
 	text "Hey! You have"
-	line "#MON! Come on!"
+	line "pocket pols! Come on!"
 	cont "Let's battle'em!"
 	done
 
 _ViridianForestYoungster2EndBattleText::
-	text "No!"
-	line "CATERPIE can't"
-	cont "cut it!"
+	text "This ruins the"
+	line "volunteer vibe."
 	prompt
-
 _ViridianForestYoungster2AfterBattleText::
-	text "Ssh! You'll scare"
-	line "the bugs away!"
+	text "Keep it down. Half"
+	line "this thicket is"
+	cont "paid help and the"
+	cont "other half bites."
 	done
-
 _ViridianForestYoungster3BattleText::
 	text "Yo! You can't jam"
 	line "out if you're a"
-	cont "#MON trainer!"
+	cont "handler!"
 	done
 
 _ViridianForestYoungster3EndBattleText::
-	text "Huh?"
-	line "I ran out of"
-	cont "#MON!"
+	text "My clipboard just"
+	line "lost authority."
 	prompt
-
 _ViridianForestYoungster3AfterBattleText::
-	text "Darn! I'm going"
-	line "to catch some"
-	cont "stronger ones!"
+	text "Fine. I'll find a"
+	line "richer donor and"
+	cont "come back meaner."
 	done
-
 _ViridianForestYoungster4BattleText::
 	text "Hey, wait up!"
 	line "What's the hurry?"
 	done
 
 _ViridianForestYoungster4EndBattleText::
-	text "I"
-	line "give! You're good"
-	cont "at this!"
+	text "This ruins the"
+	line "volunteer vibe."
 	prompt
-
 _ViridianForestYoungster4AfterBattleText::
-	text "Sometimes, you"
-	line "can find stuff on"
-	cont "the ground!"
-
-	para "I'm looking for"
-	line "the stuff I"
-	cont "dropped!"
+	text "Every campaign"
+	line "loses something in"
+	cont "here: phones,"
+	cont "flyers, interns,"
+	cont "dignity. I'm"
+	cont "looking for the"
+	cont "salvage."
 	done
-
 _ViridianForestYoungster5Text::
 	text "I ran out of #"
 	line "BALLs to catch"
-	cont "#MON with!"
+	cont "pocket pols with!"
 
 	para "You should carry"
 	line "extras!"
 	done
 
 _ViridianForestTrainerTips1Text::
-	text "TRAINER TIPS"
-
-	para "If you want to"
-	line "avoid battles,"
-	cont "stay away from"
-	cont "grassy areas!"
+	text "FIELD NOTES"
+	para "Want fewer"
+	line "ambushes?"
+	para "Stay out of the"
+	line "grass."
 	done
-
 _ViridianForestUseAntidoteSignText::
 	text "For poison, use"
 	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+	cont "at pocket pols"
+	cont "MARTs!"
 	done
-
 _ViridianForestTrainerTips2Text::
-	text "TRAINER TIPS"
-
-	para "Contact PROF.OAK"
-	line "via PC to get"
-	cont "your #DEX"
-	cont "evaluated!"
+	text "FIELD NOTES"
+	para "Check in by PC"
+	line "when you want"
+	cont "Roger Rock to"
+	cont "grade your"
+	cont "Rolodex."
 	done
-
 _ViridianForestTrainerTips3Text::
-	text "TRAINER TIPS"
-
-	para "No stealing of"
-	line "#MON from"
-	cont "other trainers!"
-	cont "Catch only wild"
-	cont "#MON!"
+	text "FIELD NOTES"
+	para "No poaching from"
+	line "other handlers."
+	para "Pocket only the"
+	line "wild ones."
 	done
-
 _ViridianForestTrainerTips4Text::
-	text "TRAINER TIPS"
-
-	para "Weaken #MON"
-	line "before attempting"
-	cont "capture!"
-
-	para "When healthy,"
-	line "they may escape!"
+	text "FIELD NOTES"
+	para "Soften them up"
+	line "before the cash"
+	cont "hits the table."
+	para "Fresh ones slip"
+	line "the bag."
 	done
-
 _ViridianForestLeavingSignText::
-	text "LEAVING"
-	line "VIRIDIAN FOREST"
-	cont "PEWTER CITY AHEAD"
+	text "LEAVING VIRIDIAN"
+	line "FOREST PEWTER CITY"
+	cont "AHEAD"
 	done

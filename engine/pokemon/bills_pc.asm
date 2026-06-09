@@ -88,8 +88,8 @@ DisplayPCMainMenu::
 SomeonesPCText:   db "SOMEONE's PC@"
 BillsPCText:      db "BILL's PC@"
 PlayersPCText:    db "'s PC@"
-OaksPCText:       db "PROF.OAK's PC@"
-PKMNLeaguePCText: db "<PKMN>LEAGUE@"
+OaksPCText:       db "ROCK's PC@"
+PKMNLeaguePCText: db "ROTUNDA@"
 LogOffPCText:     db "LOG OFF@"
 
 BillsPC_::
@@ -339,13 +339,12 @@ DisplayMonListMenu:
 	ret
 
 BillsPCMenuText:
-	db   "WITHDRAW <PKMN>"
-	next "DEPOSIT <PKMN>"
-	next "RELEASE <PKMN>"
+	db "WITHDRAW POL"
+	next "DEPOSIT POL"
+	next "RELEASE POL"
 	next "CHANGE BOX"
 	next "SEE YA!"
 	db "@"
-
 BoxNoPCText:
 	db "BOX No.@"
 
@@ -449,7 +448,7 @@ DisplayDepositWithdrawMenu:
 DepositPCText:  db "DEPOSIT@"
 WithdrawPCText: db "WITHDRAW@"
 StatsCancelPCText:
-	db   "STATS"
+	db "STATS"
 	next "CANCEL@"
 
 SwitchOnText:

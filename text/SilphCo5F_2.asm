@@ -1,55 +1,51 @@
 _SilphCo5FRockerEndBattleText::
-	text "Oh"
-	line "goodness!"
+	text "Procurement hates"
+	line "surprises."
 	prompt
-
 _SilphCo5FRockerAfterBattleText::
-	text "You're only on 5F."
-	line "It's a long way"
-	cont "to my BOSS!"
+	text "You beat me, not"
+	line "the contract"
+	cont "structure."
 	done
-
 _SilphCo5FRocket2BattleText::
-	text "Show TEAM ROCKET"
+	text "Show AeroPAC"
 	line "a little respect!"
 	done
 
 _SilphCo5FRocket2EndBattleText::
-	text "Cough..."
-	line "Cough..."
+	text "No comment without"
+	line "counsel."
 	prompt
-
 _SilphCo5FRocket2AfterBattleText::
-	text "Which reminds me."
-
-	para "KOFFING evolves"
-	line "into WEEZING!"
+	text "I am calling this"
+	line "an unscheduled"
+	cont "readiness"
+	cont "exercise."
 	done
-
 _SilphCo5FPokemonReport1Text::
-	text "It's a #MON"
+	text "It's a pocket pol"
 	line "REPORT!"
 
-	para "#MON LAB"
-	line "created PORYGON,"
+	para "PROJECT ELECTABLE LAB"
+	line "created Spreadsheet Yang,"
 	cont "the first virtual"
-	cont "reality #MON."
+	cont "reality pocket pols."
 	done
 
 _SilphCo5FPokemonReport2Text::
-	text "It's a #MON"
+	text "It's a pocket pol"
 	line "REPORT!"
 
-	para "Over 160 #MON"
+	para "Over 160 pocket pols"
 	line "techniques have"
 	cont "been confirmed."
 	done
 
 _SilphCo5FPokemonReport3Text::
-	text "It's a #MON"
+	text "It's a pocket pol"
 	line "REPORT!"
 
-	para "4 #MON evolve"
+	para "4 pocket pols evolve"
 	line "only when traded"
 	cont "by link-cable."
 	done

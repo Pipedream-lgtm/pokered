@@ -4,89 +4,86 @@ _Route19CooltrainerM1BattleText::
 	done
 
 _Route19CooltrainerM1EndBattleText::
-	text "All"
-	line "warmed up!"
+	text "The room got less"
+	line "private."
 	prompt
-
 _Route19CooltrainerM1AfterBattleText::
-	text "Thanks, kid! I'm"
-	line "ready for a swim!"
+	text "Money hates"
+	line "embarrassment, but"
+	cont "it heals quickly."
 	done
-
 _Route19CooltrainerM2BattleText::
 	text "Wait! You'll have"
 	line "a heart attack!"
 	done
 
 _Route19CooltrainerM2EndBattleText::
-	text "Ooh!"
-	line "That's chilly!"
+	text "My discretion"
+	line "package leaked."
 	prompt
-
 _Route19CooltrainerM2AfterBattleText::
-	text "Watch out for"
-	line "TENTACOOL!"
+	text "The invoice will"
+	line "call that"
+	cont "hospitality."
 	done
-
 _Route19Swimmer1BattleText::
 	text "I love swimming!"
 	line "What about you?"
 	done
 
 _Route19Swimmer1EndBattleText::
-	text "Belly"
-	line "flop!"
+	text "The donor table"
+	line "moved on."
 	prompt
-
 _Route19Swimmer1AfterBattleText::
-	text "I can beat #MON"
-	line "at swimming!"
+	text "Discretion means"
+	line "nobody repeats the"
+	cont "score."
 	done
-
 _Route19Swimmer2BattleText::
 	text "What's beyond the"
 	line "horizon?"
 	done
 
 _Route19Swimmer2EndBattleText::
-	text "Glub!"
+	text "That was not"
+	line "guest-list"
+	cont "behavior."
 	prompt
-
 _Route19Swimmer2AfterBattleText::
-	text "I see a couple of"
-	line "islands!"
+	text "Private rooms"
+	line "exist to make"
+	cont "losses negotiable."
 	done
-
 _Route19Swimmer3BattleText::
 	text "I tried diving"
-	line "for #MON, but"
+	line "for pocket pols, but"
 	cont "it was a no go!"
 	done
 
 _Route19Swimmer3EndBattleText::
-	text "Help!"
+	text "The room got less"
+	line "private."
 	prompt
-
 _Route19Swimmer3AfterBattleText::
-	text "You have to fish"
-	line "for sea #MON!"
+	text "Money hates"
+	line "embarrassment, but"
+	cont "it heals quickly."
 	done
-
 _Route19Swimmer4BattleText::
 	text "I look at the"
 	line "sea to forget!"
 	done
 
 _Route19Swimmer4EndBattleText::
-	text "Ooh!"
-	line "Traumatic!"
+	text "My discretion"
+	line "package leaked."
 	prompt
-
 _Route19Swimmer4AfterBattleText::
-	text "I'm looking at the"
-	line "sea to forget!"
+	text "The invoice will"
+	line "call that"
+	cont "hospitality."
 	done
-
 _Route19Swimmer5BattleText::
 	text "Oh, I just love"
 	line "your ride! Can I"
@@ -94,64 +91,57 @@ _Route19Swimmer5BattleText::
 	done
 
 _Route19Swimmer5EndBattleText::
-	text "Oh!"
-	line "I lost!"
+	text "My discretion"
+	line "package leaked."
 	prompt
-
 _Route19Swimmer5AfterBattleText::
-	text "It's still a long"
-	line "way to go to"
-	cont "SEAFOAM ISLANDS."
+	text "Do not mistake"
+	line "access for"
+	cont "accountability."
 	done
-
 _Route19Swimmer6BattleText::
 	text "Swimming's great!"
 	line "Sunburns aren't!"
 	done
 
 _Route19Swimmer6EndBattleText::
-	text "Shocker!"
+	text "The donor table"
+	line "moved on."
 	prompt
-
 _Route19Swimmer6AfterBattleText::
-	text "My boy friend"
-	line "wanted to swim to"
-	cont "SEAFOAM ISLANDS."
+	text "Discretion means"
+	line "nobody repeats the"
+	cont "score."
 	done
-
 _Route19Swimmer7BattleText::
 	text "These waters are"
 	line "treacherous!"
 	done
 
 _Route19Swimmer7EndBattleText::
-	text "Ooh!"
-	line "Dangerous!"
+	text "That was not"
+	line "guest-list"
+	cont "behavior."
 	prompt
-
 _Route19Swimmer7AfterBattleText::
-	text "I got a cramp!"
-	line "Glub, glub..."
+	text "Private rooms"
+	line "exist to make"
+	cont "losses negotiable."
 	done
-
 _Route19Swimmer8BattleText::
 	text "I swam here, but"
 	line "I'm tired."
 	done
 
 _Route19Swimmer8EndBattleText::
-	text "I'm"
-	line "exhausted..."
+	text "I paid for better"
+	line "inevitability."
 	prompt
-
 _Route19Swimmer8AfterBattleText::
-	text "LAPRAS is so big,"
-	line "it must keep you"
-	cont "dry on water."
+	text "Do not mistake"
+	line "access for"
+	cont "accountability."
 	done
-
 _Route19SignText::
-	text "SEA ROUTE 19"
-	line "FUCHSIA CITY -"
-	cont "SEAFOAM ISLANDS"
+	text "BLACKMAIL ISLAND"
 	done

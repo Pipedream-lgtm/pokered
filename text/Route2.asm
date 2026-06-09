@@ -1,9 +1,7 @@
 _Route2SignText::
-	text "ROUTE 2"
-	line "VIRIDIAN CITY -"
-	cont "PEWTER CITY"
+	text "YARD SIGN THICKET"
 	done
-
 _Route2DiglettsCaveSignText::
-	text "DIGLETT's CAVE"
+	text "Little Richard"
+	line "Nixon's CAVE"
 	done

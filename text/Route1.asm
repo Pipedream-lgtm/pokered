@@ -1,15 +1,15 @@
 _Route1Youngster1MartSampleText::
-	text "Hi! I work at a"
-	line "#MON MART."
+	text "I work the"
+	line "donation shop in"
+	cont "County Seat."
 
-	para "It's a convenient"
-	line "shop, so please"
-	cont "visit us in"
-	cont "VIRIDIAN CITY."
+	para "Here, take a"
+	line "sample."
 
-	para "I know, I'll give"
-	line "you a sample!"
-	cont "Here you go!"
+	para "Nothing says"
+	line "grassroots like"
+	cont "a budget for"
+	cont "free samples."
 	prompt
 
 _Route1Youngster1GotPotionText::
@@ -20,9 +20,12 @@ _Route1Youngster1GotPotionText::
 	text_end
 
 _Route1Youngster1AlsoGotPokeballsText::
-	text "We also carry"
-	line "# BALLs for"
-	cont "catching #MON!"
+	text "We stock Campaign"
+	line "Donations too."
+
+	para "Nobody becomes"
+	line "a pocket pol on"
+	cont "conviction alone."
 	done
 
 _Route1Youngster1NoRoomText::
@@ -44,7 +47,5 @@ _Route1Youngster2Text::
 	done
 
 _Route1SignText::
-	text "ROUTE 1"
-	line "PALLET TOWN -"
-	cont "VIRIDIAN CITY"
+	text "CANVASS ROUTE"
 	done

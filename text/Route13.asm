@@ -1,179 +1,159 @@
 _Route13CooltrainerM1BattleText::
-	text "My bird #MON"
+	text "My bird pocket pols"
 	line "want to scrap!"
 	done
 
 _Route13CooltrainerM1EndBattleText::
-	text "My"
-	line "bird combo lost?"
+	text "The room got less"
+	line "private."
 	prompt
-
 _Route13CooltrainerM1AfterBattleText::
-	text "My #MON look"
-	line "happy even though"
-	cont "they lost."
+	text "Money hates"
+	line "embarrassment, but"
+	cont "it heals quickly."
 	done
-
 _Route13CooltrainerF1BattleText::
 	text "I'm told I'm good"
 	line "for a kid!"
 	done
 
 _Route13CooltrainerF1EndBattleText::
-	text "Ohh!"
-	line "I lost!"
+	text "Great. Intake ate"
+	line "me alive."
 	prompt
-
 _Route13CooltrainerF1AfterBattleText::
-	text "I want to become"
-	line "a good trainer."
-	cont "I'll train hard."
+	text "Do not mistake"
+	line "access for"
+	cont "accountability."
 	done
-
 _Route13CooltrainerF2BattleText::
-	text "Wow! Your BADGEs"
+	text "Wow! Your credentials"
 	line "are too cool!"
 	done
 
 _Route13CooltrainerF2EndBattleText::
-	text "Not"
-	line "enough!"
+	text "The donor table"
+	line "moved on."
 	prompt
-
 _Route13CooltrainerF2AfterBattleText::
 	text "You got those"
-	line "BADGEs from GYM"
-	cont "LEADERs. I know!"
+	line "credentials from"
+	cont "hall chairs. I can"
+	cont "tell."
 	done
-
 _Route13CooltrainerF3BattleText::
-	text "My cute #MON"
+	text "My cute pocket pols"
 	line "wish to make your"
 	cont "acquaintance."
 	done
 
 _Route13CooltrainerF3EndBattleText::
-	text "Wow!"
-	line "You totally won!"
+	text "That was not"
+	line "guest-list"
+	cont "behavior."
 	prompt
-
 _Route13CooltrainerF3AfterBattleText::
-	text "You have to make"
-	line "#MON fight to"
-	cont "toughen them up!"
+	text "Private rooms"
+	line "exist to make"
+	cont "losses negotiable."
 	done
-
 _Route13CooltrainerF4BattleText::
 	text "I found CARBOS in"
 	line "a cave once."
 	done
 
 _Route13CooltrainerF4EndBattleText::
-	text "Just"
-	line "messed up!"
+	text "The room got less"
+	line "private."
 	prompt
-
 _Route13CooltrainerF4AfterBattleText::
-	text "CARBOS boosted"
-	line "the SPEED of my"
-	cont "#MON."
+	text "Money hates"
+	line "embarrassment, but"
+	cont "it heals quickly."
 	done
-
 _Route13CooltrainerM2BattleText::
 	text "The wind's blowing"
 	line "my way!"
 	done
 
 _Route13CooltrainerM2EndBattleText::
-	text "The"
-	line "wind turned!"
+	text "The donor table"
+	line "moved on."
 	prompt
-
 _Route13CooltrainerM2AfterBattleText::
-	text "I'm beat. I guess"
-	line "I'll FLY home."
+	text "Discretion means"
+	line "nobody repeats the"
+	cont "score."
 	done
-
 _Route13Beauty1BattleText::
 	text "Sure, I'll play"
 	line "with you!"
 	done
 
 _Route13Beauty1EndBattleText::
-	text "Oh!"
-	line "You little brute!"
+	text "That was not"
+	line "guest-list"
+	cont "behavior."
 	prompt
-
 _Route13Beauty1AfterBattleText::
-	text "I wonder which is"
-	line "stronger, male or"
-	cont "female #MON?"
+	text "I wonder which"
+	line "polls better, male"
+	cont "or female pocket"
+	cont "pol."
 	done
-
 _Route13Beauty2BattleText::
 	text "Do you want to"
-	line "#MON with me?"
+	line "pocket pols with me?"
 	done
 
 _Route13Beauty2EndBattleText::
-	text "It's over"
-	line "already?"
+	text "The room got less"
+	line "private."
 	prompt
-
 _Route13Beauty2AfterBattleText::
-	text "I don't know"
-	line "anything about"
-	cont "#MON. I just"
-	cont "like cool ones!"
+	text "Money hates"
+	line "embarrassment, but"
+	cont "it heals quickly."
 	done
-
 _Route13BikerBattleText::
 	text "What're you"
 	line "lookin' at?"
 	done
 
 _Route13BikerEndBattleText::
-	text "Dang!"
-	line "Stripped gears!"
+	text "The donor table"
+	line "moved on."
 	prompt
-
 _Route13BikerAfterBattleText::
-	text "Get lost!"
+	text "Discretion means"
+	line "nobody repeats the"
+	cont "score."
 	done
-
 _Route13CooltrainerM3BattleText::
 	text "I always go with"
-	line "bird #MON!"
+	line "bird pocket pols!"
 	done
 
 _Route13CooltrainerM3EndBattleText::
-	text "Out"
-	line "of power!"
+	text "The room got less"
+	line "private."
 	prompt
-
 _Route13CooltrainerM3AfterBattleText::
-	text "I wish I could"
-	line "fly like PIDGEY"
-	cont "and PIDGEOTTO..."
+	text "Money hates"
+	line "embarrassment, but"
+	cont "it heals quickly."
 	done
-
 _Route13TrainerTips1Text::
-	text "TRAINER TIPS"
-
-	para "Look to the left"
-	line "of that post!"
+	text "FIELD NOTES"
+	para "Check left of the"
+	line "post."
 	done
-
 _Route13TrainerTips2Text::
-	text "TRAINER TIPS"
-
+	text "FIELD NOTES"
 	para "Use SELECT to"
-	line "switch items in"
-	cont "the ITEM window!"
+	line "reorder items in"
+	cont "the pocket window."
 	done
-
 _Route13SignText::
-	text "ROUTE 13"
-	line "North to SILENCE"
-	cont "BRIDGE"
+	text "CONVENTION MARSH"
 	done

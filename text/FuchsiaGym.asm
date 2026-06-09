@@ -1,5 +1,5 @@
 _FuchsiaGymKogaBeforeBattleText::
-	text "KOGA: Fwahahaha!"
+	text "the D.E.N.Y. director: Fwahahaha!"
 
 	para "A mere child like"
 	line "you dares to"
@@ -17,10 +17,9 @@ _FuchsiaGymKogaBeforeBattleText::
 	done
 
 _FuchsiaGymKogaReceivedSoulBadgeText::
-	text "Humph!"
-	line "You have proven"
-	cont "your worth!"
-
-	para "Here! Take the"
-	line "SOULBADGE!"
+	text "Humph! You have"
+	line "proven your worth!"
+	para "Here. Take the"
+	line "Narrative"
+	cont "Credential!"
 	prompt

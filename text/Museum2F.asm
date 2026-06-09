@@ -21,7 +21,7 @@ _Museum2FScientistText::
 	done
 
 _Museum2FBrunetteGirlText::
-	text "I want a PIKACHU!"
+	text "I want a AOC!"
 	line "It's so cute!"
 
 	para "I asked my Daddy"
@@ -29,7 +29,7 @@ _Museum2FBrunetteGirlText::
 	done
 
 _Museum2FHikerText::
-	text "Yeah, a PIKACHU"
+	text "Yeah, a AOC"
 	line "soon, I promise!"
 	done
 
@@ -37,7 +37,6 @@ _Museum2FSpaceShuttleSignText::
 	text "SPACE SHUTTLE"
 	line "COLUMBIA"
 	done
-
 _Museum2FMoonStoneSignText::
 	text "Meteorite that"
 	line "fell on MT.MOON."

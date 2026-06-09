@@ -1,24 +1,18 @@
 _Route15CooltrainerF1BattleText::
 	text "Let me try out the"
-	line "#MON I just"
+	line "pocket pols I just"
 	cont "got in a trade!"
 	done
 
 _Route15CooltrainerF1EndBattleText::
-	text "Not"
-	line "good enough!"
+	text "Not enough"
+	line "signatures."
 	prompt
-
 _Route15CooltrainerF1AfterBattleText::
-	text "You can't change"
-	line "the nickname of"
-	cont "any #MON you"
-	cont "get in a trade."
-
-	para "Only the Original"
-	line "Trainer can."
+	text "The invoice will"
+	line "call that"
+	cont "hospitality."
 	done
-
 _Route15CooltrainerF2BattleText::
 	text "You look gentle,"
 	line "so I think I can"
@@ -26,32 +20,29 @@ _Route15CooltrainerF2BattleText::
 	done
 
 _Route15CooltrainerF2EndBattleText::
-	text "No,"
-	line "wrong!"
+	text "I paid for better"
+	line "inevitability."
 	prompt
-
 _Route15CooltrainerF2AfterBattleText::
-	text "I'm afraid of"
-	line "BIKERs, they look"
-	cont "so ugly and mean!"
+	text "Do not mistake"
+	line "access for"
+	cont "accountability."
 	done
-
 _Route15CooltrainerM1BattleText::
 	text "When I whistle, I"
 	line "can summon bird"
-	cont "#MON!"
+	cont "pocket pols!"
 	done
 
 _Route15CooltrainerM1EndBattleText::
-	text "Ow!"
-	line "That's tragic!"
+	text "The donor table"
+	line "moved on."
 	prompt
-
 _Route15CooltrainerM1AfterBattleText::
-	text "Maybe I'm not cut"
-	line "out for battles."
+	text "Discretion means"
+	line "nobody repeats the"
+	cont "score."
 	done
-
 _Route15CooltrainerM2BattleText::
 	text "Hmm? My birds are"
 	line "shivering! You're"
@@ -59,66 +50,58 @@ _Route15CooltrainerM2BattleText::
 	done
 
 _Route15CooltrainerM2EndBattleText::
-	text "Just"
-	line "as I thought!"
+	text "That was not"
+	line "guest-list"
+	cont "behavior."
 	prompt
-
 _Route15CooltrainerM2AfterBattleText::
-	text "Did you know moves"
-	line "like EARTHQUAKE"
-	cont "don't have any"
-	cont "effect on birds?"
+	text "Private rooms"
+	line "exist to make"
+	cont "losses negotiable."
 	done
-
 _Route15Beauty1BattleText::
 	text "Oh, you're a"
 	line "little cutie!"
 	done
 
 _Route15Beauty1EndBattleText::
-	text "You looked"
-	line "so cute too!"
+	text "The room got less"
+	line "private."
 	prompt
-
 _Route15Beauty1AfterBattleText::
-	text "I forgive you!"
-	line "I can take it!"
+	text "Money hates"
+	line "embarrassment, but"
+	cont "it heals quickly."
 	done
-
 _Route15Beauty2BattleText::
-	text "I raise #MON"
+	text "I raise pocket pols"
 	line "because I live"
 	cont "alone!"
 	done
 
 _Route15Beauty2EndBattleText::
-	text "I didn't"
-	line "ask for this!"
+	text "My discretion"
+	line "package leaked."
 	prompt
-
 _Route15Beauty2AfterBattleText::
-	text "I just like going"
-	line "home to be with"
-	cont "my #MON!"
+	text "The invoice will"
+	line "call that"
+	cont "hospitality."
 	done
-
 _Route15Biker1BattleText::
 	text "Hey kid! C'mon!"
 	line "I just got these!"
 	done
 
 _Route15Biker1EndBattleText::
-	text "Why"
-	line "not?"
+	text "My discretion"
+	line "package leaked."
 	prompt
-
 _Route15Biker1AfterBattleText::
-	text "You only live"
-	line "once, so I live"
-	cont "as an outlaw!"
-	cont "TEAM ROCKET RULES!"
+	text "The invoice will"
+	line "call that"
+	cont "hospitality."
 	done
-
 _Route15Biker2BattleText::
 	text "Fork over all your"
 	line "cash when you"
@@ -126,47 +109,43 @@ _Route15Biker2BattleText::
 	done
 
 _Route15Biker2EndBattleText::
-	text "That"
-	line "can't be true!"
+	text "I paid for better"
+	line "inevitability."
 	prompt
-
 _Route15Biker2AfterBattleText::
-	text "I was just joking"
-	line "about the money!"
+	text "Do not mistake"
+	line "access for"
+	cont "accountability."
 	done
-
 _Route15CooltrainerF3BattleText::
 	text "What's cool?"
-	line "Trading #MON!"
+	line "Trading pocket pols!"
 	done
 
 _Route15CooltrainerF3EndBattleText::
-	text "I"
-	line "said trade!"
+	text "My discretion"
+	line "package leaked."
 	prompt
-
 _Route15CooltrainerF3AfterBattleText::
-	text "I trade #MON"
-	line "with my friends!"
+	text "The invoice will"
+	line "call that"
+	cont "hospitality."
 	done
-
 _Route15CooltrainerF4BattleText::
 	text "Want to play with"
-	line "my #MON?"
+	line "my pocket pols?"
 	done
 
 _Route15CooltrainerF4EndBattleText::
-	text "I was"
-	line "too impatient!"
+	text "That was not"
+	line "guest-list"
+	cont "behavior."
 	prompt
-
 _Route15CooltrainerF4AfterBattleText::
-	text "I'll go train with"
-	line "weaker people.@"
+	text "Private rooms"
+	line "exist to make"
+	cont "losses negotiable."
 	text_end
-
 _Route15SignText::
-	text "ROUTE 15"
-	line "West to FUCHSIA"
-	cont "CITY"
+	text "CONVENTION MARSH"
 	done

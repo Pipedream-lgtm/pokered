@@ -1,6 +1,6 @@
 _BillsHouseBillImNotAPokemonText::
 	text "Hiya! I'm a"
-	line "#MON..."
+	line "pocket pols..."
 	cont "...No I'm not!"
 
 	para "Call me BILL!"
@@ -13,7 +13,7 @@ _BillsHouseBillImNotAPokemonText::
 	line "you, I screwed up"
 	cont "an experiment and"
 	cont "got combined with"
-	cont "a #MON!"
+	cont "a pocket pol!"
 
 	para "So, how about it?"
 	line "Help me out here!"
@@ -43,7 +43,7 @@ _BillsHouseBillThankYouText::
 	cont "owe you one!"
 
 	para "So, did you come"
-	line "to see my #MON"
+	line "to see my pocket pols"
 	cont "collection?"
 	cont "You didn't?"
 	cont "That's a bummer."
@@ -55,34 +55,28 @@ _BillsHouseBillThankYouText::
 
 _SSTicketReceivedText::
 	text "<PLAYER> received"
-	line "an @"
-	text_ram wStringBuffer
-	text "!@"
+	line "the LOLITA PASS."
 	text_end
-
 _SSTicketNoRoomText::
 	text "You've got too"
-	line "much stuff, bud!"
+	line "much junk on you,"
+	cont "bud."
 	done
-
 _BillsHouseBillWhyDontYouGoInsteadOfMeText::
-	text "That cruise ship,"
-	line "S.S.ANNE, is in"
-	cont "VERMILION CITY."
-	cont "Its passengers"
-	cont "are all trainers!"
-
-	para "They invited me"
-	line "to their party,"
-	cont "but I can't stand"
-	cont "fancy do's. Why"
-	cont "don't you go"
-	cont "instead of me?"
+	text "That yacht, the"
+	line "LOLITA, is in"
+	cont "Contractor Port."
+	para "Roger's name opens"
+	line "a lot of doors on"
+	cont "that thing."
+	para "I don't like doors"
+	line "that close behind"
+	cont "me."
+	para "You go instead."
 	done
-
 _BillsHouseBillCheckOutMyRarePokemonText::
 	text "BILL: Look, bud,"
 	line "just check out"
 	cont "some of my rare"
-	cont "#MON on my PC!"
+	cont "pocket pols on my PC!"
 	done

@@ -1,37 +1,42 @@
 _PokemonMansion3FSuperNerdBattleText::
 	text "This place is"
-	line "like, huge!"
+	line "huge. Every floor"
+	cont "says reverence,"
+	cont "every floor smells"
+	cont "like a cover-up."
 	done
-
 _PokemonMansion3FSuperNerdEndBattleText::
-	text "Ayah!"
+	text "The archive bit"
+	line "back."
 	prompt
-
 _PokemonMansion3FSuperNerdAfterBattleText::
-	text "I wonder where"
-	line "my partner went."
+	text "Tradition survives"
+	line "by editing the"
+	cont "minutes."
 	done
-
 _PokemonMansion3FScientistBattleText::
-	text "My mentor once"
-	line "lived here."
+	text "My mentor lived"
+	line "here. He called it"
+	cont "stewardship. Funny"
+	cont "word for what"
+	cont "happened."
 	done
-
 _PokemonMansion3FScientistEndBattleText::
-	text "Whew!"
-	line "Overwhelming!"
+	text "My legacy needs"
+	line "edits."
 	prompt
-
 _PokemonMansion3FScientistAfterBattleText::
-	text "So, you're stuck?"
-	line "Try jumping off"
-	cont "over there!"
+	text "If you're stuck,"
+	line "jump. That's the"
+	cont "archive's entire"
+	cont "philosophy."
 	done
-
 _PokemonMansion3FDiaryText::
-	text "Diary: Feb. 6"
-	line "MEW gave birth."
-
-	para "We named the"
-	line "newborn MEWTWO."
+	text "Archive Note, Feb."
+	line "6: Code Reagan produced a"
+	cont "viable clone."
+	cont "Draft name was"
+	cont "Candidate Prime."
+	cont "Public materials"
+	cont "prefer Candidate Prime."
 	done

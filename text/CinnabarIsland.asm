@@ -4,12 +4,14 @@ _CinnabarIslandDoorIsLockedText::
 	done
 
 _CinnabarIslandGirlText::
-	text "CINNABAR GYM's"
-	line "BLAINE is an odd"
-	cont "man who has lived"
-	cont "here for decades."
+	text "The host has lived"
+	line "here for decades."
+	para "Men like that"
+	line "never retire."
+	para "They just get"
+	line "better lawyers and"
+	cont "quieter boats."
 	done
-
 _CinnabarIslandGamblerText::
 	text "Scientists conduct"
 	line "experiments in"
@@ -18,20 +20,18 @@ _CinnabarIslandGamblerText::
 	done
 
 _CinnabarIslandSignText::
-	text "CINNABAR ISLAND"
-	line "The Fiery Town of"
-	cont "Burning Desire"
+	text "BLACKMAIL ISLAND"
 	done
-
 _CinnabarIslandPokemonLabSignText::
-	text "#MON LAB"
+	text "PROJECT ELECTABLE"
+	line "LAB"
 	done
-
 _CinnabarIslandGymSignText::
-	text "CINNABAR ISLAND"
-	line "#MON GYM"
-	cont "LEADER: BLAINE"
-
-	para "The Hot-Headed"
-	line "Quiz Master!"
+	text "BLACKMAIL ISLAND"
+	line "CREDENTIAL HALL"
+	cont "DIRECTOR: THE"
+	cont "HOST. Closed-book"
+	cont "examiner."
+	cont "Open-flame records"
+	cont "policy."
 	done

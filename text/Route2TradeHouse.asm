@@ -1,6 +1,9 @@
 _Route2TradeHouseScientistText::
-	text "A fainted #MON"
-	line "can't fight. But, "
-	cont "it can still use "
-	cont "moves like CUT!"
+	text "An off-ballot"
+	line "pocket pol"
+	cont "can't campaign."
+
+	para "But it can"
+	line "still use moves"
+	cont "like CUT!"
 	done

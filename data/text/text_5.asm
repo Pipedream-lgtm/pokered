@@ -1,13 +1,12 @@
 _CableClubNPCPleaseComeAgainText::
-	text "Please come again!"
+	text "Please come"
+	line "again."
 	done
-
 _CableClubNPCMakingPreparationsText::
-	text "We're making"
-	line "preparations."
+	text "We're preparing"
+	line "the link."
 	cont "Please wait."
 	done
-
 _UsedStrengthText::
 	text_ram wNameBuffer
 	text " used"
@@ -36,10 +35,9 @@ _FlashLightsAreaText::
 	prompt
 
 _WarpToLastPokemonCenterText::
-	text "Warp to the last"
-	line "#MON CENTER."
+	text "Warp to last"
+	line "Conway branch."
 	done
-
 _CannotUseTeleportNowText::
 	text_ram wNameBuffer
 	text " can't"
@@ -58,7 +56,7 @@ _NotHealthyEnoughText::
 	prompt
 
 _NewBadgeRequiredText::
-	text "No! A new BADGE"
+	text "No! A new credential"
 	line "is required."
 	prompt
 
@@ -81,24 +79,24 @@ _GotMonText::
 
 _SentToBoxText::
 	text "There's no more"
-	line "room for #MON!"
-	cont "@"
+	line "room for pocket"
+	cont "pols!@"
 	text_ram wBoxMonNicks
 	text " was"
-	cont "sent to #MON"
-	cont "BOX @"
+	cont "sent to archive"
+	cont "box @"
 	text_ram wStringBuffer
 	text " on PC!"
 	done
-
 _BoxIsFullText::
 	text "There's no more"
-	line "room for #MON!"
+	line "room for pocket"
+	cont "pols!"
 
-	para "The #MON BOX"
-	line "is full and can't"
-	cont "accept any more!"
+	para "The archive box"
+	line "is full and"
+	cont "can't take more!"
 
-	para "Change the BOX at"
-	line "a #MON CENTER!"
+	para "Change the box at"
+	line "Conway."
 	done

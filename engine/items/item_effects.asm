@@ -108,7 +108,7 @@ ItemUseBall:
 	and a
 	jp z, ItemUseNotTime
 
-; Balls can't catch trainers' Pokémon.
+; Balls can't catch trainers' PokÃ©mon.
 	dec a
 	jp nz, ThrowBallAtTrainerMon
 
@@ -147,7 +147,7 @@ ItemUseBall:
 	call PrintText
 
 ; If the player is fighting an unidentified ghost, set the value that indicates
-; the Pokémon can't be caught and skip the capture calculations.
+; the PokÃ©mon can't be caught and skip the capture calculations.
 	callfar IsGhostBattle
 	ld b, $10 ; can't be caught value
 	jp z, .setAnimData
@@ -165,7 +165,7 @@ ItemUseBall:
 
 .notOldManBattle
 ; If the player is fighting the ghost Marowak, set the value that indicates the
-; Pokémon can't be caught and skip the capture calculations.
+; PokÃ©mon can't be caught and skip the capture calculations.
 	ld a, [wCurMap]
 	cp POKEMON_TOWER_6F
 	jr nz, .loop
@@ -177,7 +177,7 @@ ItemUseBall:
 ; Get the first random number. Let it be called Rand1.
 ; Rand1 must be within a certain range according the kind of ball being thrown.
 ; The ranges are as follows.
-; Poké Ball:         [0, 255]
+; PokÃ© Ball:         [0, 255]
 ; Great Ball:        [0, 200]
 ; Ultra/Safari Ball: [0, 150]
 ; Loop until an acceptable number is found.
@@ -194,7 +194,7 @@ ItemUseBall:
 	cp MASTER_BALL
 	jp z, .captured
 
-; Anything will do for the basic Poké Ball.
+; Anything will do for the basic PokÃ© Ball.
 	cp POKE_BALL
 	jr z, .checkForAilments
 
@@ -214,14 +214,14 @@ ItemUseBall:
 	jr c, .loop
 
 .checkForAilments
-; Pokémon can be caught more easily with a status ailment.
+; PokÃ©mon can be caught more easily with a status ailment.
 ; Depending on the status ailment, a certain value will be subtracted from
 ; Rand1. Let this value be called Status.
-; The larger Status is, the more easily the Pokémon can be caught.
+; The larger Status is, the more easily the PokÃ©mon can be caught.
 ; no status ailment:     Status = 0
 ; Burn/Paralysis/Poison: Status = 12
 ; Freeze/Sleep:          Status = 25
-; If Status is greater than Rand1, the Pokémon will be caught for sure.
+; If Status is greater than Rand1, the PokÃ©mon will be caught for sure.
 	ld a, [wEnemyMonStatus]
 	and a
 	jr z, .skipAilmentValueSubtraction ; no ailments
@@ -297,19 +297,19 @@ ItemUseBall:
 .skip3
 	pop bc ; b = Rand1 - Status
 
-; If Rand1 - Status > CatchRate, the ball fails to capture the Pokémon.
+; If Rand1 - Status > CatchRate, the ball fails to capture the PokÃ©mon.
 	ld a, [wEnemyMonActualCatchRate]
 	cp b
 	jr c, .failedToCapture
 
-; If W > 255, the ball captures the Pokémon.
+; If W > 255, the ball captures the PokÃ©mon.
 	ldh a, [hQuotient + 2]
 	and a
 	jr nz, .captured
 
 	call Random ; Let this random number be called Rand2.
 
-; If Rand2 > X, the ball fails to capture the Pokémon.
+; If Rand2 > X, the ball fails to capture the PokÃ©mon.
 	ld b, a
 	ldh a, [hQuotient + 3]
 	cp b
@@ -333,7 +333,7 @@ ItemUseBall:
 	call Multiply
 
 ; Determine BallFactor2.
-; Poké Ball:         BallFactor2 = 255
+; PokÃ© Ball:         BallFactor2 = 255
 ; Great Ball:        BallFactor2 = 200
 ; Ultra/Safari Ball: BallFactor2 = 150
 	ld a, [wCurItem]
@@ -386,7 +386,7 @@ ItemUseBall:
 	ld b, 10
 
 .addAilmentValue
-; If the Pokémon has a status ailment, add Status2.
+; If the PokÃ©mon has a status ailment, add Status2.
 	ldh a, [hQuotient + 3]
 	add b
 	ldh [hQuotient + 3], a
@@ -395,10 +395,10 @@ ItemUseBall:
 ; Finally determine the number of shakes.
 ; Let Z = ((X * Y) / 255) + Status2 = [hQuotient + 3].
 ; The number of shakes depend on the range Z is in.
-; 0  ≤ Z < 10: 0 shakes (the ball misses)
-; 10 ≤ Z < 30: 1 shake
-; 30 ≤ Z < 70: 2 shakes
-; 70 ≤ Z:      3 shakes
+; 0  â‰¤ Z < 10: 0 shakes (the ball misses)
+; 10 â‰¤ Z < 30: 1 shake
+; 30 â‰¤ Z < 70: 2 shakes
+; 70 â‰¤ Z:      3 shakes
 	ldh a, [hQuotient + 3]
 	cp 10
 	ld b, $20
@@ -468,9 +468,9 @@ ItemUseBall:
 
 	push hl
 
-; Bug: If the Pokémon is transformed, the Pokémon is assumed to be a Ditto.
-; This is a bug because a wild Pokémon could have used Transform via
-; Mirror Move even though the only wild Pokémon that knows Transform is Ditto.
+; Bug: If the PokÃ©mon is transformed, the PokÃ©mon is assumed to be a Ditto.
+; This is a bug because a wild PokÃ©mon could have used Transform via
+; Mirror Move even though the only wild PokÃ©mon that knows Transform is Ditto.
 	ld hl, wEnemyBattleStatus3
 	bit TRANSFORMED, [hl]
 	jr z, .notTransformed
@@ -479,7 +479,7 @@ ItemUseBall:
 	jr .skip6
 
 .notTransformed
-; If the Pokémon is not transformed, set the transformed bit and copy the
+; If the PokÃ©mon is not transformed, set the transformed bit and copy the
 ; DVs to wTransformedEnemyMonOriginalDVs so that LoadEnemyMonData won't generate
 ; new DVs.
 	set TRANSFORMED, [hl]
@@ -513,12 +513,12 @@ ItemUseBall:
 	ld [wPokedexNum], a
 	ld a, [wBattleType]
 	dec a ; is this the old man battle?
-	jr z, .oldManCaughtMon ; if so, don't give the player the caught Pokémon
+	jr z, .oldManCaughtMon ; if so, don't give the player the caught PokÃ©mon
 
 	ld hl, ItemUseBallText05
 	call PrintText
 
-; Add the caught Pokémon to the Pokédex.
+; Add the caught PokÃ©mon to the PokÃ©dex.
 	predef IndexToPokedex
 	ld a, [wPokedexNum]
 	dec a
@@ -535,8 +535,8 @@ ItemUseBall:
 	predef FlagActionPredef
 	pop af
 
-	and a ; was the Pokémon already in the Pokédex?
-	jr nz, .skipShowingPokedexData ; if so, don't show the Pokédex data
+	and a ; was the PokÃ©mon already in the PokÃ©dex?
+	jr nz, .skipShowingPokedexData ; if so, don't show the PokÃ©dex data
 
 	ld hl, ItemUseBallText06
 	call PrintText
@@ -827,7 +827,7 @@ ItemUseMedicine:
 	jp PrintText
 .emptyPartyText
 	text "You don't have"
-	line "any #MON!"
+	line "any pocket pols!"
 	prompt
 .notUsingSoftboiled
 	call DisplayPartyMenu
@@ -853,7 +853,7 @@ ItemUseMedicine:
 ; if using softboiled
 	ld a, [wWhichPokemon]
 	cp d ; is the pokemon trying to use softboiled on itself?
-	jr z, ItemUseMedicine ; if so, force another choice
+	jp z, ItemUseMedicine ; if so, force another choice
 .checkItemType
 	ld a, [wCurItem]
 	cp REVIVE

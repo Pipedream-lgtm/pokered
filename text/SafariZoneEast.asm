@@ -1,16 +1,14 @@
 _SafariZoneEastRestHouseSignText::
-	text "REST HOUSE"
+	text "DONOR RETREAT /"
+	line "STATE FAIR GROUNDS"
 	done
-
 _SafariZoneEastTrainerTipsText::
-	text "TRAINER TIPS"
-
-	para "The remaining time"
-	line "declines only"
-	cont "while you walk!"
+	text "FIELD NOTES"
+	para "The timer only"
+	line "burns while you"
+	cont "walk."
 	done
-
 _SafariZoneEastSignText::
-	text "CENTER AREA"
-	line "NORTH: AREA 2"
+	text "DONOR RETREAT /"
+	line "STATE FAIR GROUNDS"
 	done

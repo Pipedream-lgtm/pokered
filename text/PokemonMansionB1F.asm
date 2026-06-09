@@ -1,39 +1,44 @@
 _PokemonMansionB1FBurglarBattleText::
-	text "Uh-oh. Where am"
-	line "I now?"
+	text "Uh-oh. Another"
+	line "basement, another"
+	cont "donor secret."
+	cont "Story of my life."
 	done
-
 _PokemonMansionB1FBurglarEndBattleText::
-	text "Awooh!"
+	text "The plaque"
+	line "cracked."
 	prompt
-
 _PokemonMansionB1FBurglarAfterBattleText::
-	text "You can find stuff"
-	line "lying around."
+	text "You can still find"
+	line "valuables lying"
+	cont "around. Funny what"
+	cont "survives a purge."
 	done
-
 _PokemonMansionB1FScientistBattleText::
-	text "This place is"
-	line "ideal for a lab."
+	text "This basement"
+	line "would be perfect"
+	cont "for a lab if you"
+	cont "were trying to"
+	cont "bury the origin"
+	cont "story."
 	done
-
 _PokemonMansionB1FScientistEndBattleText::
-	text "What"
-	line "was that for?"
+	text "That will look bad"
+	line "in marble."
 	prompt
-
 _PokemonMansionB1FScientistAfterBattleText::
-	text "I like it here!"
-	line "It's conducive to"
-	cont "my studies!"
+	text "I like it here."
+	line "Quiet, sealed,"
+	cont "morally familiar."
 	done
-
 _PokemonMansionB1FDiaryText::
-	text "Diary; Sept. 1"
-	line "MEWTWO is far too"
-	cont "powerful."
-
-	para "We have failed to"
-	line "curb its vicious"
-	cont "tendencies..."
+	text "Archive Note:"
+	line "Candidate Prime"
+	cont "exceeded every"
+	cont "containment model."
+	cont "We failed to curb"
+	cont "the aggression"
+	cont "because aggression"
+	cont "was the selling"
+	cont "point."
 	done

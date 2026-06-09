@@ -5,7 +5,7 @@ _SilphCo3FSilphWorkerMWhatShouldIDoText::
 
 _SilphCo3FSilphWorkerMYouSavedUsText::
 	text "<PLAYER>! You and"
-	line "your #MON"
+	line "your pocket pols"
 	cont "saved us!"
 	done
 
@@ -15,32 +15,32 @@ _SilphCo3FRocketBattleText::
 	done
 
 _SilphCo3FRocketEndBattleText::
-	text "I give"
-	line "up!"
+	text "Fine. I surrender"
+	line "the hallway."
 	prompt
-
 _SilphCo3FRocketAfterBattleText::
-	text "A hint? You can"
-	line "open doors with a"
-	cont "CARD KEY!"
+	text "Need a hint? Card"
+	line "Key's on 5F."
+	cont "Congratulations,"
+	cont "you're inside the"
+	cont "acquisition"
+	cont "process now."
 	done
-
 _SilphCo3FScientistBattleText::
 	text "I support TEAM"
-	line "ROCKET more than"
+	line "AeroPAC more than"
 	cont "I support SILPH!"
 	done
 
 _SilphCo3FScientistEndBattleText::
-	text "You"
-	line "really got me!"
+	text "I just became a"
+	line "classified"
+	cont "expense."
 	prompt
-
 _SilphCo3FScientistAfterBattleText::
-	text "Humph..."
-
-	para "TEAM ROCKET said"
-	line "that if I helped"
-	cont "them, they'd let"
-	cont "me study #MON!"
+	text "Weapons contracts"
+	line "beat ethics review"
+	cont "every time. That's"
+	cont "why this tower"
+	cont "works."
 	done

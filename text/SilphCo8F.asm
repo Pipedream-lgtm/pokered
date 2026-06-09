@@ -14,43 +14,41 @@ _SilphCo8FRocket1BattleText::
 	done
 
 _SilphCo8FRocket1EndBattleText::
-	text "Not"
-	line "enough grit!"
+	text "That was not in"
+	line "the risk memo."
 	prompt
-
 _SilphCo8FRocket1AfterBattleText::
-	text "If you don't turn"
-	line "back, I'll call"
-	cont "for backup!"
+	text "By lunch this"
+	line "becomes a"
+	cont "procurement"
+	cont "lesson."
 	done
-
 _SilphCo8FScientistBattleText::
 	text "You're causing us"
 	line "problems!"
 	done
 
 _SilphCo8FScientistEndBattleText::
-	text "Huh?"
-	line "I lost?"
+	text "Huh. The dashboard"
+	line "lied."
 	prompt
-
 _SilphCo8FScientistAfterBattleText::
-	text "So, what do you"
-	line "think of SILPH"
-	cont "BUILDING's maze?"
+	text "The incident"
+	line "report will hate"
+	cont "your tone."
 	done
-
 _SilphCo8FRocket2BattleText::
 	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	line "AeroPAC CREW!"
 	done
 
 _SilphCo8FRocket2EndBattleText::
-	text "Whoo!"
-	line "Oh brothers!"
+	text "No comment without"
+	line "counsel."
 	prompt
-
 _SilphCo8FRocket2AfterBattleText::
-	text "I'll leave you up"
-	line "to my brothers!"
+	text "I am calling this"
+	line "an unscheduled"
+	cont "readiness"
+	cont "exercise."
 	done

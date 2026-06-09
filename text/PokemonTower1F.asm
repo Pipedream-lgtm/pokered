@@ -1,7 +1,7 @@
 _PokemonTower1FReceptionistText::
-	text "#MON TOWER was"
+	text "MEMORIAL DISTRICT was"
 	line "erected in the"
-	cont "memory of #MON"
+	cont "memory of pocket pols"
 	cont "that had died."
 	done
 
@@ -13,14 +13,14 @@ _PokemonTower1FMiddleAgedWomanText::
 
 _PokemonTower1FBaldingGuyText::
 	text "I came to pray"
-	line "for my CLEFAIRY."
+	line "for my Professor Warren."
 
 	para "Sniff! I can't"
 	line "stop crying..."
 	done
 
 _PokemonTower1FGirlText::
-	text "My GROWLITHE..."
+	text "My Puppy-Killer Kristi..."
 	line "Why did you die?"
 	done
 

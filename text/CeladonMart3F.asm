@@ -1,6 +1,6 @@
 _CeladonMart3FClerkTM18PreReceiveText::
 	text "Oh, hi! I finally"
-	line "finished #MON!"
+	line "finished pocket pols!"
 
 	para "Not done yet?"
 	line "This might be"
@@ -27,7 +27,7 @@ _CeladonMart3FClerkTM18NoRoomText::
 	done
 
 _CeladonMart3FGameBoyKid1Text::
-	text "Captured #MON"
+	text "Captured pocket pols"
 	line "are registered"
 	cont "with an ID No."
 	cont "and OT, the name"
@@ -41,26 +41,26 @@ _CeladonMart3FGameBoyKid2Text::
 
 	para "My buddy's going"
 	line "to trade me his"
-	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	cont "Coach Walz for my"
+	cont "Machine Kemp!"
 	done
 
 _CeladonMart3FGameBoyKid3Text::
-	text "Come on GRAVELER!"
+	text "Come on Machine Kemp!"
 
-	para "I love GRAVELER!"
+	para "I love Machine Kemp!"
 	line "I collect them!"
 
 	para "Huh?"
 
-	para "GRAVELER turned"
+	para "Machine Kemp turned"
 	line "into a different"
-	cont "#MON!"
+	cont "pocket pols!"
 	done
 
 _CeladonMart3FLittleBoyText::
 	text "You can identify"
-	line "#MON you got"
+	line "pocket pols you got"
 	cont "in trades by"
 	cont "their ID Numbers!"
 	done
@@ -92,8 +92,7 @@ _CeladonMart3FFightingGameText::
 _CeladonMart3FCurrentFloorSignText::
 	text "3F: TV GAME SHOP"
 	done
-
 _CeladonMart3FPokemonPosterText::
-	text "Red and Blue!"
-	line "Both are #MON!"
+	text "Red and Blue! Both"
+	line "are pocket pols!"
 	done

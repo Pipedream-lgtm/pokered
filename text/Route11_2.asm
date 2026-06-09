@@ -1,28 +1,31 @@
 _Route11SuperNerd2EndBattleText::
-	text "Whoa!"
-	line "You spark plug!"
+	text "Procurement hates"
+	line "surprises."
 	prompt
-
 _Route11SuperNerd2AfterBattleText::
-	text "Well, better get"
-	line "back to work."
+	text "Fine. Back to"
+	line "work. Somebody has"
+	cont "to turn tax"
+	cont "dollars into"
+	cont "patriotic"
+	cont "extension cords."
 	done
-
 _Route11Youngster4BattleText::
-	text "My #MON should"
+	text "My pocket pols should"
 	line "be ready by now!"
 	done
 
 _Route11Youngster4EndBattleText::
-	text "Too"
-	line "much, too young!"
+	text "I just became a"
+	line "classified"
+	cont "expense."
 	prompt
-
 _Route11Youngster4AfterBattleText::
 	text "I better go find"
-	line "stronger ones!"
+	line "some with real"
+	cont "followings."
 	done
-
 _Route11DiglettsCaveSignText::
-	text "DIGLETT's CAVE"
+	text "Little Richard"
+	line "Nixon's CAVE"
 	done

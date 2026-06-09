@@ -1,37 +1,34 @@
 _Route14CooltrainerM1BattleText::
 	text "You need to use"
 	line "TMs to teach good"
-	cont "moves to #MON!"
+	cont "moves to pocket pols!"
 	done
 
 _Route14CooltrainerM1EndBattleText::
-	text "Not"
-	line "good enough!"
+	text "Not enough"
+	line "delegates. Story"
+	cont "of my life."
 	prompt
-
 _Route14CooltrainerM1AfterBattleText::
-	text "You have some HMs"
-	line "right? #MON"
-	cont "can't ever forget"
-	cont "those moves."
+	text "The invoice will"
+	line "call that"
+	cont "hospitality."
 	done
-
 _Route14CooltrainerM2BattleText::
-	text "My bird #MON"
+	text "My bird pocket pols"
 	line "should be ready"
 	cont "for battle."
 	done
 
 _Route14CooltrainerM2EndBattleText::
-	text "Not"
-	line "ready yet!"
+	text "I paid for better"
+	line "inevitability."
 	prompt
-
 _Route14CooltrainerM2AfterBattleText::
-	text "They need to learn"
-	line "better moves."
+	text "Do not mistake"
+	line "access for"
+	cont "accountability."
 	done
-
 _Route14CooltrainerM3BattleText::
 	text "TMs are on sale"
 	line "in CELADON!"
@@ -40,66 +37,59 @@ _Route14CooltrainerM3BattleText::
 	done
 
 _Route14CooltrainerM3EndBattleText::
-	text "Aww,"
-	line "bummer!"
+	text "The donor table"
+	line "moved on."
 	prompt
-
 _Route14CooltrainerM3AfterBattleText::
-	text "Teach #MON"
-	line "moves of the same"
-	cont "element type for"
-	cont "more power."
+	text "Discretion means"
+	line "nobody repeats the"
+	cont "score."
 	done
-
 _Route14CooltrainerM4BattleText::
 	text "Have you taught"
-	line "your bird #MON"
+	line "your bird pocket pols"
 	cont "how to FLY?"
 	done
 
 _Route14CooltrainerM4EndBattleText::
-	text "Shot"
-	line "down in flames!"
+	text "That was not"
+	line "guest-list"
+	cont "behavior."
 	prompt
-
 _Route14CooltrainerM4AfterBattleText::
-	text "Bird #MON are"
-	line "my true love!"
+	text "Private rooms"
+	line "exist to make"
+	cont "losses negotiable."
 	done
-
 _Route14CooltrainerM5BattleText::
 	text "Have you heard of"
 	line "the legendary"
-	cont "#MON?"
+	cont "pocket pols?"
 	done
 
 _Route14CooltrainerM5EndBattleText::
-	text "Why?"
-	line "Why'd I lose?"
+	text "The room got less"
+	line "private."
 	prompt
-
 _Route14CooltrainerM5AfterBattleText::
-	text "The 3 legendary"
-	line "#MON are all"
-	cont "birds of prey."
+	text "Money hates"
+	line "embarrassment, but"
+	cont "it heals quickly."
 	done
-
 _Route14CooltrainerM6BattleText::
 	text "I'm not into it,"
 	line "but OK! Let's go!"
 	done
 
 _Route14CooltrainerM6EndBattleText::
-	text "I"
-	line "knew it!"
+	text "My discretion"
+	line "package leaked."
 	prompt
-
 _Route14CooltrainerM6AfterBattleText::
-	text "Winning, losing,"
-	line "it doesn't matter"
-	cont "in the long run!"
+	text "The invoice will"
+	line "call that"
+	cont "hospitality."
 	done
-
 _Route14Biker1BattleText::
 	text "C'mon, c'mon."
 	line "Let's go, let's"
@@ -107,30 +97,28 @@ _Route14Biker1BattleText::
 	done
 
 _Route14Biker1EndBattleText::
-	text "Arrg!"
-	line "Lost! Get lost!"
+	text "The room got less"
+	line "private."
 	prompt
-
 _Route14Biker1AfterBattleText::
-	text "What, what, what?"
-	line "What do you want?"
+	text "Money hates"
+	line "embarrassment, but"
+	cont "it heals quickly."
 	done
-
 _Route14Biker2BattleText::
 	text "Perfect! I need to"
 	line "burn some time!"
 	done
 
 _Route14Biker2EndBattleText::
-	text "What?"
-	line "You!?"
+	text "Credentials did"
+	line "not protect me."
 	prompt
-
 _Route14Biker2AfterBattleText::
-	text "Raising #MON"
-	line "is a drag, man."
+	text "Cultivating pocket"
+	line "pol is a drag,"
+	cont "man."
 	done
-
 _Route14Biker3BattleText::
 	text "We ride out here"
 	line "because there's"
@@ -138,36 +126,30 @@ _Route14Biker3BattleText::
 	done
 
 _Route14Biker3EndBattleText::
-	text "Wipe out!"
+	text "Wiped out by floor"
+	line "procedure."
 	prompt
-
 _Route14Biker3AfterBattleText::
-	text "It's cool you"
-	line "made your #MON"
-	cont "so strong!"
-
-	para "Might is right!"
-	line "And you know it!"
+	text "It's cool you made"
+	line "your pocket pol"
+	cont "that dangerous."
+	cont "Might is right!"
+	cont "And you know it."
 	done
-
 _Route14Biker4BattleText::
-	text "#MON fight?"
+	text "proxy fight?"
 	line "Cool! Rumble!"
 	done
 
 _Route14Biker4EndBattleText::
-	text "Blown"
-	line "away!"
+	text "Blown off the"
+	line "dais."
 	prompt
-
 _Route14Biker4AfterBattleText::
-	text "You know who'd"
-	line "win, you and me"
-	cont "one on one!"
+	text "Money hates"
+	line "embarrassment, but"
+	cont "it heals quickly."
 	done
-
 _Route14SignText::
-	text "ROUTE 14"
-	line "West to FUCHSIA"
-	cont "CITY"
+	text "CONVENTION MARSH"
 	done

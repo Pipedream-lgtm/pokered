@@ -15,28 +15,27 @@ _SilphCo10FRocketBattleText::
 	done
 
 _SilphCo10FRocketEndBattleText::
-	text "I'm"
-	line "stunned!"
+	text "I just became a"
+	line "classified"
+	cont "expense."
 	prompt
-
 _SilphCo10FRocketAfterBattleText::
-	text "Nice try, but the"
-	line "boardroom is up"
-	cont "one more floor!"
+	text "The incident"
+	line "report will hate"
+	cont "your tone."
 	done
-
 _SilphCo10FScientistBattleText::
 	text "Enough of your"
 	line "silly games!"
 	done
 
 _SilphCo10FScientistEndBattleText::
-	text "No"
-	line "continues left!"
+	text "No comment without"
+	line "counsel."
 	prompt
-
 _SilphCo10FScientistAfterBattleText::
-	text "Are you satisfied"
-	line "with beating me?"
-	cont "Then go on home!"
+	text "I am calling this"
+	line "an unscheduled"
+	cont "readiness"
+	cont "exercise."
 	done

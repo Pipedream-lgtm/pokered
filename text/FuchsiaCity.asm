@@ -1,7 +1,7 @@
 _FuchsiaCityYoungster1Text::
 	text "Did you try the"
 	line "SAFARI GAME? Some"
-	cont "#MON can only"
+	cont "pocket pols can only"
 	cont "be caught there."
 	done
 
@@ -12,7 +12,7 @@ _FuchsiaCityGamblerText::
 
 	para "Out back is the"
 	line "SAFARI GAME for"
-	cont "catching #MON."
+	cont "catching pocket pols."
 	done
 
 _FuchsiaCityErikText::
@@ -24,7 +24,7 @@ _FuchsiaCityErikText::
 _FuchsiaCityYoungster2Text::
 	text "That item ball in"
 	line "there is really a"
-	cont "#MON."
+	cont "pocket pols."
 	done
 
 _FuchsiaCityPokemonText::
@@ -32,88 +32,76 @@ _FuchsiaCityPokemonText::
 	done
 
 _FuchsiaCitySignText::
-	text "FUCHSIA CITY"
-	line "Behold! It's"
-	cont "Passion Pink!"
+	text "CONVENTION MARSH"
 	done
-
 _FuchsiaCitySafariGameSignText::
-	text "SAFARI GAME"
-	line "#MON-U-CATCH!"
+	text "SAFARI GAME pocket"
+	line "pols-U-CATCH!"
 	done
-
 _FuchsiaCityWardensHomeSignText::
 	text "SAFARI ZONE"
 	line "WARDEN's HOME"
 	done
-
 _FuchsiaCitySafariZoneSignText::
-	text "#MON PARADISE"
-	line "SAFARI ZONE"
+	text "pocket pols"
+	line "PARADISE SAFARI"
+	cont "ZONE"
 	done
-
 _FuchsiaCityGymSignText::
 	text "FUCHSIA CITY"
-	line "#MON GYM"
-	cont "LEADER: KOGA"
-
-	para "The Poisonous"
-	line "Ninja Master"
+	line "CREDENTIAL HALL"
+	cont "DIRECTOR: THE"
+	cont "D.E.N.Y. DIRECTOR"
+	cont "Delay. Exhaust."
+	cont "Neutralize. Yield."
 	done
-
 _FuchsiaCityChanseySignText::
-	text "Name: CHANSEY"
-
+	text "Name: Wise Latina"
+	line "Sotomayor"
 	para "Catching one is"
 	line "all up to chance."
 	prompt
-
 _FuchsiaCityVoltorbSignText::
-	text "Name: VOLTORB"
-
+	text "Name: Open-Carry"
+	line "Lauren"
 	para "The very image of"
-	line "a # BALL."
+	line "a Campaign"
+	cont "Donation."
 	prompt
-
 _FuchsiaCityKangaskhanSignText::
-	text "Name: KANGASKHAN"
-
-	para "A maternal #MON"
-	line "that raises its"
-	cont "young in a pouch"
-	cont "on its belly."
+	text "Name: Coach Walz"
+	para "A maternal pocket"
+	line "pols that raises"
+	cont "its young in a"
+	cont "pouch on its"
+	cont "belly."
 	prompt
-
 _FuchsiaCitySlowpokeSignText::
-	text "Name: SLOWPOKE"
-
+	text "Name: Brooklyn"
+	line "Chuck"
 	para "Friendly and very"
 	line "slow moving."
 	prompt
-
 _FuchsiaCityLaprasSignText::
-	text "Name: LAPRAS"
-
-	para "A.K.A. the king"
-	line "of the seas."
+	text "Name: Big Gretch"
+	para "A.K.A. the king of"
+	line "the seas."
 	prompt
-
 _FuchsiaCityFossilSignOmanyteText::
-	text "Name: OMANYTE"
-
-	para "A #MON that"
-	line "was resurrected"
-	cont "from a fossil."
+	text "Name: Originalist"
+	line "Clarence."
+	cont "Resurrected from a"
+	cont "fossil and"
+	cont "immediately billed"
+	cont "as tradition."
 	prompt
-
 _FuchsiaCityFossilSignKabutoText::
-	text "Name: KABUTO"
-
-	para "A #MON that"
-	line "was resurrected"
-	cont "from a fossil."
+	text "Name: Grievance"
+	line "Alito. Resurrected"
+	cont "from a fossil and"
+	cont "somehow still mad"
+	cont "about the present."
 	prompt
-
 _FuchsiaCityFossilSignUndeterminedText::
 	text "..."
 	done

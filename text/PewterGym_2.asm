@@ -1,17 +1,14 @@
 _PewterGymBrockPostBattleAdviceText::
 	text "There are all"
-	line "kinds of trainers"
-	cont "in the world!"
-
-	para "You appear to be"
-	line "very gifted as a"
-	cont "#MON trainer!"
-
-	para "Go to the GYM in"
-	line "CERULEAN and test"
-	cont "your abilities!"
+	line "kinds of handlers"
+	cont "in the county."
+	para "You, however, look"
+	line "built for the"
+	cont "circuit."
+	para "Go east to"
+	line "Cerulean and test"
+	cont "the next chair."
 	done
-
 _PewterGymBrockWaitTakeThisText::
 	text "Wait! Take this"
 	line "with you!"
@@ -28,19 +25,19 @@ _TM34ExplanationText::
 	para "A TM contains a"
 	line "technique that"
 	cont "can be taught to"
-	cont "#MON!"
+	cont "pocket pols!"
 
 	para "A TM is good only"
 	line "once! So when you"
 	cont "use one to teach"
 	cont "a new technique,"
-	cont "pick the #MON"
+	cont "pick the pocket pol"
 	cont "carefully!"
 
 	para "TM34 contains"
 	line "BIDE!"
 
-	para "Your #MON will"
+	para "Your pocket pols will"
 	line "absorb damage in"
 	cont "battle then pay"
 	cont "it back double!"
@@ -52,61 +49,47 @@ _PewterGymTM34NoRoomText::
 	done
 
 _PewterGymBrockReceivedBoulderBadgeText::
-	text "I took"
-	line "you for granted."
-
+	text "I took you for"
+	line "granted."
 	para "As proof of your"
-	line "victory, here's"
-	cont "the BOULDERBADGE!"
-
+	line "win, take the"
+	cont "Industrial"
+	cont "Credential."
 	para "<PLAYER> received"
-	line "the BOULDERBADGE!@"
+	line "the Industrial"
+	cont "Credential!@"
 	text_end
-
 _PewterGymBrockBoulderBadgeInfoText::
-	text_start
-
-	para "That's an official"
-	line "#MON LEAGUE"
-	cont "BADGE!"
-
-	para "Its bearer's"
-	line "#MON become"
-	cont "more powerful!"
-
-	para "The technique"
-	line "FLASH can now be"
-	cont "used any time!"
+	text "That's an official"
+	line "Industrial"
+	cont "Credential."
+	para "It gives your"
+	line "pocket pols a"
+	cont "little more bite."
+	para "FLASH clearance"
+	line "comes with it."
 	prompt
-
 _PewterGymCooltrainerMBattleText::
 	text "Stop right there,"
 	line "kid!"
-
 	para "You're still light"
 	line "years from facing"
-	cont "BROCK!"
+	cont "the chair."
 	done
-
 _PewterGymCooltrainerMEndBattleText::
-	text "Darn!"
-
-	para "Light years isn't"
-	line "time! It measures"
-	cont "distance!"
+	text "Fine. Mark me"
+	line "noncompliant."
 	prompt
-
 _PewterGymCooltrainerMAfterBattleText::
-	text "You're pretty hot,"
-	line "but not as hot"
-	cont "as BROCK!"
+	text "You're hot, but"
+	line "the chair still"
+	cont "runs colder."
 	done
-
 _PewterGymGuidePreAdviceText::
 	text "Hiya! I can tell"
 	line "you have what it"
 	cont "takes to become a"
-	cont "#MON champ!"
+	cont "pocket pols champ!"
 
 	para "I'm no trainer,"
 	line "but I can tell"
@@ -122,13 +105,13 @@ _PewterGymGuideBeginAdviceText::
 	prompt
 
 _PewterGymGuideAdviceText::
-	text "The 1st #MON"
+	text "The 1st pocket pols"
 	line "out in a match is"
 	cont "at the top of the"
-	cont "#MON LIST!"
+	cont "pocket pol list!"
 
 	para "By changing the"
-	line "order of #MON,"
+	line "order of pocket pols,"
 	cont "matches could be"
 	cont "made easier!"
 	done
@@ -141,6 +124,6 @@ _PewterGymGuideFreeServiceText::
 
 _PewterGymGuidePostBattleText::
 	text "Just as I thought!"
-	line "You're #MON"
+	line "You're pocket pols"
 	cont "champ material!"
 	done

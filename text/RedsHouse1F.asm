@@ -1,14 +1,13 @@
 _RedsHouse1FMomWakeUpText::
 	text "MOM: Right."
-	line "All boys leave"
-	cont "home some day."
-	cont "It said so on TV."
+	line "Boys leave home"
+	cont "someday."
+	cont "TV says so."
 
-	para "PROF.OAK, next"
-	line "door, is looking"
-	cont "for you."
+	para "Roger Rock"
+	line "next door wants"
+	cont "a word with you."
 	done
-
 _RedsHouse1FMomYouShouldRestText::
 	text "MOM: <PLAYER>!"
 	line "You should take a"
@@ -18,7 +17,7 @@ _RedsHouse1FMomYouShouldRestText::
 _RedsHouse1FMomLookingGreatText::
 	text "MOM: Oh good!"
 	line "You and your"
-	cont "#MON are"
+	cont "pocket pols are"
 	cont "looking great!"
 	cont "Take care now!"
 	done

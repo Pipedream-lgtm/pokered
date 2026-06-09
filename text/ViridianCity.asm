@@ -1,32 +1,30 @@
 _ViridianCityYoungster1Text::
-	text "Those # BALLs"
+	text "Those Campaign Donations"
 	line "at your waist!"
-	cont "You have #MON!"
+	cont "You have pocket pols!"
 
 	para "It's great that"
 	line "you can carry and"
-	cont "use #MON any"
+	cont "use pocket pols any"
 	cont "time, anywhere!"
 	done
 
 _ViridianCityGambler1GymAlwaysClosedText::
-	text "This #MON GYM"
-	line "is always closed."
-
-	para "I wonder who the"
-	line "LEADER is?"
+	text "This credential"
+	line "hall stays sealed."
+	para "Nobody will say"
+	line "who chairs it."
 	done
-
 _ViridianCityGambler1GymLeaderReturnedText::
-	text "VIRIDIAN GYM's"
-	line "LEADER returned!"
+	text "Viridian's chair"
+	line "is back in the"
+	cont "building."
 	done
-
 _ViridianCityYoungster2YouWantToKnowAboutText::
 	text "You want to know"
 	line "about the 2 kinds"
 	cont "of caterpillar"
-	cont "#MON?"
+	cont "pocket pols?"
 	done
 
 ViridianCityYoungster2OkThenText::
@@ -34,27 +32,39 @@ ViridianCityYoungster2OkThenText::
 	done
 
 ViridianCityYoungster2CaterpieAndWeedleDescriptionText::
-	text "CATERPIE has no"
+	text "Hillbilly Elegist has no"
 	line "poison, but"
-	cont "WEEDLE does."
+	cont "End-the-Fed Ron"
+	cont "does."
 
 	para "Watch out for its"
 	line "POISON STING!"
 	done
 
 _ViridianCityGirlHasntHadHisCoffeeYetText::
-	text "Oh Grandpa! Don't"
-	line "be so mean!"
-	cont "He hasn't had his"
+	text "Don't mind him."
+	line "His badge says"
+	cont "volunteer."
+	cont "His chair says"
+	cont "roadblock."
+
+	para "He hasn't had"
+	line "his courthouse"
 	cont "coffee yet."
 	done
 
 _ViridianCityGirlWhenIGoShopText::
-	text "When I go shop in"
-	line "PEWTER CITY, I"
-	cont "have to take the"
-	cont "winding trail in"
-	cont "VIRIDIAN FOREST."
+	text "Whenever I shop"
+	line "in Granite"
+	cont "Courthouse, I"
+	cont "take the long"
+	cont "way through the"
+	cont "sign thicket."
+
+	para "County never"
+	line "fixes a shortcut"
+	cont "unless someone"
+	cont "owns it."
 	done
 
 _ViridianCityOldManSleepyPrivatePropertyText::
@@ -71,7 +81,7 @@ ViridianCityFisherYouCanHaveThisText::
 	cont "off in the sun."
 
 	para "I had this dream"
-	line "about a DROWZEE"
+	line "about a SNL Franken"
 	cont "eating my dream."
 	cont "What's this?"
 	cont "Where did this TM"
@@ -84,20 +94,20 @@ ViridianCityFisherYouCanHaveThisText::
 
 _ViridianCityFisherReceivedTM42Text::
 	text "<PLAYER> received"
-	line "TM42!@"
+	line "the Narrative"
+	cont "Extraction"
+	cont "playbook!"
 	text_end
-
 _ViridianCityFisherTM42ExplanationText::
-	text "TM42 contains"
-	line "DREAM EATER..."
-	cont "...Snore..."
+	text "TM42 carries"
+	line "Narrative"
+	cont "Extraction..."
+	cont "...zzzz."
 	done
-
 _ViridianCityFisherTM42NoRoomText::
-	text "You have too much"
-	line "stuff already."
+	text "Your bag's already"
+	line "overloaded."
 	done
-
 _ViridianCityOldManHadMyCoffeeNowText::
 	text "Ahh, I've had my"
 	line "coffee now and I"
@@ -112,16 +122,16 @@ _ViridianCityOldManHadMyCoffeeNowText::
 
 _ViridianCityOldManKnowHowToCatchPokemonText::
 	text "I see you're using"
-	line "a #DEX."
+	line "a Rolodex."
 
 	para "When you catch a"
-	line "#MON, #DEX"
+	line "pocket pols, Rolodex"
 	cont "is automatically"
 	cont "updated."
 
 	para "What? Don't you"
 	line "know how to catch"
-	cont "#MON?"
+	cont "pocket pols?"
 
 	para "I'll show you"
 	line "how to then."
@@ -135,47 +145,37 @@ _ViridianCityOldManTimeIsMoneyText::
 _ViridianCityOldManYouNeedToWeakenTheTargetText::
 	text "First, you need"
 	line "to weaken the"
-	cont "target #MON."
+	cont "target pocket pols."
 	done
 
 _ViridianCitySignText::
-	text "VIRIDIAN CITY "
-	line "The Eternally"
-	cont "Green Paradise"
+	text "COUNTY SEAT"
 	done
-
 _ViridianCityTrainerTips1Text::
-	text "TRAINER TIPS"
-
-	para "Catch #MON"
-	line "and expand your"
-	cont "collection!"
-
-	para "The more you have,"
-	line "the easier it is"
-	cont "to fight!"
+	text "FIELD NOTES"
+	para "Pocket more"
+	line "candidates and"
+	cont "deepen the slate."
+	para "A broad bench"
+	line "keeps the campaign"
+	cont "alive when trouble"
+	cont "breaks out."
 	done
-
 _ViridianCityTrainerTips2Text::
-	text "TRAINER TIPS"
-
-	para "The battle moves"
-	line "of #MON are"
-	cont "limited by their"
-	cont "POWER POINTs, PP."
-
-	para "To replenish PP,"
-	line "rest your tired"
-	cont "#MON at a"
-	cont "#MON CENTER!"
+	text "FIELD NOTES"
+	para "Debate moves no"
+	line "longer run on"
+	cont "point counters."
+	para "Conway"
+	line "Communications"
+	cont "restores life and"
+	cont "clears bad status."
 	done
-
 _ViridianCityGymSignText::
 	text "VIRIDIAN CITY"
-	line "#MON GYM"
+	line "CREDENTIAL HALL"
 	done
-
 _ViridianCityGymLockedText::
-	text "The GYM's doors"
-	line "are locked..."
+	text "The hall's doors"
+	line "are sealed..."
 	done

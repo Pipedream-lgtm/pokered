@@ -5,13 +5,13 @@ _RocketHideoutB2FRocketBattleText::
 	done
 
 _RocketHideoutB2FRocketEndBattleText::
-	text "I"
-	line "surrender!"
+	text "Procurement hates"
+	line "surprises."
 	prompt
-
 _RocketHideoutB2FRocketAfterBattleText::
-	text "The TEAM ROCKET"
-	line "HQ has 4 basement"
-	cont "floors. Can you"
-	cont "reach the BOSS?"
+	text "Four basement"
+	line "levels, all moral"
+	cont "rot. See how far"
+	cont "your conscience"
+	cont "gets."
 	done

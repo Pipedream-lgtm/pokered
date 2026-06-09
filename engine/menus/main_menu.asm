@@ -229,7 +229,7 @@ LinkMenu:
 .skipStartingTransfer
 	ld b, ' '
 	ld c, ' '
-	ld d, '▷'
+	ld d, 'â–·'
 	ld a, [wLinkMenuSelectionSendBuffer]
 	and PAD_B << 2 ; was B button pressed?
 	jr nz, .updateCursorPosition
@@ -346,11 +346,11 @@ ContinueText:
 	; fallthrough
 
 NewGameText:
-	db   "NEW GAME"
+	db "NEW GAME"
 	next "OPTION@"
 
 CableClubOptionsText:
-	db   "TRADE CENTER"
+	db "TRADE CENTER"
 	next "COLOSSEUM"
 	next "CANCEL@"
 
@@ -435,11 +435,10 @@ PrintPlayTime:
 	jp PrintNumber
 
 SaveScreenInfoText:
-	db   "PLAYER"
-	next "BADGES    "
-	next "#DEX    "
+	db "PLAYER"
+	next "credentials    "
+	next "ROLODEX  "
 	next "TIME@"
-
 DisplayOptionMenu:
 	hlcoord 0, 0
 	ld b, 3
@@ -595,15 +594,15 @@ DisplayOptionMenu:
 	jp .eraseOldMenuCursor
 
 TextSpeedOptionText:
-	db   "TEXT SPEED"
+	db "TEXT SPEED"
 	next " FAST  MEDIUM SLOW@"
 
 BattleAnimationOptionText:
-	db   "BATTLE ANIMATION"
+	db "BATTLE ANIMATION"
 	next " ON       OFF@"
 
 BattleStyleOptionText:
-	db   "BATTLE STYLE"
+	db "BATTLE STYLE"
 	next " SHIFT    SET@"
 
 OptionMenuCancelText:
@@ -683,7 +682,7 @@ SetCursorPositionsFromOptions:
 	ld e, a
 	ld d, 0
 	add hl, de
-	ld [hl], '▷'
+	ld [hl], 'â–·'
 	ret
 
 ; table that indicates how the 3 text speed options affect frame delays

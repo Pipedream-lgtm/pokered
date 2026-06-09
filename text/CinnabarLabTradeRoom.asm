@@ -1,9 +1,8 @@
 _CinnabarLabTradeRoomSuperNerdText::
-	text "I found this very"
-	line "strange fossil in"
-	cont "MT.MOON!"
-
-	para "I think it's a"
-	line "rare, prehistoric"
-	cont "#MON!"
+	text "I found a strange"
+	line "fossil in MT.MOON."
+	cont "The lab called it"
+	cont "prehistoric; the"
+	cont "donor called it"
+	cont "recoverable."
 	done
